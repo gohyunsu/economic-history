@@ -20,3 +20,10 @@
 ## 갱신 절차
 
 새 강의가 추가되면 원본을 공개 저장소 바깥에 보관하고 `content/slide-index.json`, `content/lectures/`, `tools/build.mjs`의 강의 메타데이터를 함께 갱신한다. 읽기 자료는 `content/readings/`와 빌드 스크립트의 읽기 목록에 추가한다. 이후 사이트·TeX를 재생성하고 PDF를 다시 컴파일한 뒤 검사한다.
+
+## 2026년 10월 7일 점검
+
+- 읽기 가이드 8편에 슬라이드 해설과 같은 펼쳐보기 문답을 보강했다. 총 89개 문답을 생성된 HTML에서 대조했다.
+- 표준 전환, 역사 자료의 효과 크기, 생산성 지수의 한계, 계약 집행, 이주 연령구조, 조사망률, 사망원인 구성, 출산정책 평가를 수치 예시와 함께 설명했다.
+- `tools/build.mjs`, `tools/check.mjs`, `git diff --check`를 통과했다. 검사는 PDF 파일의 존재를 확인하지만 PDF의 최신성이나 LaTeX 컴파일 성공까지 보증하지 않는다.
+- 편집기의 LaTeX 컴파일러가 `Unable to find standard directories for platform`으로 실패했다. `guide/main.tex`는 최신 내용으로 생성되었으나 `docs/study-guide.pdf`에는 이 수정분이 아직 반영되지 않았다.
