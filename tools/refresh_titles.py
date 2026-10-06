@@ -2,7 +2,6 @@
 from pathlib import Path
 import json
 import re
-import subprocess
 import sys
 
 root = Path(__file__).resolve().parents[1]
@@ -10,8 +9,12 @@ source = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else root.parent / 'sl
 target = root / 'content' / 'slide-index.json'
 index = json.loads(target.read_text(encoding='utf-8'))
 for lecture in index:
-    data = subprocess.check_output(['pdftotext', '-layout', '-enc', 'UTF-8', str(source / (lecture['date'] + '.pdf')), '-'])
-    pages = data.decode('utf-8-sig', errors='replace').split('\f')
+    # Extract with pdftotext from the shell first. This MiKTeX build changes
+    # Korean character mapping when invoked as a Python child process.
+    output = root.parent / '.research' / f"{lecture['date']}-layout.txt"
+    if not output.exists():
+        raise FileNotFoundError(f"Run pdftotext -layout {source / (lecture['date'] + '.pdf')} {output} first")
+    pages = output.read_text(encoding='utf-8-sig').split('\f')
     for slide, page in zip(lecture['slides'], pages):
         lines = [re.sub(r'\s+', ' ', line).strip() for line in page.splitlines()]
         lines = [line for line in lines if line]

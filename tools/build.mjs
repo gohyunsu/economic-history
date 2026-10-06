@@ -6,14 +6,14 @@ const root = path.resolve(import.meta.dirname, '..');
 const docs = path.join(root, 'docs');
 const title = '경제사';
 const meta = [
-  {id:'260902', title:'강의의 지도', short:'장기 역사와 경제생활', color:'blue', intro:'경제사를 읽는 단위는 사건의 연도가 아니라 인구, 생산, 교환과 제도의 변화다. 총량과 1인당 성과를 구별하고, 다음 강의에서 사용할 분석 언어를 먼저 정리한다.'},
+  {id:'260902', title:'강의 개요와 학습 안내', short:'장기사·분류사·학습 경로', color:'blue', intro:'경제생활과 제도의 변화를 긴 시간에서 읽는 강의의 시각, 주차별 학습 경로, 참고 교재와 평가 방식을 정리한다.'},
   {id:'260909', title:'경제사학: 사실, 이론, 반사실', short:'방법론과 클리오메트릭스', color:'teal', intro:'역사 자료에 경제 이론을 적용하되 자료의 생성 과정과 제도적 맥락을 함께 읽는다. 발전단계론, 성장사학, 클리오메트릭스와 신제도경제사를 차례로 연결한다.'},
   {id:'260916', title:'인구: 생존, 이동, 성장', short:'맬서스·질병·이주', color:'amber', intro:'인구는 산출을 나누는 분모이면서 노동, 수요, 전염과 이주의 주체다. 출생·사망·이동의 회계식에서 시작해 장기 성장과 세계적 인구 이동을 분석한다.'},
   {id:'260923', title:'농업: 토지와 노동의 제도', short:'장원·흑사병·농업혁명', color:'blue', intro:'농업 생산력과 토지의 권리 구조를 함께 보면 장원, 흑사병, 농민 해방, 인클로저와 공업화가 한 인과 사슬로 연결된다.'},
   {id:'260930', title:'공업: 길드에서 공장 이전까지', short:'도시·선대제·매뉴팩처', color:'teal', intro:'생산이 도시 길드의 규칙에서 농촌 가내공업, 선대제, 매뉴팩처로 옮아간 과정을 노동 통제, 거래비용, 규모의 경제로 읽는다.'},
 ];
 const readings = [
-  {id:'mccloskey', date:'260909', title:'Does the Past Have Useful Economics?', author:'Deirdre N. McCloskey · 1976', source:'https://ideas.repec.org/a/aea/jeclit/v14y1976i2p434-61.html'},
+  {id:'mccloskey', date:'260909', title:'Does the Past Have Useful Economics?', author:'D. N. McCloskey · 1976', source:'https://ideas.repec.org/a/aea/jeclit/v14y1976i2p434-61.html'},
   {id:'david', date:'260909', title:'Clio and the Economics of QWERTY', author:'Paul A. David · 1985', source:'https://www.jstor.org/stable/1805621'},
   {id:'goldin', date:'260909', title:'Cliometrics and the Nobel', author:'Claudia Goldin · 1995', source:'https://www.aeaweb.org/articles?id=10.1257/jep.9.2.191'},
   {id:'greif', date:'260909', title:'Cliometrics after 40 years', author:'Avner Greif · 1997', source:'https://web.stanford.edu/~avner/Greif_Papers/1997%20Clio%20AER.pdf'},
