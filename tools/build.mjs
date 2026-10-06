@@ -44,13 +44,28 @@ function readLecture(m) {
 const lectures=meta.map(readLecture);
 const readingDocs=readings.map(r=>({...r,markdown:fs.readFileSync(path.join(root,'content','readings',`${r.id}.md`),'utf8')}));
 function htmlWithMath(markdown) {
+  const questions=[];
+  const questionLines=markdown.replaceAll('\r\n','\n').split('\n');
+  const plainLines=[];
+  for(let i=0;i<questionLines.length;i++){
+    const match=questionLines[i].match(/^:::question (.+)$/);
+    if(!match){plainLines.push(questionLines[i]);continue;}
+    const body=[];
+    while(++i<questionLines.length&&questionLines[i].trim()!==':::')body.push(questionLines[i]);
+    if(i>=questionLines.length)throw new Error(`Unclosed question: ${match[1]}`);
+    questions.push({title:match[1],body:body.join('\n').trim()});
+    plainLines.push('',`@@QUESTION${questions.length-1}@@`,'');
+  }
+  markdown=plainLines.join('\n');
   const tokens=[];
   let prepared=markdown.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g,(_,tex)=>`\n\n@@MATHBLOCK${tokens.push({kind:'block',tex})-1}@@\n\n`);
   prepared=prepared.replace(/(?<!\\)\$((?:\\\$|[^$\n])+?)\$/g,(_,tex)=>`@@MATHINLINE${tokens.push({kind:'inline',tex})-1}@@`);
   let html=marked.parse(prepared,{gfm:true,breaks:false});
   html=html.replace(/<p>@@MATHBLOCK(\d+)@@<\/p>/g,(_,n)=>`<div class="equation">\\[${esc(tokens[+n].tex)}\\]</div>`);
   html=html.replace(/@@MATHINLINE(\d+)@@/g,(_,n)=>`<span class="math-inline">\\(${esc(tokens[+n].tex)}\\)</span>`);
+  html=html.replace(/<p>@@QUESTION(\d+)@@<\/p>/g,(_,n)=>`<details class="question"><summary>${esc(questions[+n].title)}</summary>${htmlWithMath(questions[+n].body)}</details>`);
   if(/@@MATH(?:BLOCK|INLINE)\d+@@/.test(html)) throw new Error('Unreplaced math token');
+  if(/@@QUESTION\d+@@/.test(html)) throw new Error('Unreplaced question token');
   return html;
 }
 function texEscape(s) {return String(s).replace(/[\\{}%&#_^~]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','^':'\\^{}','~':'\\~{}'}[c]));}
@@ -71,6 +86,8 @@ function markdownToTex(md){
   for(let i=0;i<lines.length;i++){
     const line=lines[i].trim();if(!line){out.push('');continue;}
     if(line==='$$'){let block=[];i++;while(i<lines.length&&lines[i].trim()!=='$$')block.push(lines[i++]);if(i>=lines.length)throw new Error('Unclosed math');out.push('\\[',...block,'\\]');continue;}
+    if(line.startsWith(':::question ')){out.push(`\\paragraph{${inlineTex(line.slice(12))}}`);continue;}
+    if(line===':::')continue;
     if(line.startsWith('### ')){out.push(`\\paragraph{${inlineTex(line.slice(4))}}`);continue;}
     if(line.startsWith('## ')){out.push(`\\subsubsection{${inlineTex(line.slice(3))}}`);continue;}
     if(line.startsWith('- ')){out.push(`\\noindent\\textbullet\ ${inlineTex(line.slice(2))}\\par`);continue;}
@@ -146,6 +163,7 @@ function writeReading(r){
 }
 fs.mkdirSync(path.join(docs,'lecture'),{recursive:true});fs.mkdirSync(path.join(docs,'reading'),{recursive:true});fs.mkdirSync(path.join(docs,'assets'),{recursive:true});
 writeTex();writeIndex();lectures.forEach(writeLecture);readingDocs.forEach(writeReading);
-const search=[...lectures.flatMap(c=>c.slides.map(s=>({url:`lecture/${c.id}.html#s${String(s.number).padStart(3,'0')}`,chapterTitle:c.title,slide:String(s.number),title:s.title,text:s.markdown.replace(/<[^>]+>|\$\$?/g,' ').replace(/[*_`#|\\]/g,' ').replace(/\s+/g,' ')}))),...readingDocs.map(r=>({url:`reading/${r.id}.html`,chapterTitle:'읽기 자료',slide:'읽기',title:r.title,text:r.markdown.replace(/<[^>]+>|\$\$?/g,' ').replace(/[*_`#|\\]/g,' ').replace(/\s+/g,' ')}))];
+const indexText=markdown=>markdown.replace(/^:::question /gm,'').replace(/^:::[ \t]*$/gm,'').replace(/<[^>]+>|\$\$?/g,' ').replace(/[*_`#|\\]/g,' ').replace(/\s+/g,' ');
+const search=[...lectures.flatMap(c=>c.slides.map(s=>({url:`lecture/${c.id}.html#s${String(s.number).padStart(3,'0')}`,chapterTitle:c.title,slide:String(s.number),title:s.title,text:indexText(s.markdown)}))),...readingDocs.map(r=>({url:`reading/${r.id}.html`,chapterTitle:'읽기 자료',slide:'읽기',title:r.title,text:indexText(r.markdown)}))];
 fs.writeFileSync(path.join(docs,'assets','search-index.js'),`window.GUIDE_SEARCH=${JSON.stringify(search)};\n`);
 console.log(`Built ${lectures.length} lectures, ${search.length} searchable sections, and guide/main.tex`);

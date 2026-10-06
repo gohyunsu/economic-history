@@ -17,7 +17,9 @@
 
 ## 빌드
 
-Node.js 22 이상에서 `npm install`과 `npm run build`를 실행한다. 생성된 `guide/main.tex`를 XeLaTeX로 두 번 컴파일하고 `guide/main.pdf`를 `docs/study-guide.pdf`로 복사한 뒤 `npm run check`를 실행한다. 본문을 수정했다면 사이트와 PDF를 함께 다시 생성한다.
+Node.js 22 이상에서 `npm install`과 `npm run build`를 실행하면 사이트와 `guide/main.tex`가 갱신된다. PDF 배포본은 LaTeX 원고를 컴파일한 결과를 `docs/study-guide.pdf`에 반영한다. `npm run check`는 페이지, 슬라이드 이미지, 내부 링크와 배포용 PDF의 존재를 검사한다.
+
+강의·읽기 자료의 보충 질문은 `:::question 질문`으로 시작하고 `:::`으로 닫는다. 사이트에서는 슬라이드와 읽기 자료가 같은 펼쳐 보기 창으로 표시되고, LaTeX에서는 질문 제목과 답변이 본문에 이어진다.
 
 새 슬라이드를 편집할 때에는 원본 PDF의 페이지별 텍스트를 저장소 밖의 `.research/{날짜}-layout.txt`에 추출해 `tools/audit_alignment.py`로 이미지·제목·해설을 일대일로 대조한다. 제목 인덱스는 `tools/refresh_titles.py`로 갱신한다.
 
