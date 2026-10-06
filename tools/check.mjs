@@ -29,6 +29,8 @@ for(const name of [...lectures.map(x=>`lecture/${x}`),...readings.map(x=>`readin
   const file=path.join(docs,name);
   const html=fs.readFileSync(file,'utf8');
   if(/@@MATH(?:BLOCK|INLINE)\d+@@/.test(html))errors.push(`Unrendered math token: ${name}`);
+  if(/<del\b/i.test(html))errors.push(`Unexpected strikethrough: ${name}`);
+  if(/\*\*[^*\n]+\*\*/.test(html))errors.push(`Unrendered bold Markdown: ${name}`);
   const prefix=path.dirname(file);
   for(const match of html.matchAll(/(?:href|src)="([^"]+)"/g)){
     const ref=match[1];

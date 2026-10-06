@@ -60,22 +60,31 @@ function htmlWithMath(markdown) {
   const tokens=[];
   let prepared=markdown.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g,(_,tex)=>`\n\n@@MATHBLOCK${tokens.push({kind:'block',tex})-1}@@\n\n`);
   prepared=prepared.replace(/(?<!\\)\$((?:\\\$|[^$\n])+?)\$/g,(_,tex)=>`@@MATHINLINE${tokens.push({kind:'inline',tex})-1}@@`);
+  // GFM treats paired single tildes as deletion; keep numeric ranges such as 15~64 literal.
+  prepared=prepared.replace(/(\d)~(?=\d)/g,'$1&#126;');
+  // Marked can leave **...** literal when a closing parenthesis, percent sign, or
+  // math token precedes the delimiter and Korean text follows it immediately.
+  const strong=[];
+  prepared=prepared.replace(/\*\*([^*\n]+?)\*\*/g,(_,inner)=>`@@STRONG${strong.push(inner)-1}@@`);
   let html=marked.parse(prepared,{gfm:true,breaks:false});
+  html=html.replace(/@@STRONG(\d+)@@/g,(_,n)=>`<strong>${marked.parseInline(strong[+n],{gfm:true})}</strong>`);
   html=html.replace(/<p>@@MATHBLOCK(\d+)@@<\/p>/g,(_,n)=>`<div class="equation">\\[${esc(tokens[+n].tex)}\\]</div>`);
   html=html.replace(/@@MATHINLINE(\d+)@@/g,(_,n)=>`<span class="math-inline">\\(${esc(tokens[+n].tex)}\\)</span>`);
   html=html.replace(/<p>@@QUESTION(\d+)@@<\/p>/g,(_,n)=>`<details class="question"><summary>${esc(questions[+n].title)}</summary>${htmlWithMath(questions[+n].body)}</details>`);
   if(/@@MATH(?:BLOCK|INLINE)\d+@@/.test(html)) throw new Error('Unreplaced math token');
   if(/@@QUESTION\d+@@/.test(html)) throw new Error('Unreplaced question token');
+  if(/@@STRONG\d+@@/.test(html)) throw new Error('Unreplaced strong token');
   return html;
 }
-function texEscape(s) {return String(s).replace(/[\\{}%&#_^~]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','^':'\\^{}','~':'\\~{}'}[c]));}
+function texEscape(s) {return String(s).replace(/[\\{}%&#_^~]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','^':'\\^{}','~':'\\textasciitilde{}'}[c]));}
+function texUrl(s) {return String(s).replaceAll('~','%7E').replace(/[%#&_$]/g,c=>({'%':'\\%','#':'\\#','&':'\\&','_':'\\_','$':'\\$'}[c]));}
 function inlineTex(s) {
   let out=''; let i=0;
   while(i<s.length){
     if(s[i]==='$' && s[i-1]!=='\\') {const j=s.indexOf('$',i+1); if(j>i){out+=s.slice(i,j+1);i=j+1;continue;}}
     if(s.startsWith('**',i)){const j=s.indexOf('**',i+2);if(j>i){out+=`\\textbf{${inlineTex(s.slice(i+2,j))}}`;i=j+2;continue;}}
     if(s[i]==='`'){const j=s.indexOf('`',i+1);if(j>i){out+=`\\texttt{${texEscape(s.slice(i+1,j))}}`;i=j+1;continue;}}
-    if(s[i]==='['){const link=s.slice(i).match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);if(link){out+=`\\href{${link[2]}}{${texEscape(link[1])}}`;i+=link[0].length;continue;}}
+    if(s[i]==='['){const link=s.slice(i).match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);if(link){out+=`\\href{${texUrl(link[2])}}{${texEscape(link[1])}}`;i+=link[0].length;continue;}}
     let j=i+1;while(j<s.length&&!['$','*','`','['].includes(s[j]))j++;
     out+=texEscape(s.slice(i,j));i=j;
   }
