@@ -70,7 +70,7 @@ function htmlWithMath(markdown) {
   html=html.replace(/@@STRONG(\d+)@@/g,(_,n)=>`<strong>${marked.parseInline(strong[+n],{gfm:true})}</strong>`);
   html=html.replace(/<p>@@MATHBLOCK(\d+)@@<\/p>/g,(_,n)=>`<div class="equation">\\[${esc(tokens[+n].tex)}\\]</div>`);
   html=html.replace(/@@MATHINLINE(\d+)@@/g,(_,n)=>`<span class="math-inline">\\(${esc(tokens[+n].tex)}\\)</span>`);
-  html=html.replace(/<p>@@QUESTION(\d+)@@<\/p>/g,(_,n)=>`<details class="question"><summary>${esc(questions[+n].title)}</summary>${htmlWithMath(questions[+n].body)}</details>`);
+  html=html.replace(/<p>@@QUESTION(\d+)@@<\/p>/g,(_,n)=>`<details class="question"><summary>${esc(questions[+n].title)}</summary><div class="question-answer">${htmlWithMath(questions[+n].body)}</div></details>`);
   if(/@@MATH(?:BLOCK|INLINE)\d+@@/.test(html)) throw new Error('Unreplaced math token');
   if(/@@QUESTION\d+@@/.test(html)) throw new Error('Unreplaced question token');
   if(/@@STRONG\d+@@/.test(html)) throw new Error('Unreplaced strong token');
@@ -167,12 +167,20 @@ function writeLecture(c,i){
 function writeReading(r){
   const c=lectures.find(x=>x.id===r.date);
   const diagram=r.id==='demographic-transition'?'<figure class="concept-figure reading-diagram"><img src="../assets/diagrams/demographic-transition.svg" alt="사망률이 먼저 낮아지고 출생률이 뒤이어 낮아지는 인구변천 도식"><figcaption>곡선 사이의 간격이 자연증가율을 결정한다. 각 나라의 실제 전환 시기와 속도는 다르다.</figcaption></figure>':'';
-  const headings=[...r.markdown.matchAll(/^## (.+)$/gm)].map(x=>x[1]);
-  let headingNo=0;
-  const readingHtml=htmlWithMath(r.markdown).replace(/<h2>([\s\S]*?)<\/h2>/g,(_,inner)=>`<h2 id="r${String(++headingNo).padStart(2,'0')}">${inner}</h2>`);
-  if(headingNo!==headings.length)throw new Error(`${r.id}: reading headings were not rendered`);
+  const sections=r.markdown.trim().split(/(?=^## )/m);
+  const questionCount=[...r.markdown.matchAll(/^:::question /gm)].length;
+  const headings=sections.map(section=>{
+    const heading=section.match(/^## (.+)\r?\n/);
+    if(!heading)throw new Error(`${r.id}: reading section needs a level-two heading`);
+    return heading[1];
+  });
+  const readingHtml=sections.map((section,i)=>{
+    const n=String(i+1).padStart(2,'0');
+    const content=section.replace(/^## .+\r?\n/,'').trim();
+    return `<section class="reading-section" id="r${n}"><div class="slide-heading"><span class="slide-index">READING / ${n}</span><h2>${esc(headings[i])}</h2></div><div class="reading-section-body">${htmlWithMath(content)}</div></section>`;
+  }).join('');
   const readingNav=headings.map((title,i)=>`<a href="#r${String(i+1).padStart(2,'0')}" data-reading-link="r${String(i+1).padStart(2,'0')}"><span>${String(i+1).padStart(2,'0')}</span>${esc(title)}</a>`).join('');
-  const body=`<div class="layout"><aside class="sidebar"><a class="sidebar-home" href="../lecture/${c.id}.html">← ${esc(c.title)}</a><div class="sidebar-label">같은 회차의 읽기 자료</div><nav class="chapter-nav">${readingDocs.filter(x=>x.date===r.date).map(x=>`<a class="chapter-link ${x.id===r.id?'is-current':''}" href="${x.id}.html"><span class="chapter-num">↗</span><span><strong>${esc(x.title)}</strong><small>${esc(x.author)}</small></span></a>`).join('')}</nav><div class="sidebar-label sidebar-label-slides">이 읽기의 차례</div><nav aria-label="읽기 자료 목차" class="slide-nav">${readingNav}</nav></aside><main class="lecture-main"><section class="lecture-hero"><div class="eyebrow">READING · ${r.date.slice(2)}</div><h1>${esc(r.title)}</h1><div class="lecture-intro"><p>${esc(r.author)}</p></div><div class="lecture-start"><a href="${esc(r.source)}" target="_blank" rel="noopener">원문 정보와 자료 보기 ↗</a><span>읽기 가이드</span></div></section>${diagram}<article class="reading-body explanation">${readingHtml}</article><nav class="chapter-pager"><a href="../lecture/${c.id}.html"><small>강의로 돌아가기</small><strong>← ${esc(c.title)}</strong></a></nav><footer class="site-footer">경제사 · 2026-2</footer></main></div>`;
+  const body=`<div class="layout"><aside class="sidebar"><a class="sidebar-home" href="../lecture/${c.id}.html">← ${esc(c.title)}</a><div class="sidebar-label">같은 회차의 읽기 자료</div><nav class="chapter-nav">${readingDocs.filter(x=>x.date===r.date).map(x=>`<a class="chapter-link ${x.id===r.id?'is-current':''}" href="${x.id}.html"><span class="chapter-num">↗</span><span><strong>${esc(x.title)}</strong><small>${esc(x.author)}</small></span></a>`).join('')}</nav><div class="sidebar-label sidebar-label-slides">이 읽기의 차례</div><nav aria-label="읽기 자료 목차" class="slide-nav">${readingNav}</nav></aside><main class="lecture-main"><section class="lecture-hero"><div class="eyebrow">READING · ${r.date.slice(2)} · ${headings.length}개 주제 · ${questionCount}개 펼쳐보기</div><h1>${esc(r.title)}</h1><div class="lecture-intro"><p>${esc(r.author)}</p></div><div class="lecture-start"><a href="${esc(r.source)}" target="_blank" rel="noopener">원문 정보와 자료 보기 ↗</a><a href="#r01">첫 주제로 내려가기 ↓</a></div></section>${diagram}<article class="reading-body explanation">${readingHtml}</article><nav class="chapter-pager"><a href="../lecture/${c.id}.html"><small>강의로 돌아가기</small><strong>← ${esc(c.title)}</strong></a></nav><footer class="site-footer">경제사 · 2026-2</footer></main></div>`;
   fs.writeFileSync(path.join(docs,'reading',`${r.id}.html`),shell(r.title,body,'../'));
 }
 fs.mkdirSync(path.join(docs,'lecture'),{recursive:true});fs.mkdirSync(path.join(docs,'reading'),{recursive:true});fs.mkdirSync(path.join(docs,'assets'),{recursive:true});

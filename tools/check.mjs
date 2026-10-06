@@ -25,6 +25,24 @@ for(const entry of index){
   }
 }
 
+let readingQuestions=0;
+for(const name of readings){
+  const id=path.basename(name,'.html');
+  const source=fs.readFileSync(path.join(root,'content','readings',`${id}.md`),'utf8');
+  const html=fs.readFileSync(path.join(readingDir,name),'utf8');
+  const headings=[...source.matchAll(/^## /gm)].length;
+  const questions=[...source.matchAll(/^:::question /gm)].length;
+  const sections=[...html.matchAll(/<section class="reading-section" id="r(\d{2})"/g)];
+  const details=[...html.matchAll(/<details class="question"><summary>/g)];
+  const answers=[...html.matchAll(/<div class="question-answer">/g)];
+  const nav=[...html.matchAll(/data-reading-link="r(\d{2})"/g)];
+  if(sections.length!==headings)errors.push(`${id}: ${sections.length}/${headings} reading sections`);
+  if(details.length!==questions||answers.length!==questions)errors.push(`${id}: ${details.length} disclosure cards, ${answers.length} answers, ${questions} source questions`);
+  if(nav.length!==headings)errors.push(`${id}: ${nav.length}/${headings} reading navigation links`);
+  sections.forEach((section,i)=>{if(section[1]!==String(i+1).padStart(2,'0')||nav[i]?.[1]!==section[1])errors.push(`${id}: reading navigation mismatch at ${i+1}`);});
+  readingQuestions+=questions;
+}
+
 for(const name of [...lectures.map(x=>`lecture/${x}`),...readings.map(x=>`reading/${x}`),'index.html']){
   const file=path.join(docs,name);
   const html=fs.readFileSync(file,'utf8');
@@ -53,4 +71,4 @@ if(lectures.length!==5)errors.push(`${lectures.length}/5 lecture pages`);
 if(readings.length!==8)errors.push(`${readings.length}/8 reading pages`);
 if(slideSections!==314||images!==314||expectedSlides!==314)errors.push(`Slide coverage: ${slideSections} sections, ${images} images, ${expectedSlides} expected`);
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}
-else console.log(`Verified ${lectures.length} lectures, ${slideSections} slide explanations and images, ${readings.length} reading guides, links and PDF.`);
+else console.log(`Verified ${lectures.length} lectures, ${slideSections} slide explanations and images, ${readings.length} reading guides with ${readingQuestions} disclosure answers, navigation, links and PDF.`);

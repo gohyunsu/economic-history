@@ -44,7 +44,7 @@ if(sections.length&&links.length){
   },{rootMargin:'-90px 0px -68% 0px'});
   sections.forEach(s=>observer.observe(s));
 }
-const readingSections=[...document.querySelectorAll('.reading-body h2[id]')];
+const readingSections=[...document.querySelectorAll('.reading-section[id]')];
 const readingLinks=[...document.querySelectorAll('[data-reading-link]')];
 if(readingSections.length&&readingLinks.length){
   const observer=new IntersectionObserver(entries=>{
