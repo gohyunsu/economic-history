@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="title desc">
+  <title id="title">맬서스 모형의 기술 충격과 인구 반응</title>
+  <desc id="desc">기술이 발전하면 같은 인구에서 일인당 산출이 상승한다. 이후 인구가 늘면서 일인당 산출은 생계 수준으로 되돌아가고, 더 많은 인구가 유지된다.</desc>
+  <rect width="900" height="450" rx="16" fill="#ffffff"/>
+  <path d="M80 54V370H822" fill="none" stroke="#53677a" stroke-width="2"/>
+  <path d="M80 250H822" fill="none" stroke="#9b6e35" stroke-width="2" stroke-dasharray="8 7"/>
+  <path d="M118 124C205 165 294 223 350 250S581 343 790 354" fill="none" stroke="#567993" stroke-width="4"/>
+  <path d="M118 55C215 93 299 154 350 184S468 231 550 250S696 304 790 324" fill="none" stroke="#166f72" stroke-width="4"/>
+  <path d="M350 250V184" fill="none" stroke="#166f72" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="m343 193 7-10 7 10" fill="none" stroke="#166f72" stroke-width="2"/>
+  <path d="M350 250V370M550 250V370" fill="none" stroke="#aab9c1" stroke-dasharray="4 5"/>
+  <circle cx="350" cy="250" r="6" fill="#567993"/><circle cx="550" cy="250" r="6" fill="#166f72"/>
+  <text x="90" y="39" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="20" font-weight="700" fill="#23374a">1인당 산출 y</text>
+  <text x="787" y="400" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="20" font-weight="700" fill="#23374a">인구 N</text>
+  <text x="95" y="240" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#8d642e">생계 수준 ȳ</text>
+  <text x="336" y="397" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" fill="#567993">N₁</text>
+  <text x="537" y="397" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" fill="#166f72">N₂</text>
+  <text x="611" y="314" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" fill="#567993">기존 기술</text>
+  <text x="619" y="242" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" fill="#166f72">기술 개선 후</text>
+  <text x="369" y="178" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="15" fill="#166f72">단기 소득 상승</text>
+  <text x="416" y="279" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="15" fill="#53677a">장기 인구 증가 →</text>
+</svg>

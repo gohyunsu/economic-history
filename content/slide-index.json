@@ -1,0 +1,1288 @@
+[
+  {
+    "date": "260902",
+    "count": 9,
+    "slides": [
+      {
+        "number": 1,
+        "title": "경제사"
+      },
+      {
+        "number": 2,
+        "title": "강의 개요"
+      },
+      {
+        "number": 3,
+        "title": "선이수교과목"
+      },
+      {
+        "number": 4,
+        "title": "참고 교재"
+      },
+      {
+        "number": 5,
+        "title": "주차별 일정"
+      },
+      {
+        "number": 6,
+        "title": "평가"
+      },
+      {
+        "number": 7,
+        "title": "전자출결"
+      },
+      {
+        "number": 8,
+        "title": "출석인정"
+      },
+      {
+        "number": 9,
+        "title": "질의응답"
+      }
+    ]
+  },
+  {
+    "date": "260909",
+    "count": 74,
+    "slides": [
+      {
+        "number": 1,
+        "title": "경제사학"
+      },
+      {
+        "number": 2,
+        "title": "경제사학의 대상과 과제"
+      },
+      {
+        "number": 3,
+        "title": "경제사학의 역할"
+      },
+      {
+        "number": 4,
+        "title": "요제프 슘페터"
+      },
+      {
+        "number": 5,
+        "title": "경제사학의 방법"
+      },
+      {
+        "number": 6,
+        "title": "실험실 역할"
+      },
+      {
+        "number": 7,
+        "title": "경제사학의 발달"
+      },
+      {
+        "number": 8,
+        "title": "독일 역사학파"
+      },
+      {
+        "number": 9,
+        "title": "역사학파의 창시자"
+      },
+      {
+        "number": 10,
+        "title": "독일 역사학파에 대한 비판"
+      },
+      {
+        "number": 11,
+        "title": "마르크스경제사학"
+      },
+      {
+        "number": 12,
+        "title": "마르크스경제사학"
+      },
+      {
+        "number": 13,
+        "title": "마르크스경제사학 비판"
+      },
+      {
+        "number": 14,
+        "title": "자본주의맹아론"
+      },
+      {
+        "number": 15,
+        "title": "사회경제사학"
+      },
+      {
+        "number": 16,
+        "title": "경제성장사학"
+      },
+      {
+        "number": 17,
+        "title": "경제성장사학"
+      },
+      {
+        "number": 18,
+        "title": "맬서스 함정"
+      },
+      {
+        "number": 19,
+        "title": "맬서스 함정"
+      },
+      {
+        "number": 20,
+        "title": "맬서스 함정"
+      },
+      {
+        "number": 21,
+        "title": "맬서스 함정"
+      },
+      {
+        "number": 22,
+        "title": "클리오메트릭스"
+      },
+      {
+        "number": 23,
+        "title": "counterfactual experiment"
+      },
+      {
+        "number": 24,
+        "title": "신제도학파경제사"
+      },
+      {
+        "number": 25,
+        "title": "Does the Past Have Useful Economics?"
+      },
+      {
+        "number": 26,
+        "title": "문제 제기: 경제학계의 탈역사화 경향"
+      },
+      {
+        "number": 27,
+        "title": "경제사가 제공하는 실용적 가치"
+      },
+      {
+        "number": 28,
+        "title": "더 많은 경제적 사실"
+      },
+      {
+        "number": 29,
+        "title": "더 나은 경제적 사실"
+      },
+      {
+        "number": 30,
+        "title": "더 나은 경제적 사실"
+      },
+      {
+        "number": 31,
+        "title": "더 나은 경제 이론"
+      },
+      {
+        "number": 32,
+        "title": "더 나은 경제 정책"
+      },
+      {
+        "number": 33,
+        "title": "더 나은 경제학자"
+      },
+      {
+        "number": 34,
+        "title": "Clio and the Economics of QWERTY"
+      },
+      {
+        "number": 35,
+        "title": "문제 제기: 비효율적인 표준의 지배"
+      },
+      {
+        "number": 36,
+        "title": "QWERTY의 탄생과 역사적 우연"
+      },
+      {
+        "number": 37,
+        "title": "QWERTY 경제학의 3대 요소"
+      },
+      {
+        "number": 38,
+        "title": "기술적 상호연관성"
+      },
+      {
+        "number": 39,
+        "title": "규모의 경제 / 네트워크 외부성"
+      },
+      {
+        "number": 40,
+        "title": "투자의 준비가역성"
+      },
+      {
+        "number": 41,
+        "title": "핵심 이론적 함의: 경로의존성"
+      },
+      {
+        "number": 42,
+        "title": "Cliometrics and the Nobel"
+      },
+      {
+        "number": 43,
+        "title": "1993년 노벨경제학상과 클리오메트릭스"
+      },
+      {
+        "number": 44,
+        "title": "초기 연구: 교통 혁신과 생산성"
+      },
+      {
+        "number": 45,
+        "title": "노예제와 남부 경제 분석"
+      },
+      {
+        "number": 46,
+        "title": "후기 연구 및 학문적 확장"
+      },
+      {
+        "number": 47,
+        "title": "후기 연구 및 학문적 확장"
+      },
+      {
+        "number": 48,
+        "title": "경제학에서 경제사의 고유한 위상"
+      },
+      {
+        "number": 49,
+        "title": "Cliometrics after 40 years"
+      },
+      {
+        "number": 50,
+        "title": "클리오메트릭스 40년의 성과와 한계"
+      },
+      {
+        "number": 51,
+        "title": "초기 신고전파 패러다임이 가한 이론적 제약"
+      },
+      {
+        "number": 52,
+        "title": "초기 신고전파 패러다임이 가한 이론적 제약"
+      },
+      {
+        "number": 53,
+        "title": "경제 이론의 패러다임 전환과 경제사로의 수렴"
+      },
+      {
+        "number": 54,
+        "title": "미시경제학의 변화"
+      },
+      {
+        "number": 55,
+        "title": "거시경제학의 변화"
+      },
+      {
+        "number": 56,
+        "title": "귀납적 접근의 복권"
+      },
+      {
+        "number": 57,
+        "title": "클리오메트릭스의 새로운 도전 과제"
+      },
+      {
+        "number": 58,
+        "title": "보다 유용한 경제사를 향해"
+      },
+      {
+        "number": 59,
+        "title": "문제의식: 고립된 경제사와 '유용성'의 위기"
+      },
+      {
+        "number": 60,
+        "title": "최근 연구 경향에 대한 비판적 성찰"
+      },
+      {
+        "number": 61,
+        "title": "유용성의 세 가지 기준"
+      },
+      {
+        "number": 62,
+        "title": "개념 살찌우기: 경제사가 기여하는 3대 차원"
+      },
+      {
+        "number": 63,
+        "title": "스토리텔링과 질문하기: 노동 조건의 질적 진화"
+      },
+      {
+        "number": 64,
+        "title": "스토리텔링과 질문하기: 위기에 처한 초강대국의 재정 파탄"
+      },
+      {
+        "number": 65,
+        "title": "스토리텔링과 질문하기: 도시 인프라와 공공 투자 (트로이 시의 사례)"
+      },
+      {
+        "number": 66,
+        "title": "‘조작된 역사(Made-up Past)’에 대한 경계와 경제학의 미래"
+      },
+      {
+        "number": 67,
+        "title": "몇 가지 대표적 논쟁"
+      },
+      {
+        "number": 68,
+        "title": "역사비교제도분석"
+      },
+      {
+        "number": 69,
+        "title": "근대적 시장 경제의 모형"
+      },
+      {
+        "number": 70,
+        "title": "아날학파"
+      },
+      {
+        "number": 71,
+        "title": "새로운 조류"
+      },
+      {
+        "number": 72,
+        "title": "몇 가지 해묵은 질문"
+      },
+      {
+        "number": 73,
+        "title": "경제 성장 → 생활 수준 → 행복"
+      },
+      {
+        "number": 74,
+        "title": "한 장의 그림에 표현한 세계경제사"
+      }
+    ]
+  },
+  {
+    "date": "260916",
+    "count": 97,
+    "slides": [
+      {
+        "number": 1,
+        "title": "인구"
+      },
+      {
+        "number": 2,
+        "title": "왜 인구를 가장 먼저 다루는가?"
+      },
+      {
+        "number": 3,
+        "title": "고대 동양에서도 인구 문제가 중요"
+      },
+      {
+        "number": 4,
+        "title": "인구는 가장 중요한 지표의 한 변수"
+      },
+      {
+        "number": 5,
+        "title": "per capita"
+      },
+      {
+        "number": 6,
+        "title": "맬서스의 《인구론》"
+      },
+      {
+        "number": 7,
+        "title": "family tree of economics"
+      },
+      {
+        "number": 8,
+        "title": "맬서스 함정"
+      },
+      {
+        "number": 9,
+        "title": "Malthusian Trap"
+      },
+      {
+        "number": 10,
+        "title": "인구의 변동"
+      },
+      {
+        "number": 11,
+        "title": "CBR & CDR"
+      },
+      {
+        "number": 12,
+        "title": "출생률 및 사망률의 최대치"
+      },
+      {
+        "number": 13,
+        "title": "natural rate of increase"
+      },
+      {
+        "number": 14,
+        "title": "인구 억제의 방식이 소득수준을 결정"
+      },
+      {
+        "number": 15,
+        "title": "적극적 억제의 경우"
+      },
+      {
+        "number": 16,
+        "title": "소득 수준이 높아지면 인구는 증가"
+      },
+      {
+        "number": 17,
+        "title": "예방적 억제를 도입하면?"
+      },
+      {
+        "number": 18,
+        "title": "근대적 경제성장"
+      },
+      {
+        "number": 19,
+        "title": "한 장의 그림에 표현한 세계경제사"
+      },
+      {
+        "number": 20,
+        "title": "경기변동과 장기추세"
+      },
+      {
+        "number": 21,
+        "title": "Great Divergence"
+      },
+      {
+        "number": 22,
+        "title": "한국의 1인당 GDP, 1911-2015"
+      },
+      {
+        "number": 23,
+        "title": "인구학에서의 적극적 억제"
+      },
+      {
+        "number": 24,
+        "title": "20-21세기의 바이러스"
+      },
+      {
+        "number": 25,
+        "title": "흑사병"
+      },
+      {
+        "number": 26,
+        "title": "페스트"
+      },
+      {
+        "number": 27,
+        "title": "최초의 발생지"
+      },
+      {
+        "number": 28,
+        "title": "흑해의 카파"
+      },
+      {
+        "number": 29,
+        "title": "페스트 전파로"
+      },
+      {
+        "number": 30,
+        "title": "30"
+      },
+      {
+        "number": 31,
+        "title": "흑사병 전파는 생물학전의 결과?"
+      },
+      {
+        "number": 32,
+        "title": "흑사병의 증상"
+      },
+      {
+        "number": 33,
+        "title": "공동 묘지에 관을 묻는 장면"
+      },
+      {
+        "number": 34,
+        "title": "유대인들을 화형시키는 장면"
+      },
+      {
+        "number": 35,
+        "title": "채찍파의 고행"
+      },
+      {
+        "number": 36,
+        "title": "질병의 세계화"
+      },
+      {
+        "number": 37,
+        "title": "37"
+      },
+      {
+        "number": 38,
+        "title": "중세 대륙별 인구, 600-1600"
+      },
+      {
+        "number": 39,
+        "title": "천연두"
+      },
+      {
+        "number": 40,
+        "title": "총 vs 균"
+      },
+      {
+        "number": 41,
+        "title": "멕시코 중부의 인구, 1532-1608"
+      },
+      {
+        "number": 42,
+        "title": "천연두의 증상"
+      },
+      {
+        "number": 43,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 44,
+        "title": "인류의 첫걸음"
+      },
+      {
+        "number": 45,
+        "title": "인류의 세계적 확산"
+      },
+      {
+        "number": 46,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 47,
+        "title": "게르만족의 대이동"
+      },
+      {
+        "number": 48,
+        "title": "게르만의 대이동"
+      },
+      {
+        "number": 49,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 50,
+        "title": "플랜테이션"
+      },
+      {
+        "number": 51,
+        "title": "아시엔토"
+      },
+      {
+        "number": 52,
+        "title": "1713년, 영국으로"
+      },
+      {
+        "number": 53,
+        "title": "1750년, 다시 스페인으로"
+      },
+      {
+        "number": 54,
+        "title": "노예 거래 및 이동 규모"
+      },
+      {
+        "number": 55,
+        "title": "아프리카 사하라 이남으로부터 수출된 노예 수"
+      },
+      {
+        "number": 56,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 57,
+        "title": "Westward Movement"
+      },
+      {
+        "number": 58,
+        "title": "서점운동"
+      },
+      {
+        "number": 59,
+        "title": "Manifest Destiny"
+      },
+      {
+        "number": 60,
+        "title": "일확천금을 꿈꾸며"
+      },
+      {
+        "number": 61,
+        "title": "서부의 토지 분배와 인구 증가"
+      },
+      {
+        "number": 62,
+        "title": "Cotton Kingdom"
+      },
+      {
+        "number": 63,
+        "title": "조면기와 면화 공급"
+      },
+      {
+        "number": 64,
+        "title": "노예 인구와 면화 생산"
+      },
+      {
+        "number": 65,
+        "title": "계약 노동자라는 미명 하의 노예"
+      },
+      {
+        "number": 66,
+        "title": "노예제의 인센티브"
+      },
+      {
+        "number": 67,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 68,
+        "title": "국제적 인구 이동, 1820-1913"
+      },
+      {
+        "number": 69,
+        "title": "유럽 이민자들의 출발국과 도착국"
+      },
+      {
+        "number": 70,
+        "title": "인구 이동의 원인"
+      },
+      {
+        "number": 71,
+        "title": "보조 요인"
+      },
+      {
+        "number": 72,
+        "title": "인구의 증가: 유럽인의 미국 이주"
+      },
+      {
+        "number": 73,
+        "title": "15 largest ancestry groups in US (2017)"
+      },
+      {
+        "number": 74,
+        "title": "미국 이민자의 직업 구성, 1820-1898"
+      },
+      {
+        "number": 75,
+        "title": "Immigrants arriving at Ellis Island"
+      },
+      {
+        "number": 76,
+        "title": "• Steinweg"
+      },
+      {
+        "number": 77,
+        "title": "유럽 인구 이동의 효과"
+      },
+      {
+        "number": 78,
+        "title": "아시아와 열대 지대의 이민"
+      },
+      {
+        "number": 79,
+        "title": "아시아의 출신 국가별 계약 노동자 수, 1830-1920"
+      },
+      {
+        "number": 80,
+        "title": "인구의 이동"
+      },
+      {
+        "number": 81,
+        "title": "Angus Maddison (2006), The World Economy, OECD, 636."
+      },
+      {
+        "number": 82,
+        "title": "중국 인구사는 이주의 역사"
+      },
+      {
+        "number": 83,
+        "title": "14-16세기"
+      },
+      {
+        "number": 84,
+        "title": "정화의 남해 대원정"
+      },
+      {
+        "number": 85,
+        "title": "17-18세기"
+      },
+      {
+        "number": 86,
+        "title": "중국의 쇄국 정책으로의 전환"
+      },
+      {
+        "number": 87,
+        "title": "중국의 초안정 시스템"
+      },
+      {
+        "number": 88,
+        "title": "논과 채식이 갖는 우월성"
+      },
+      {
+        "number": 89,
+        "title": "근면 혁명"
+      },
+      {
+        "number": 90,
+        "title": "서유럽 vs 일본"
+      },
+      {
+        "number": 91,
+        "title": "내권화"
+      },
+      {
+        "number": 92,
+        "title": "서양의 낫과 한국의 호미"
+      },
+      {
+        "number": 93,
+        "title": "18세기 국내"
+      },
+      {
+        "number": 94,
+        "title": "94"
+      },
+      {
+        "number": 95,
+        "title": "95"
+      },
+      {
+        "number": 96,
+        "title": "96"
+      },
+      {
+        "number": 97,
+        "title": "사회적 거리두기로 다시 나타난 운남성의 코끼리"
+      }
+    ]
+  },
+  {
+    "date": "260923",
+    "count": 89,
+    "slides": [
+      {
+        "number": 1,
+        "title": "농업"
+      },
+      {
+        "number": 2,
+        "title": "빙하기의 지구 환경"
+      },
+      {
+        "number": 3,
+        "title": "원시 시대의 경제생활"
+      },
+      {
+        "number": 4,
+        "title": "수렵 · 채집의 쇠퇴"
+      },
+      {
+        "number": 5,
+        "title": "구석기인처럼 먹고 살기"
+      },
+      {
+        "number": 6,
+        "title": "최초의 식량 생산"
+      },
+      {
+        "number": 7,
+        "title": "식량 생산 발생의 중심지"
+      },
+      {
+        "number": 8,
+        "title": "농경은 인류의 생활 수준을 개선시켰나?"
+      },
+      {
+        "number": 9,
+        "title": "Heights from Skeletal Remains by Period"
+      },
+      {
+        "number": 10,
+        "title": "Time trend in pre-Columbian skeletal health"
+      },
+      {
+        "number": 11,
+        "title": "원시 시대의 사회 조직"
+      },
+      {
+        "number": 12,
+        "title": "고대 로마의 토지 경영"
+      },
+      {
+        "number": 13,
+        "title": "라티푼디움"
+      },
+      {
+        "number": 14,
+        "title": "콜로나투스"
+      },
+      {
+        "number": 15,
+        "title": "봉건제"
+      },
+      {
+        "number": 16,
+        "title": "봉건제의 개념: 상부 구조"
+      },
+      {
+        "number": 17,
+        "title": "중층적 수봉"
+      },
+      {
+        "number": 18,
+        "title": "봉건제의 개념: 하부 구조"
+      },
+      {
+        "number": 19,
+        "title": "봉건제의 개념"
+      },
+      {
+        "number": 20,
+        "title": "장원제와 농노"
+      },
+      {
+        "number": 21,
+        "title": "농노 발생설"
+      },
+      {
+        "number": 22,
+        "title": "장원의 영주권"
+      },
+      {
+        "number": 23,
+        "title": "영주제"
+      },
+      {
+        "number": 24,
+        "title": "경제외적 지배권"
+      },
+      {
+        "number": 25,
+        "title": "경제외적 지배권"
+      },
+      {
+        "number": 26,
+        "title": "농노의 수확 작업"
+      },
+      {
+        "number": 27,
+        "title": "공조 상납"
+      },
+      {
+        "number": 28,
+        "title": "28"
+      },
+      {
+        "number": 29,
+        "title": "사적 유물론의 관점에서 본 역사 발전의 경로와 생산 양식"
+      },
+      {
+        "number": 30,
+        "title": "농노의 이해: 노예-농노-노동자"
+      },
+      {
+        "number": 31,
+        "title": "장원의 토지 제도"
+      },
+      {
+        "number": 32,
+        "title": "중세의 촌락 (항공 사진)"
+      },
+      {
+        "number": 33,
+        "title": "총유"
+      },
+      {
+        "number": 34,
+        "title": "전근대의 시간과 공간"
+      },
+      {
+        "number": 35,
+        "title": "중세 장원 경지 제도의 특징"
+      },
+      {
+        "number": 36,
+        "title": "지조"
+      },
+      {
+        "number": 37,
+        "title": "게르만 쟁기 vs 지중해 쟁기"
+      },
+      {
+        "number": 38,
+        "title": "네 마리의 소를 이용한 쟁기질"
+      },
+      {
+        "number": 39,
+        "title": "정전법"
+      },
+      {
+        "number": 40,
+        "title": "Open Field System, WHY?"
+      },
+      {
+        "number": 41,
+        "title": "중세 장원 경지제도의 특징"
+      },
+      {
+        "number": 42,
+        "title": "북부 프랑스 칸 지방의 농지 (18세기)"
+      },
+      {
+        "number": 43,
+        "title": "중세 장원 경지제도의 특징"
+      },
+      {
+        "number": 44,
+        "title": "인클로저 이전의 경지"
+      },
+      {
+        "number": 45,
+        "title": "삼포제 농법"
+      },
+      {
+        "number": 46,
+        "title": "중세 장원 경지의 전형"
+      },
+      {
+        "number": 47,
+        "title": "중세 장원 경지의 전형"
+      },
+      {
+        "number": 48,
+        "title": "중세 장원 경지의 전형"
+      },
+      {
+        "number": 49,
+        "title": "장원의 붕괴"
+      },
+      {
+        "number": 50,
+        "title": "지대 변화"
+      },
+      {
+        "number": 51,
+        "title": "농노 해방"
+      },
+      {
+        "number": 52,
+        "title": "등본 보유농"
+      },
+      {
+        "number": 53,
+        "title": "요먼"
+      },
+      {
+        "number": 54,
+        "title": "농민 분해"
+      },
+      {
+        "number": 55,
+        "title": "흑사병이 초래한 변화"
+      },
+      {
+        "number": 56,
+        "title": "흑사병 이후 영국 노동자의 실질 임금"
+      },
+      {
+        "number": 57,
+        "title": "영국의 임금/지대 비율"
+      },
+      {
+        "number": 58,
+        "title": "노동자 조례"
+      },
+      {
+        "number": 59,
+        "title": "노동자 조례"
+      },
+      {
+        "number": 60,
+        "title": "폐촌"
+      },
+      {
+        "number": 61,
+        "title": "봉건 반동"
+      },
+      {
+        "number": 62,
+        "title": "농장 영주제"
+      },
+      {
+        "number": 63,
+        "title": "Elbe"
+      },
+      {
+        "number": 64,
+        "title": "농민 봉기 (농민 반란, 농민 전쟁)"
+      },
+      {
+        "number": 65,
+        "title": "유럽의 일반적 역사 발전 경로"
+      },
+      {
+        "number": 66,
+        "title": "대조적 변화의 이유"
+      },
+      {
+        "number": 67,
+        "title": "시민 혁명의 ‘경제적’ 과제"
+      },
+      {
+        "number": 68,
+        "title": "봉건적 토지 소유의 청산"
+      },
+      {
+        "number": 69,
+        "title": "프랑스의 소작제"
+      },
+      {
+        "number": 70,
+        "title": "혁명 직전 프랑스의 신분 구조"
+      },
+      {
+        "number": 71,
+        "title": "농업혁명"
+      },
+      {
+        "number": 72,
+        "title": "농업혁명"
+      },
+      {
+        "number": 73,
+        "title": "인클로저"
+      },
+      {
+        "number": 74,
+        "title": "Early Enclosure"
+      },
+      {
+        "number": 75,
+        "title": "(Oxford) Atlas of World History, 2002, p.168."
+      },
+      {
+        "number": 76,
+        "title": "장기 19세기와 단기 20세기"
+      },
+      {
+        "number": 77,
+        "title": "제2차 인클로저"
+      },
+      {
+        "number": 78,
+        "title": "유토피아"
+      },
+      {
+        "number": 79,
+        "title": "인구 증가와 도시화의 진전"
+      },
+      {
+        "number": 80,
+        "title": "(공장)노동 공급의 원천 문제"
+      },
+      {
+        "number": 81,
+        "title": "제2차 인클로저의 의의"
+      },
+      {
+        "number": 82,
+        "title": "선진적 농법의 도입"
+      },
+      {
+        "number": 83,
+        "title": "윤재식농법"
+      },
+      {
+        "number": 84,
+        "title": "Norfolk"
+      },
+      {
+        "number": 85,
+        "title": "노포크 농법"
+      },
+      {
+        "number": 86,
+        "title": "관개 목초지"
+      },
+      {
+        "number": 87,
+        "title": "농업혁명과 공업화"
+      },
+      {
+        "number": 88,
+        "title": "농업혁명과 공업화"
+      },
+      {
+        "number": 89,
+        "title": "“농업의 공업화”"
+      }
+    ]
+  },
+  {
+    "date": "260930",
+    "count": 45,
+    "slides": [
+      {
+        "number": 1,
+        "title": "공업"
+      },
+      {
+        "number": 2,
+        "title": "고대 그리스의 수공업"
+      },
+      {
+        "number": 3,
+        "title": "중세의 도시"
+      },
+      {
+        "number": 4,
+        "title": "도시의 기원"
+      },
+      {
+        "number": 5,
+        "title": "도시 비교"
+      },
+      {
+        "number": 6,
+        "title": "Abbaye du Mont-Saint-Michel"
+      },
+      {
+        "number": 7,
+        "title": "Beaumaris Castle"
+      },
+      {
+        "number": 8,
+        "title": "Carcassonne"
+      },
+      {
+        "number": 9,
+        "title": "도시의 공간"
+      },
+      {
+        "number": 10,
+        "title": "중세 도시의 경제 정책"
+      },
+      {
+        "number": 11,
+        "title": "대외적 독점"
+      },
+      {
+        "number": 12,
+        "title": "대내적 평등"
+      },
+      {
+        "number": 13,
+        "title": "동업 조합"
+      },
+      {
+        "number": 14,
+        "title": "길드의 역할"
+      },
+      {
+        "number": 15,
+        "title": "길드의 변천"
+      },
+      {
+        "number": 16,
+        "title": "상인 종합 길드"
+      },
+      {
+        "number": 17,
+        "title": "수공업자 단체"
+      },
+      {
+        "number": 18,
+        "title": "영업권"
+      },
+      {
+        "number": 19,
+        "title": "괴테의 “빌헬름 마이스터”"
+      },
+      {
+        "number": 20,
+        "title": "여행과 편력"
+      },
+      {
+        "number": 21,
+        "title": "도제 제도의 평가"
+      },
+      {
+        "number": 22,
+        "title": "서유럽 중세의 섬유 공업"
+      },
+      {
+        "number": 23,
+        "title": "중세의 위기"
+      },
+      {
+        "number": 24,
+        "title": "민부"
+      },
+      {
+        "number": 25,
+        "title": "선대제"
+      },
+      {
+        "number": 26,
+        "title": "선대제"
+      },
+      {
+        "number": 27,
+        "title": "27"
+      },
+      {
+        "number": 28,
+        "title": "선대제의 기원"
+      },
+      {
+        "number": 29,
+        "title": "서유럽에서 선대제가 일반적으로 전개된 사회경제적 조건"
+      },
+      {
+        "number": 30,
+        "title": "영국의 클로디어"
+      },
+      {
+        "number": 31,
+        "title": "잉글랜드 북부"
+      },
+      {
+        "number": 32,
+        "title": "잉글랜드 동부 및 서남부"
+      },
+      {
+        "number": 33,
+        "title": "모직기 (공업화 이전)"
+      },
+      {
+        "number": 34,
+        "title": "모직물의 가공 공정"
+      },
+      {
+        "number": 35,
+        "title": "프로토공업화"
+      },
+      {
+        "number": 36,
+        "title": "프로토 공업화의 특징"
+      },
+      {
+        "number": 37,
+        "title": "농촌을 기반으로 한 공업화"
+      },
+      {
+        "number": 38,
+        "title": "매뉴팩처"
+      },
+      {
+        "number": 39,
+        "title": "매뉴팩처"
+      },
+      {
+        "number": 40,
+        "title": "매뉴팩처의 구분"
+      },
+      {
+        "number": 41,
+        "title": "매뉴팩처의 특징"
+      },
+      {
+        "number": 42,
+        "title": "매뉴팩처가 권장된 주요 요인"
+      },
+      {
+        "number": 43,
+        "title": "Workhouse Scene"
+      },
+      {
+        "number": 44,
+        "title": "매뉴팩처의 장단점"
+      },
+      {
+        "number": 45,
+        "title": "매뉴팩처의 역사적 형태"
+      }
+    ]
+  }
+]

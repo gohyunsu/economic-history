@@ -1,0 +1,14 @@
+# Source materials remain outside this public repository.
+/slides/
+/scripts/
+/readings/
+/.research/
+/node_modules/
+/tmp/
+/guide/*.aux
+/guide/*.log
+/guide/*.out
+/guide/*.toc
+/guide/*.synctex.gz
+/guide/*.pdf
+/.DS_Store

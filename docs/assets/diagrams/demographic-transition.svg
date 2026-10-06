@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">인구변천의 출생률과 사망률</title>
+  <desc id="desc">초기에는 출생률과 사망률이 모두 높다. 사망률이 먼저 하락하고 출생률이 나중에 하락해 그 사이에 자연증가가 빨라진다.</desc>
+  <rect width="900" height="440" rx="16" fill="#ffffff"/>
+  <rect x="310" y="65" width="300" height="290" fill="#eaf4f1"/>
+  <path d="M76 59V352H830" fill="none" stroke="#53677a" stroke-width="2"/>
+  <path d="M108 105C185 108 256 112 315 117S447 126 495 142S585 230 645 283S746 296 806 297" fill="none" stroke="#b4682b" stroke-width="4"/>
+  <path d="M108 133C180 129 239 144 278 185S341 290 418 304S661 307 806 305" fill="none" stroke="#246b83" stroke-width="4"/>
+  <path d="M315 117V185" stroke="#728f83" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="105" y="48" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="20" font-weight="700" fill="#23374a">인구 천 명당 출생·사망</text>
+  <text x="750" y="391" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="20" font-weight="700" fill="#23374a">시간</text>
+  <text x="113" y="381" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#53677a">높은 출생·사망</text>
+  <text x="372" y="381" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#53677a">빠른 자연증가</text>
+  <text x="641" y="381" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#53677a">낮은 출생·사망</text>
+  <text x="690" y="226" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#a7622b">출생률</text>
+  <text x="690" y="335" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#246b83">사망률</text>
+  <text x="336" y="215" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#416f61">두 곡선의 간격</text>
+  <text x="347" y="239" font-family="Malgun Gothic, Noto Sans KR, sans-serif" font-size="16" fill="#416f61">= 자연증가율</text>
+</svg>
