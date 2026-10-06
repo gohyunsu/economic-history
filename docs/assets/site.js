@@ -44,6 +44,16 @@ if(sections.length&&links.length){
   },{rootMargin:'-90px 0px -68% 0px'});
   sections.forEach(s=>observer.observe(s));
 }
+const readingSections=[...document.querySelectorAll('.reading-body h2[id]')];
+const readingLinks=[...document.querySelectorAll('[data-reading-link]')];
+if(readingSections.length&&readingLinks.length){
+  const observer=new IntersectionObserver(entries=>{
+    const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+    if(!visible.length)return;
+    readingLinks.forEach(a=>a.classList.toggle('is-active',a.dataset.readingLink===visible[0].target.id));
+  },{rootMargin:'-90px 0px -68% 0px'});
+  readingSections.forEach(s=>observer.observe(s));
+}
 const progress=document.querySelector('.reading-progress');
 function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=`${max>0?Math.max(0,Math.min(100,scrollY/max*100)):0}%`}
 addEventListener('scroll',updateProgress,{passive:true});updateProgress();
