@@ -84,6 +84,7 @@ details.question{border:1px solid #dce6e7;border-radius:8px;background:#f1f7f6;p
 .concept-figure{margin:26px 0 7px;padding:20px;border:1px solid var(--line);border-radius:10px;background:#fff}
 .reading-body{padding:0 0 35px;font-size:16px}
 .reading-section{padding:57px 0 67px;border-bottom:1px solid var(--line);scroll-margin-top:75px}
+.reading-question-count{display:inline-block;margin-top:13px;padding:4px 9px;border-radius:4px;background:#e9f1f0;color:#23636a;font-size:11px;font-weight:750;letter-spacing:.01em}
 .reading-section-body{max-width:900px}
 .reading-body h3{font-size:21px;line-height:1.4;letter-spacing:-.025em;margin:1.7em 0 .55em}
 .reading-body ul,.reading-body ol{padding-left:1.5em;margin:1em 0 1.4em}
