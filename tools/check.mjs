@@ -67,8 +67,8 @@ for(const dir of ['docs','content','guide']){
 }
 
 if(!fs.existsSync(path.join(docs,'study-guide.pdf')))errors.push('Missing downloadable PDF');
-if(lectures.length!==5)errors.push(`${lectures.length}/5 lecture pages`);
+if(lectures.length!==6)errors.push(`${lectures.length}/6 lecture pages`);
 if(readings.length!==8)errors.push(`${readings.length}/8 reading pages`);
-if(slideSections!==314||images!==314||expectedSlides!==314)errors.push(`Slide coverage: ${slideSections} sections, ${images} images, ${expectedSlides} expected`);
+if(slideSections!==395||images!==395||expectedSlides!==395)errors.push(`Slide coverage: ${slideSections} sections, ${images} images, ${expectedSlides} expected`);
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}
 else console.log(`Verified ${lectures.length} lectures, ${slideSections} slide explanations and images, ${readings.length} reading guides with ${readingQuestions} disclosure answers, navigation, links and PDF.`);
