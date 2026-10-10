@@ -48,7 +48,7 @@ for(const name of readings){
   if(textReading&&!html.includes(`data-reading-id="${id}"`))errors.push(`${id}: original-text panel id mismatch`);
 }
 
-for(const [id,expectedPages] of Object.entries({mccloskey:29,david:7,goldin:19,greif:5})){
+for(const [id,expectedPages] of Object.entries({mccloskey:28,david:6,goldin:18,greif:4})){
   const file=path.join(docs,'assets','original-text',`${id}.txt`);
   if(!fs.existsSync(file)){errors.push(`Missing original text: ${id}`);continue}
   const source=fs.readFileSync(file,'utf8');
@@ -57,6 +57,10 @@ for(const [id,expectedPages] of Object.entries({mccloskey:29,david:7,goldin:19,g
   if(pageNumbers.length!==expectedPages||pageNumbers.some((number,i)=>number!==i+1))errors.push(`${id}: original text page sequence mismatch (${pageNumbers.length}/${expectedPages})`);
   if(markers.some((marker,i)=>source.slice(marker.index+marker[0].length,markers[i+1]?.index??source.length).trim().length<100))errors.push(`${id}: an original text page is empty or too short`);
   if(source.length<expectedPages*250)errors.push(`${id}: original text appears too short`);
+  if(/\[(?:왼쪽|오른쪽) 열\]|PDF 쪽수 기준 · OCR/.test(source))errors.push(`${id}: raw extraction markup remains`);
+  const body=source.slice(markers[0]?.index??0);
+  const shortLines=body.split('\n').filter(line=>line.length>12&&line.length<55&&!/^\[\[PAGE /.test(line));
+  if(shortLines.length>expectedPages*12)errors.push(`${id}: excessive PDF line breaks remain (${shortLines.length})`);
 }
 
 for(const name of [...lectures.map(x=>`lecture/${x}`),...readings.map(x=>`reading/${x}`),'index.html']){

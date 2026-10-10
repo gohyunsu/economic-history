@@ -61,16 +61,42 @@ slideDialog.addEventListener('click',e=>{if(e.target===slideDialog)slideDialog.c
     previous.disabled=current===0;
     next.disabled=current===pages.length-1;
     const needle=search.value.trim();
-    if(!needle){pageView.textContent=page.text;return}
-    const lower=page.text.toLocaleLowerCase();
-    const query=needle.toLocaleLowerCase();
-    let cursor=0;
-    while(cursor<page.text.length){
-      const found=lower.indexOf(query,cursor);
-      if(found<0){pageView.append(document.createTextNode(page.text.slice(cursor)));break}
-      pageView.append(document.createTextNode(page.text.slice(cursor,found)));
-      const mark=document.createElement('mark');mark.textContent=page.text.slice(found,found+needle.length);pageView.append(mark);
-      cursor=found+needle.length;
+    const appendHighlighted=(target,value)=>{
+      if(!needle){target.textContent=value;return}
+      const lower=value.toLocaleLowerCase();
+      const query=needle.toLocaleLowerCase();
+      let cursor=0;
+      while(cursor<value.length){
+        const found=lower.indexOf(query,cursor);
+        if(found<0){target.append(document.createTextNode(value.slice(cursor)));break}
+        target.append(document.createTextNode(value.slice(cursor,found)));
+        const mark=document.createElement('mark');mark.textContent=value.slice(found,found+needle.length);target.append(mark);
+        cursor=found+needle.length;
+      }
+    };
+    const blocks=page.text.split(/\n{2,}/).map(block=>block.trim()).filter(Boolean);
+    for(const [index,block] of blocks.entries()){
+      const rows=block.split('\n');
+      if(rows.length>1&&rows.every(row=>row.includes('|'))){
+        const table=document.createElement('table');
+        table.className='original-data-table';
+        for(const [rowIndex,row] of rows.entries()){
+          const tr=document.createElement('tr');
+          for(const cell of row.split('|')){
+            const node=document.createElement(rowIndex===0?'th':'td');
+            appendHighlighted(node,cell.trim());
+            tr.append(node);
+          }
+          table.append(tr);
+        }
+        pageView.append(table);
+        continue;
+      }
+      const heading=block==='Notes'||block==='REFERENCES'||block==='References'||/^TABLE [IVX]+$/.test(block)||index===0&&block.length<90;
+      const node=document.createElement(heading?'h3':'p');
+      if(block==='Notes')node.className='original-notes-heading';
+      appendHighlighted(node,block);
+      pageView.append(node);
     }
   }
   function renderMatches(){

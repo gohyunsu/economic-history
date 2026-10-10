@@ -1,364 +1,60 @@
-Cliometrics after 40 years
-PDF 쪽수 기준 · OCR
+Cliometrics After 40 Years
+정리된 원문 · PDF 쪽수 기준
 
 [[PAGE 1]]
 Cliometrics After 40 Years
-By AVNER GREIF*
 
-[왼쪽 열]
-Cliometrics emerged 40 years ago to com-
-bine economic theory and quantitative analy-
-sis for the advancement of history and
-economics. As an intellectual movement, it as-
-pired to enhance the study of past economies
-by subjecting them to the rigor of economic
-theory and quantitative analysis, while utiliz-
-ing the richness of history to evaluate and
-stimulate economic theory and to improve our
-comprehension of long-run economic pro-
-cesses. The contribution of this approach is
-immeasurable: it has altered and enriched our
-perceptions regarding numerous issues in eco-
-nomic history while contributing a great deal
-to economic theory and policy. But there has
-been a cost: the prevailing economic theory
-and the limitations of the computing power
-and statistical techniques available to most
-practitioners of this approach have also con-
-strained the kind of economic history they
-were able to write. In a process that began
-about 15 years ago, however, these constraints
-have been in the process of being relaxed, pre-
-senting both promise and a challenge to
-cliometrics.
-That the constraint implied by computing
-power and statistical techniques has been re-
-laxed is clear. More powerful computers and
-more sophisticated applications programs, for
-example, have enabled more informative
-quantitative analyses based on larger cross-
-sectional studies, longer time series, or data
-sets that could not have been assembled or an-
-alyzed before. What is less apparent, however,
-is the extent to which the economic-theory
-constraint has been relaxed, This has occurred
-not only because of improved theory, but also
-because of a paradigm shift with significant
-implications for cliometrics. What follows is a
-short elaboration on the constraints imposed
-* Department of Economics, Stanford University,
-Stanford, CA 94305-6072. As always, I benefited from the
-insightful comments of Joel Mokyr, Paul David, and
-Gavin Wright.
+By AVNER GREIF
 
-[오른쪽 열]
-by economic theory on cliometrics prior to this
-shift, the nature of the shift, and its implica-
-tions for economic history.
-The main theoretical framework utilized by
-cliometricians since the early days of the clio-
-metrics revolution has been neoclassical eco-
-nomics as it was formulated just prior to that
-revolution. This theoretical framework shifted
-the focus of economic-history analysis toward
-historical episodes and topics in which mar-
-kets were arguably important. Furthermore,
-much research was aimed at demonstrating the
-operation of markets in past economies. Com-
-paring papers published in the Journal of Eco-
-nomic History from 1951 to 1960 (just prior
-to the cliometrics revolution), with those
-published, for example, from 1971 to 1980,
-indicates that economic historians devoted
-much less research to the role of government
-in the economy, entrepreneurship, or business
-organization (Robert Whaples, 1991 tables 1,
-2). While the contributions of historical anal-
-ysis based on neoclassical economics (sur-
-veyed, for example, in Donald N. McCloskey
-[1976]) are beyond doubt, the reliance on ne0-
-classical economics also severely constrained
-economic-history analysis by limiting the is-
-sues that could have been examined.
-The neoclassical economics adopted by
-cliometricians limits economic-history analy-
-sis since it is an ahistorical approach that de-
-ductively assumes that the same preferences,
-technology, and endowment lead to a unique
-economic outcome in all historical episodes.
-Its ahistorical nature reflects theoretical as-
-sumptions rather than empirical observations
-regarding the relevance of these assumptions
-or conclusions. Exogenous preferences, tech-
-nology, and endowment as well as the lack of
-complementarities over time, preferences, or
-technologies are among the assumptions im-
-plying that there is no need to examine an
-tory of change and capacity to change are con-
-strained by its own history. Convexity of all
-production sets, nonstrategic interactions, and
-400
+Cliometrics emerged 40 years ago to combine economic theory and quantitative analysis for the advancement of history and economics. As an intellectual movement, it aspired to enhance the study of past economies by subjecting them to the rigor of economic theory and quantitative analysis, while utilizing the richness of history to evaluate and stimulate economic theory and to improve our comprehension of long-run economic processes. The contribution of this approach is immeasurable: it has altered and enriched our perceptions regarding numerous issues in economic history while contributing a great deal to economic theory and policy. But there has been a cost: the prevailing economic theory and the limitations of the computing power and statistical techniques available to most practitioners of this approach have also constrained the kind of economic history they were able to write. In a process that began about 15 years ago, however, these constraints have been in the process of being relaxed, presenting both promise and a challenge to cliometrics.
 
-Copyright @ 2001 All Rights Reserved
+That the constraint implied by computing power and statistical techniques has been relaxed is clear. More powerful computers and more sophisticated applications programs, for example, have enabled more informative quantitative analyses based on larger cross-sectional studies, longer time series, or data sets that could not have been assembled or analyzed before. What is less apparent, however, is the extent to which the economic-theory constraint has been relaxed. This has occurred not only because of improved theory, but also because of a paradigm shift with significant implications for cliometrics. What follows is a short elaboration on the constraints imposed by economic theory on cliometrics prior to this shift, the nature of the shift, and its implications for economic history.
+
+The main theoretical framework utilized by cliometricians since the early days of the cliometrics revolution has been neoclassical economics as it was formulated just prior to that revolution. This theoretical framework shifted the focus of economic-history analysis toward historical episodes and topics in which markets were arguably important. Furthermore, much research was aimed at demonstrating the operation of markets in past economies. Comparing papers published in the Journal of Economic History from 1951 to 1960 (just prior to the cliometrics revolution), with those published, for example, from 1971 to 1980, indicates that economic historians devoted much less research to the role of government in the economy, entrepreneurship, or business organization (Robert Whaples, 1991 tables 1, 2). While the contributions of historical analysis based on neoclassical economics (surveyed, for example, in Donald N. McCloskey [1976]) are beyond doubt, the reliance on neoclassical economics also severely constrained economic-history analysis by limiting the issues that could have been examined.
+
+The neoclassical economics adopted by cliometricians limits economic-history analysis since it is an ahistorical approach that deductively assumes that the same preferences, technology, and endowment lead to a unique economic outcome in all historical episodes. Its ahistorical nature reflects theoretical assumptions rather than empirical observations regarding the relevance of these assumptions or conclusions. Exogenous preferences, technology, and endowment as well as the lack of complementarities over time, preferences, or technologies are among the assumptions implying that there is no need to examine an economy as an evolving system whose trajectory of change and capacity to change are constrained by its own history. Convexity of all production sets, nonstrategic interactions, and
+
+Notes
+
+Department of Economics, Stanford University, Stanford, CA 94305-6072. As always, I benefited from the insightful comments of Joel Mokyr, Paul David, and Gavin Wright.
 
 [[PAGE 2]]
-[왼쪽 열]
-CLIOMETRICS AFTER 40 YEARS
-v87NO2
-the noninterdependence of agents' tastes guar-
-antee uniqueness and imply that history does
-net impact equilibrium selection and that in-
-stitutions other than the market are not re-
-quired for coordination and enforcement. Low
-tr: insaction and enforcement costs and com-
-plete and symmetric information guarantee the
-crthogonality of efficiency and distribution,
-th as rendering wealth distribution and non-
-n'arket political, economic, or social institu-
-tions irrelevant for positive analysis. The
-assumption that secure property rights and
-lirge numbers are necessary and sufficient
-canditions for the emergence of markets and
-that markets always efficiently provide incen-
-ties and coordination renders irrelevant the
-analysis of market formation and the nonmar-
-ket institutions that support, complement, and
-supplement the market. The (de facto) as-
-slimption that preferences are exogenous to the
-economic system and have a particular form
-and domain renders obsolete the study of the
-Frocesses through which preferences are
-formed and social norms interrelated with eco-
-r omic motivation to generate patterns of
-bu:havior.
-Hence, these assumptions limited the study
-ci issues that were traditionally the focus of
-economic historians, such as the nature and
-role of nonmarket institutions, culture, entre-
-Ireneurship, technological and organizational
-innovation, politics, social factors, distrihu-
-tional conflicts, and the historical process
-through which economies grew and declined.
-T'he importance of examining such issues and
-the cost of neglecting them, however, became
-vious, for example, when cliometrics as it
-was being practiced was unable to provide
-rrany, if any, insights into the process of mar-
-k t:t emergence for economies in transition
-away from communism. The mixed blessing
-inherent in the reliance on a particular theory
-w ith limiting assumptions has been recognized
-by economic historians as early as the 1970's.
-In their presidential addresses to the Economic
-History Association, William N. Parker (1971
-I* 6) noted that in good part "the new eco-
-nomic history' has proved that the market
-has really worked very well.'' while Douglass
-(: North (1974 p. 1 ) noted that **it is the sys-
-tematic use of standard neoclassical economic
-theory which both has provided the incisive
+the noninterdependence of agents' tastes guarantee uniqueness and imply that history does not impact equilibrium selection and that institutions other than the market are not required for coordination and enforcement. Low transaction and enforcement costs and complete and symmetric information guarantee the orthogonality of efficiency and distribution, thus rendering wealth distribution and nonmarket political, economic, or social institutions irrelevant for positive analysis. The assumption that secure property rights and large numbers are necessary and sufficient conditions for the emergence of markets and that markets always efficiently provide incentives and coordination renders irrelevant the analysis of market formation and the nonmarket institutions that support, complement, and supplement the market. The (de facto) assumption that preferences are exogenous to the economic system and have a particular form and domain renders obsolete the study of the processes through which preferences are formed and social norms interrelated with economic motivation to generate patterns of behavior.
 
-[오른쪽 열]
-401
-new insights into man's economic past and
-also serves to limit the range of enquiry.*' In
-response, many economic historians who at-
-tempted to examine issues that did not fit well
-into the neoclassical paradigm had to conduct
-their research outside the framework provided
-by tconomic theory. Others responded by in-
-geniously extending neoclassical theory to ex-
-amine such diverse issues as institutional
-changes and technological development as
-though markets determine the outcomes.
-The above is not a criticism of the useful-
-ness of neoclassical theory for economic-
-history analysis. It is a criticism of the use of
-a sing le hody of theory to direct all economic-
-history analyses for all issues in all past and
-present economies. Not only does it diminish
-the range of issues that can be examined, but
-it also limits the contribution of economic his-
-tory to economics. As noted by Robert Solow
-(1987 pp. 25--26), it is the attempt to use a
-'single universally valid model of the world''
-that causes economic history to give "back to
-the theorist the same routine gruel that the eco-
-nomic theorist gives to the historian."' At the
-same time, it was the theorists' attempt to pro-
-vide ia model linking economic fundamentals
-to economic outcomes in all times and places
-that provided cliometricians with a limited
-menu of theories to choose from and provided
-disincentives to conducting economic history
-analy sis outside that particular theoretical
-framework.
-The heyday of neoclassical economics
-within cliometrics, however, was also a pe-
-riod during which economic theory was rad-
-ically changing. Theoretical developments
-and empirical evidence led both micro- and
-macroeconomic theory to recognize the futil-
-ity of seeking a single universally applicable
-economic model. Microeconomics (influ-
-enced by game theory and the economics of
-inforination) recognized that economic out-
-comes are very sensitive to the details of the
-situation while, even in a given situation,
-multiple equilibria may exist. Similarly, mac-
-roeconomics recognized that neither the neo-
-classical Solow growth model nor any
-particular representative-agent, rational-
-choice model can capture the idiosyncratic
-economic, political, and social complexities
-of tach process of economic development
+Hence, these assumptions limited the study of issues that were traditionally the focus of economic historians, such as the nature and role of nonmarket institutions, culture, entrepreneurship, technological and organizational innovation, politics, social factors, distributional conflicts, and the historical process through which economies grew and declined. The importance of examining such issues and the cost of neglecting them, however, became obvious, for example, when cliometrics as it was being practiced was unable to provide many, if any, insights into the process of market emergence for economies in transition away from communism. The mixed blessing inherent in the reliance on a particular theory with limiting assumptions has been recognized by economic historians as early as the 1970's.
+
+In their presidential addresses to the Economic History Association, William N. Parker (1971 p. 6) noted that in good part “the new economic history” has proved that “the market has really worked very well,” while Douglass C. North (1974 p. 1) noted that “it is the systematic use of standard neoclassical economic theory which both has provided the incisive new insights into man’s economic past and also serves to limit the range of enquiry.” In response, many economic historians who attempted to examine issues that did not fit well into the neoclassical paradigm had to conduct their research outside the framework provided by economic theory. Others responded by ingeniously extending neoclassical theory to examine such diverse issues as institutional changes and technological development as though markets determine the outcomes.
+
+The above is not a criticism of the usefulness of neoclassical theory for economic-history analysis. It is a criticism of the use of a single body of theory to direct all economic-history analyses for all issues in all past and present economies. Not only does it diminish the range of issues that can be examined, but it also limits the contribution of economic history to economics. As noted by Robert Solow (1987 pp. 25–26), it is the attempt to use a “single universally valid model of the world” that causes economic history to give “back to the theorist the same routine gruel that the economic theorist gives to the historian.” At the same time, it was the theorists' attempt to provide a model linking economic fundamentals to economic outcomes in all times and places that provided cliometricians with a limited menu of theories to choose from and provided disincentives to conducting economic history analysis outside that particular theoretical framework.
+
+The heyday of neoclassical economics within cliometrics, however, was also a period during which economic theory was radically changing. Theoretical developments and empirical evidence led both micro- and macroeconomic theory to recognize the futility of seeking a single universally applicable economic model. Microeconomics (influenced by game theory and the economics of information) recognized that economic outcomes are very sensitive to the details of the situation while, even in a given situation, multiple equilibria may exist. Similarly, macroeconomics recognized that neither the neoclassical Solow growth model nor any particular representative-agent, rational-choice model can capture the idiosyncratic economic, political, and social complexities of each process of economic development
 
 [[PAGE 3]]
-[왼쪽 열]
-402
-AEAPAPERSANDPROCEEDINGS
-and transition. The result was a proliferation
-in the numbers and types of micro- and mac-
-roeconomic models, each aimed at highlight-
-ing particular, potentially important aspects
-of economic systems.
-These changes in economic theory have had
-profound implications for cliometrics. First,
-the resulting increase in the menu of economic
-models is relaxing the constraint on economic-
-history analysis. Second, and more impor-
-tantly. these changes in economic theory have
-narrowed the conceptual gap between eco-
-nomics and economic history. In particular,
-economics is moving closer to economic his-
-tory in becoming more inductive, rather then
-deductive, and accepting induction as an im-
-portant route to general economic proposi-
-tions. With respect to each particular situation,
-the methodological approach, the theoretical
-framework, and the modeling details are to be
-determined and substantiated by examining
-the situation under consideration, and no par-
-times and places. Thus, no longer is the clio-
-metrician restricted to cast his or her analysis
-within the constraints imposed by existing the-
-ories, while the use of context-specific models
-adapted to capture the features of the historical
-situation of interest has the promise of enrich-
-ing economic theory.
-Last, but not least, this new economic
-theory and the technical tools it relies upon
-underscore the importance of history in eco-
-nomic processes. Microeconomics theory,
-endogenous-growth models, and dynamic
-general-equilibrium models recognize the im-
-portance of historically determined factors,
-such as posteriors, focal points, learning, co-
-ordination, sunk investment, historically de-
-termined interest groups, social groups, social
-norms, legislation, and preferences. Hence,
-economic theory has begun to support, rather
-than undermine, the claim regarding the im-
-portance of history and to provide conceptual
-frameworks within which path-dependence
-may be examined.
-These changes in economic theory have al-
-ready began to influence research in economic
-history. It is not a coincidence that the per-
-centage of pages in the Journat of Economic
-History devoted to industrial organization and
-labor substantially increased in the 1980's
+and transition. The result was a proliferation in the numbers and types of micro- and macroeconomic models, each aimed at highlighting particular, potentially important aspects of economic systems. These changes in economic theory have had profound implications for cliometrics. First, the resulting increase in the menu of economic models is relaxing the constraint on economic-history analysis. Second, and more importantly, these changes in economic theory have narrowed the conceptual gap between economics and economic history. In particular, economics is moving closer to economic history in becoming more inductive, rather than deductive, and accepting induction as an important route to general economic propositions. With respect to each particular situation, the methodological approach, the theoretical framework, and the modeling details are to be determined and substantiated by examining the situation under consideration, and no particular model is expected to be applied to all times and places. Thus, no longer is the cliometrician restricted to cast his or her analysis within the constraints imposed by existing theories, while the use of context-specific models adapted to capture the features of the historical situation of interest has the promise of enriching economic theory.
 
-[오른쪽 열]
-L661 AVW
-(Whaples, 1991 table 1), as these fields were
-the first to be transformed by the changing
-nature of microeconomic theory. By now,
-changes in theory have influenced various
-other lines of inquiry within economic history,
-such as those concerning endogenous growth,
-path-dependence, and institutions (for discus-
-sion and surveys, see Paul A. David [1994],
-N. F. R. Crafts [19971, and Greif [1997a, b]].
-At the same time, the changing nature of
-cliometrics comes with a price and presents
-new challenges. The proliferation of theoreti-
-cal frameworks is causing cliometrics to lose
-some of its coherence and unity. Thus it faces
-the challenge of maintaining the intensity of
-the discourse that has contributed so much to
-its achievements. Furthermore, the flexibility
-of the new theoretical frameworks implies that
-in many cases more than one model can be
-utilized to analyze or rationalize a particular
-historical phenomenon. Hence, cliometrics
-faces the challenge of devising a methodology
-that will enable it to retain its emphasis on
-combining theory with empirical and historical
-studies to reveal and learn from what actually
-transpired in the past. To a large extent, clio-
-metrics still faces the challenge of developing
-a methodology that will enable it to benefit
-from the new theoretical richness without sac-
-rificing its traditional empirical orientation.
+Last, but not least, this new economic theory and the technical tools it relies upon underscore the importance of history in economic processes. Microeconomics theory, endogenous-growth models, and dynamic general-equilibrium models recognize the importance of historically determined factors, such as posteriors, focal points, learning, coordination, sunk investment, historically determined interest groups, social groups, social norms, legislation, and preferences. Hence, economic theory has begun to support, rather than undermine, the claim regarding the importance of history and to provide conceptual frameworks within which path-dependence may be examined.
+
+These changes in economic theory have already begun to influence research in economic history. It is not a coincidence that the percentage of pages in the Journal of Economic History devoted to industrial organization and labor substantially increased in the 1980's  (Whaples, 1991 table 1), as these fields were the first to be transformed by the changing nature of microeconomic theory. By now, changes in theory have influenced various other lines of inquiry within economic history, such as those concerning endogenous growth, path-dependence, and institutions (for discussion and surveys, see Paul A. David [1994], N. F. R. Crafts [1997], and Greif [1997a, b].
+
+At the same time, the changing nature of cliometrics comes with a price and presents new challenges. The proliferation of theoretical frameworks is causing cliometrics to lose some of its coherence and unity. Thus it faces the challenge of maintaining the intensity of the discourse that has contributed so much to its achievements. Furthermore, the flexibility of the new theoretical frameworks implies that in many cases more than one model can be utilized to analyze or rationalize a particular historical phenomenon. Hence, cliometrics faces the challenge of devising a methodology that will enable it to retain its emphasis on combining theory with empirical and historical studies to reveal and learn from what actually transpired in the past. To a large extent, cliometrics still faces the challenge of developing a methodology that will enable it to benefit from the new theoretical richness without sacrificing its traditional empirical orientation.
+
 REFERENCES
-Crafts, N. F. R. "Endogenous Growth: Lessons
-for and from Economic History,** in David
-M. Kreps and Kenneth F. Wallis, eds., Ad-
-vances in economic theory, Vol. 2. Cam-
-bridge: Cambridge University Press, 1997,
-pp. 38--78.
-David, Paul A. ""Why Are Institutions the 'Car-
-riers of History'?: Path-Dependence and the
-Evolution of Conventions, Organizations
-and Institutions.'* Structural Change and
-Economic Dynamics, December 1994,
-5(2), pp. 205-20.
-Greif, Avner. “'Economic History and Game
-Theory,'' in Robert J. Aumann and Sergiu
-Hart, eds., Handbook of game theory, Vol.
-3. Amsterdam: North-Holland, 1997a
-(forthcoming ) .
-""Micro-theory and Recent Develop-
-ments in the Study of Economic Institutions
 
-Copyright @ 2001 All Rights Reserved
+Crafts, N. F. R. “Endogenous Growth: Lessons for and from Economic History,” in David M. Kreps and Kenneth F. Wallis, eds., Advances in Economic Theory, Vol. 2. Cambridge: Cambridge University Press, 1997, pp. 38–78.
+
+David, Paul A. “Why Are Institutions the ‘Carriers of History’?: Path-Dependence and the Evolution of Conventions, Organizations and Institutions.” Structural Change and Economic Dynamics, December 1994, 5(2), pp. 205–20.
+
+Greif, Avner. “Economic History and Game Theory,” in Robert J. Aumann and Sergiu Hart, eds., Handbook of Game Theory, Vol. 3. Amsterdam: North-Holland, 1997a (forthcoming).
+
+Greif, Avner. “Micro-theory and Recent Developments in the Study of Economic Institutions Through Economic History,” in David M. Kreps and Kenneth F. Wallis, eds., Advances in Economic Theory, Vol. 2. Cambridge: Cambridge University Press, 1997b, pp. 79–113.
 
 [[PAGE 4]]
-[왼쪽 열]
-VOL. 87 NO 2
-CLIOMETRICSAFTER 4OYEARS
-Through Economic History,'' in David M.
-Kreps and Kenneth F. Wallis, eds., Ad-
-vances in economic theory, Vol. 2. Cam-
-bridge: Cambridge University Press, 1997b.
-pp. 79-- 113.
-MeCloskey, Donald N. *'Does the Past Have
-Useful Economics?', Journal of Eco.
-nomic Literature, June 1976, 14( 2), pp.
-434-61.
-North, Douglass C. ""Beyond the New Eco-
-nomic History.'' Journal of Economic His-
-tory, March 1974, 34(1), pp. 1 --7.
+McCloskey, Donald N. “Does the Past Have Useful Economics?” Journal of Economic Literature, June 1976, 14(2), pp. 434–61.
 
-[오른쪽 열]
-403
-Parker, William N. ""From Old to New to Old in
-Economic History.' Journal of Economic
-History, March 1971, 31(1), pp. 3 --14.
-Solow, R. E. “"Economics: Is Something Miss-
-ing""* in William N. Parker, ed., Economic
-history and the modern economist. Oxford:
-Basil Blackwell, 1987, pp. 21 -29.
-Whaples, Robert. 'A Quantitative History of
-the Journal of Economic History and the
-Cliometric Revolution."' Journal of Eco-
-nomic History, June 1991, 51(2), pp. 289-
-301.
+North, Douglass C. “Beyond the New Economic History.” Journal of Economic History, March 1974, 34(1), pp. 1–7.
 
-[[PAGE 5]]
-Copyright of American Economic Review is the property of American Economic Association and its content
+Parker, William N. “From Old to New to Old in Economic History.” Journal of Economic History, March 1971, 31(1), pp. 3–14.
 
-[왼쪽 열]
-may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express
-written permission. However, users may print, download, or email articles for individual use.
+Solow, R. E. “Economics: Is Something Missing?” in William N. Parker, ed., Economic History and the Modern Economist. Oxford: Basil Blackwell, 1987, pp. 21–29.
+
+Whaples, Robert. “A Quantitative History of the Journal of Economic History and the Cliometric Revolution.” Journal of Economic History, June 1991, 51(2), pp. 289–301.
