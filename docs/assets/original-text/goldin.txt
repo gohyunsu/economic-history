@@ -1,0 +1,892 @@
+Cliometrics and the Nobel
+PDF 쪽수 기준 · PDF text layer
+
+[[PAGE 1]]
+Journal of Economic Perspectives—Volume 9, Number 2—Spring 1995—Pages 191-208
+Cliometrics and the Nobel
+Claudia Goldin
+111 October 1993, the Royal Swedish Academy of Sciences awarded the
+Nobel Prize in Economics to Robeit William Fogel and Douglass Ocil
+North "tor having renewed research in economic history." The Academy
+noted that "they were pioneers in the branch of economic history that has been
+called the 'new economic history," or cliometrics." What is this cliometrics, and
+how have these two Nobel Prize winners furthered the discipline of economics?
+Cliometrics is, quite simply, the application of economic theory and quanti-
+tative methods to the study of history. The term marries the muse of
+history—Clio—to measurement aud was coined by Stanley Reiter, a mathemat-
+ical economist then at Purdue University aTid a collaborator of two ot the tirst
+cliometricians. Lance Davis and Jonathan Hughes.
+History serves economics in various ways.' Most importantly, history is
+essential because it is risky to base conclusions on transient phenomena. The
+past, many economic theorists have discovered, is a giant experiment station for
+economic ideas. And empiricists have learned that historical data are often
+better (for example, because of less litigious environments) and provide larger
+samples (that is, longer time series)." Ihe histories of the developed world are
+backdrops, and often provide advice, for current developing countries. Finally,
+remnants of the past, which shape the realm of the possible today, are always
+'The many roles of historical economics are detailed in McCloskey (iy7fj).
+'Oddly enongh, historical data are often better than current data. Thf absence of litigation is one
+reason. For example, I have uncovered U.S. Department of Labor surveys from 1939 that asked
+• Claudia Goldin is Professor of Economics, Harvard University, and Research Associ-
+ate, National Bureau of Economic Research, both in Cambridge, Massachusetts. This
+paper ims written while she was a Visiting Fellow at the Brookings Institution,
+Washington, D.C.
+
+[[PAGE 2]]
+192 Journal of Economic Perspectives
+Robert \V. Fogel Douglass C. North
+with us as laws, norms, structures, institutions, and even people. In short, only
+the oblivious can ignore history in modern economics, and only the unenlight-
+ened would choose to do so.
+Given the large domain of economic history, it should not he surprising
+that Rohert Fogel and Douglass North are not the first Nohel Prize winners in
+economics to study and use history. Milton Friedman used the past to under-
+stand the role of money; John Hicks studied economic history to understand
+economic growth; W. Arthur Lewis explored economic history as a hackdrop
+for the problems of development; and Theodore Schultz examined it to learn
+ahout htmian capital. Robert Fogel's mentor, Simon Kuznets, was an economic
+historian in all these ways.
+Yet Fogel and North do not simply join the list of stellar economists who
+have used history. They are distinctive, hecause for them economic history is
+not a handtnaiden of economics hut a distinct field of scholarship. Economic
+history was a scholarly discipline long beibre it became cliometrics. Its practi-
+tioners were economists and historians studying the histories of economies.
+personnel oOicers (»l firms, "On vou discriminate on the basis otrace?" and "t.isi the jobs for which
+you would never hire a man and those for which you would never hire a woman." Such questions
+would not be asked today, for they provide "smoking-gun" evidence for civil rights suits. Historical
+data also enable linkages that often cannot be done today because file.s are closed, sometimes for
+almost a century. Robert Fogel's study of the Union Army veterans (discussed below) links veterans'
+data to information from the U.S. cen.su.s of popuLilion manuscripts. "The 1920 census of popula-
+tion manuscripts are the latest to have heen released.
+
+[[PAGE 3]]
+Claudia ('•oidin 193
+Both called themselves economic historians. The new economic history, or
+cliometrics, formalized economic history in a manner similar to the injection of
+mathematical models and statistics into the rest of economics.
+The Birth of the New Economic History
+The revolution that brought the new economic history occurred in the
+early 1960s. As in many such revolutions, the young were pitted against the
+old. It would he fair to say that the more established members of the economic
+history profession, many of whom were historians, controlled the Economic
+History Association at least to the 1960s. However, Douglass North, a champion
+of the new economic history, and William Parker became the editors of the
+Journal of Economic History (the EHA's scholarly journal) in 1960, a post they
+shared until 1966. The Journal of Economic History remained a journal read by
+economic historians from both history and economics,^ whereas Explorations in
+Entrepreneurial History (later Explorations in Economic HistoryV became and con-
+tinues to be a major outlet for the new economic history.
+The young turks, who included Fogel and North at the very outset, formed
+their own scholarly meetings at Purdue University (Purdue Utiiversity had a
+glorious decade of prominence in cliometrics). They called their field "the new
+economic history," a term actually coined by Douglass North (Hughes, 1982),
+The Cliometrics Meetings, as they became known, are still held annually and
+have retained their open, argumentative, and exhilarating character.
+The new economic history was able to blossom in the 1960s because its
+foundations had recently been laid. A stock of quantitative knowledge pro-
+duced by economists, many at the National Bureau of Economic Research, gave
+economic historians a clearer sense of when economies grew and what the
+sources of growth were. For example, a joint meeting in 1957 of the Economic
+History Association and the National Bureau of Economic Research (Con-
+ference on Research in Income and Wealth) produced a volume containing
+• Robert Whaples (1991) lias quaiiiilied the cliometric revolution as redected in the coituiti ol ilic
+Journal nf Enmomi<- Hi.stoij. He finds ihal the surge in cliomeirit ankles in the rej^ular issties of (he
+JouriutI bfgan in the mid-l960,s, hul thai the "Tasks" issues (ptiblishcd papers from rhe KcDnomic
+History Association meetings) lagged hchiiid, Arfitles based on the tliometric mclhodolo^' were
+about 10 perccnl of the total in the regular issues in the 1956-60 period and 16 percent in ihe
+1961-65 period. But they were 43 percent from 1966-70 and 72 percent from 1971-75. In ihe
+" Tasks" issues they were 6 percent from 1956-60, Ifj percent from 1961-65, and Just 18 percent
+trom 1966-70. They increased to 40 percent during 1971-75, That is, the methodology of ihe
+research-oriented economic history community changed before that of the association's leadership,
+who choose the papers for ihe annual meeting,
+Explnrnltniii in Enlrepreneurial History was initially tinder the editorship of John Meyer, who was a
+major spark to ihe cliometric revolution throtigh his paper with Alfred C^onrad, "The Economics oi'
+Slavery in the .Antebellum South," which appeared in the Journal of Poliliral Economy ((Conrad and
+Meyer, 1958). Ihis paper was originally presented at the momentotis joint EHA/NBER meeting
+referred to below.
+
+[[PAGE 4]]
+194 Journal of Economic Perspectives
+various data series, which formed the basis for much of the new economic
+history (Parker, 1960). In that volume are Robert Gallman's estimates of
+commodity output, Towne and Rasmussen's farm gross product and invest-
+ment series, Ricbard Easterlin's regional income estimates, Stanley Lebergott's
+wage series, Ethel Hoover's price index, Edward Budd's factor shares and
+North's estimates of the balance of payments, all for the nineteenth-century
+United States. North (1977) has credited the conference with spawning the new
+economic history.
+No longer did economic historians have to rely on series for particular
+industrial commodities or those on international trade to proxy the entire
+economy. The task of measurement was in no way complete, but enough
+groundwork had been set to enable the flowering of an entire profession.
+Formalization caused more of an uproar in economic history than else-
+where in economics.' In most of empirical economics, more precise estimation
+of economic relationships and more precision about what one was estimating
+were viewed as progress. Btit in economic history there was considerable
+resistance, fhose who were formalizing the field were viewed as otitsiders.
+They were ec<momists, not historians or economic historians. The insiders
+claimed the outsiders were theorists with little knowledge of the facts and with
+no sense of history.
+In large measure the opposition was intense because the modeling and
+statistical methods were alien to many practitioners. But I believe that it was
+also because the conclusions ran counter to orthodoxy. When economic history
+was formalized, there was already a huge fossilized stock of accepted wisdom
+concerning major projects, figures, and events of the past.*' Such accumulated
+wisdom did not exist to the same degree in other fields of empirical economics.
+The other empirical fields of economics were newer or had been less cumula-
+tive. Tbe conclusions of one generation of economists in other fields, therefore,
+could be overturned without mounting a major challenge to an entire field. If
+one generation claimed labor supply functions were backward bending, but the
+next estimated a positive supply elasticity using new data and methods, their
+results could be reconciled by merely supposing that in the meanwhile the
+underlying parameters had changed.
+Ibe most important and immediate innovation from the formalization of
+economic history was the "counterfactual." The most vivid example comes from
+the work of Robert Eogel and concerns the first of his projects that was singled
+•''There was similar opposition in industrial and labor relations, which also had a long history of
+noneconomisl practitioners, when modern labor economics invaded its turf.
+the conclusions of the new (U.S) economic history in the late 1950s and 1960s ihal ran
+counter to orthodoxy are that the railroads were nol indispensable to economic growth (Kogel,
+1964), railroads were nol built ahead of demand (Fishlow, 1965), President Jackson's banking
+policies did not catise ihe economic turbtilence of the 1830s and 1840s (Temm, 1969), slavery was
+not unprofitable (C)onrad and Meyer, 1958), the Civil War was not a major spur to the industrial-
+ization of the northern states (Engerman, 1966), and the navigation acts could not directly have
+caused the American Revolution (Thomas, 1965).
+
+[[PAGE 5]]
+Cliometrics and the Nobel 195
+out by the Swedish Academy for recognition (Fogel, 1964). Historians had for
+some time claimed that the railroad was the engine of economic growth in
+nineteenth-century America. By stating that the railroads were essential to
+growth, the historians were claiming that the railroads caused it. But if rail-
+roads caused growth, then the growth would have been considerably less in the
+absence of tbe railroads. Robert P'ogel restated tbese claims, then, as a "coun-
+terfactual." The hypothesis was thus: had the railroads not been built, America
+would have grown much more slowly. Fogel (1964), which will be discussed
+more in the next section, is actually an extended thought experiment of what
+the U.S. economy would have looked like if the railroads had never been built.
+The notion of a counterfactual was hard for many historians to swallow. It
+involved the hypothetical removal of ihe largest enterprise at the time, the first
+big business in America, one of the most productive sectors, and some of tbe
+wealthiest Americans, to mention just a few parts of the mental experiment.
+But, noted Fogel, those who were making claims about the indispensability of
+the railroad were implicitly invoking precisely this experiment. He was merely
+making the claim explicit and subjecting it to hard evidence.
+Robert Fogel and Douglass North have moved the discipline of economic
+history in a similar manner. At the outset of their careers, their methodologies
+and subject areas were quantitative in the National Bureau of Economic
+Research tradition.' However, they have now emerged as rather dilleient
+scholars with distinctive research methodologies. Fogel is the premier empiri-
+cist, who estahlishes a fact and then establishes it over and over again until he is
+confident he can persuade tbe most determined skeptic. Douglass Nortb is the
+grand theorist, arbitraging between economic history and organization theory.
+Fogel's current subject area investigates the nexus of nutrition, health, and
+productivity. North's is the role of institutions and organizations in economic
+growth, with particular reference to the countries of the former Soviet bloc. Yet
+in their early works, one can see the fuller agenda they would eventually
+pursue.
+Early Work on Transportation
+It is not much of a coincidence that Fogel and North both focused on
+changes in the price of transportation. In the 1950s, a primarily theoretical
+literature emerged conjecturing that economic growth could be enhanced by
+decreased transport costs, at least under special circumstances. Even when
+productivity cbange is moving at a snail's pace in tbe goods-producing sectors,
+a decrease in tbe price of transportation can increase national income
+Even though North's later work is mainly theoretical and abstract, his early contributions to
+economic bistory were empirical, for example his estimates of the balance of payments,
+freight rates, and import and export price indexes (North, 1961).
+
+[[PAGE 6]]
+196 Journal of Economic Perspectives
+substantially." Developitig economies were advised to increase certain capital
+expenditures if they wanted to grow, especially "infrastructure" and, most
+especially, transportation. How decreased transport costs affected the economic
+growth of the United States—the great success story—was a natural.^
+Fogel's Railroads and American Economic Growth was an immediate classic.
+Derived fiom his doctoral dissertation at Johns Hopkins University, it is a
+volume in search of a single number^the social savings of the American
+railroads in 1890.'" By the term "social savitigs," Fogel meant the increase in
+social surplus from the decrease in transport costs. The most cited finding of
+the book is the "interregional" social savings calculation, which pertains to the
+large trunk lines that linked the food-exporting cities of the Midwest to the
+food-importing cities of the East. Fogel calculated that if in 1890 the railroads
+had not existed and if, in their stead, the four tiiajor agricultural goods (wheat,
+corn, pork, and beef) were transported on existing water ioutes, gross national
+product would have declined by less than 0.6 petcent. For those who believed
+the great east-west railroads were indispensable to Atiierican economic growth,
+the 0.6 percent ligure was a blow. The pieliminary results from the interre-
+gional social savings calculation wet e presented by Fogel to the first Cliometrics
+Meetings held at Purdue University in December I960. Etched in the memory
+of all who attended was a presentation by this master debater, who would
+deliver countless more presentations on the road to winning the Nobel.
+Anyone who looks at a map of the United States, and thinks hard about the
+concept of marginal cost, would ftnd the result on the interregional social
+savings to be less surprising than it seemed in 19()(). Ihc United States has a lot
+of navigable waterways, and the cost of water transportation was actually lower
+than that for railroads, although water transport was slower and less reliable,
+involved costly linkages, and retjuiied sotne land transport. Other countries
+were not so fortunate, atid for them, the interregional social savings of the
+railroads was gt eater. For example, Coatsworth (1981) carries out the parallel
+calculations for Mexico.
+In some sense the real cotitroversy, and the more difficult calculation,
+concerned the social savings of the railroads within regions, termed the
+"intraregional" social savings. Ihe intraregional calculation involved the
+thought experiment of rem()\iiig all the tailroads that transported goods from
+'*Siich "big pusb" theories, in whicb non-convexities dominate, have been given renewed aUention
+recently (Mnrpliy, Sbleifer, and Vishny. 1989).
+'*Boib Fogfl and Norib were infliirnced by tlu- work of Carter Goodricb (I960), wbo fmpbasized
+the imporianre of govcrnnitiii iiifraslrticturt- invcsrmcnts to economic growth.
+'"Kogfl's book also conccrnt-d tbe ihesLs ol VV. \V. Rostow (19(><)) tbat the railroad.s were a leading
+sector in .Anifrican economic growtli. Because tbe railroad.s weie so large, tbeir growtb. according
+to Rostow. pnlled along oilier sectors. Fogel demonstrates ibal ihe railroads consumed only a small
+fraction of tbe nation's iron, coal, and lumber production and, ibereioie. ibar tbey were not a
+leading sector in tbe manner hypothesized by Rosiow.
+Given the importance of the subject, it is not surprising that Fogel's was not tbe only doctoral
+dissertation written on railroads in tbe early 1960s. Albert Fisblow's (1965) concerned an earlier
+hislorv of tbe railroiids. and he came lo soinewbat dilTerenl conchisioiis.
+
+[[PAGE 7]]
+Claudia Goldin 197
+farms to the markets of the Midwest and computing how much gross national
+product would have dechned. Ihe railroads had more costly alternatives here
+than they did for the long-haul routes. 1 here were some navigable waterways,
+to be sute, bul there were also considerable distances to tnove goods over land,
+a costly venture before the gasoline engine and ti ucks.
+Fogel (19(i4) made four calculations ot the within-tegion social savings,
+depending upon various assumptions concerning the alternative mode of
+transportation and the area cultivated." The alternative mode.s involved either
+existing water or land toutes, along with a set of canals that would, according to
+P'ogel, probably have been built had the lailroads not existed. Fogel also
+pointed out that with higher costs of transportatioti, it would not have been
+cost-effective to cultivate some aieas of the country. A reasonable calculation,
+then, takes out from cultivation lands that wete beyond the feasible margiti but
+adds back into the social savings the loss in net income fiom those lands.'^ The
+intraregional social savings estimated in this tiianner is about 1 percent of 1890
+GNP.
+Thus, the total social savitigs from shipping agricultural commodities both
+between and inside regiotis cotnes to less than 2 percent of GNP in 1890.
+Agt icultural cotnmodities, by ton-miles shipped, were about one-fourth of all
+goods shipped by rail, but there is no obvious reason to multiply the agricul-
+tural social savings figure by a factor of exactly four. Fogel omitted, too, the
+social savings of the railroads in passenger travel. But on the other side of the
+balance sheet, the calculation does not include the probability that the internal
+combustion engine would have been invented and commercialized sooner in
+the absence of the railroad.
+Fogel has noted that his original dissertation proposal called for measuritig
+how large the social savings of tbe tailroads were and that he was truly startled
+when he discovered the savings were small. Btit whether or not one views the
+social savings as large or stiiall is in the eye of the beholder. It was small in
+comparisoti with the claitns of those who came before Fogel. But it may be
+viewed as large in comparison with the social savitigs from any other single
+mechanical device in U.S. history. Whatever the judgment on relative magni-
+tude, Kogel oflered a most careftil atid tneticulous estimate of the actual size.
+Douglass North's best ktiown reseatch iti transportation concerns ocean
+shipping from 1600 tu 1860. The costs of ocean shipping dectea.sed during
+much of the period, more so in the nineteenth century than belbte. A laige
+part of the decrease, argued North (1968), came from an increase in total factor
+productivity. But the question was whether total factor productivity gains were
+P"(.mr takiilations are empliasi/cd in (lie hook, allliimgh six art' actually made. There are ihree
+assiiniptioiis lor thf alternative transportaiion network: no change, build more canals, and resur-
+face road.s, of which the first two are emphasized in the book. There are two assumptions for the
+amount of land in cultivation: use all existing land in cultivation, and use only that within the
+ft-iisible margin.
+"If those lands weie left in (ultivation, ihen the social savings of the railroad is inllated, be(au.se
+withoiir ilic railroad, goods would be shipped east at a total unit cosi greater than their unit price
+in the niarkel.
+
+[[PAGE 8]]
+198 Journal of Economic Perspectives
+rooted in technological advances or some other innovation. North found that
+from 1600 to 1784 productivity advanced at a slow rate, hut that virtually all of
+the gains were due to decreased crew size and less time spent idle in ports.
+For the period from 1814 to 1860, productivity increased faster, at almost 10
+times the annual rate in the previous two centuries. Virtually all the gain here
+was due to an increase in the size of ships and to their greater load tactor. For
+most of the two and a half centuries considered, goods coming from the New
+World to the Old World were bulky raw materials, whereas those moving in the
+other direction were compact manufactured goods. In the 1840s and 1850s,
+however, there was a large increase in immigration, which meant that ships
+returned to the New World with cargo, not in ballast. The load factor therehy
+increased.
+The surprising finding is that for both periods, technological change was
+less responsible for the increase in prodtictivity than were other innovations—a
+sharp reduction in piracy and organizational changes that increased round-trips
+per year by a factor of three.'* With less piracy, ships needed fewer crew
+members and could carry more goods and fewer armaments. With less need to
+arm ships, technologically superior vessels could be used. For example, the
+Dutch "flute," a sailing vessel with a rounded stern, had been used in the Baltic
+long before the modified flute made it to the ocean. But the reason these
+superior vessels were used in the Baltic was that piracy had been significantly
+reduced there, and the flute generally carried no armament. The important
+point for economic history and for North's intellectual development is that
+institutions interact with technology. One without the other does not produce
+economic growth. North learned the lesson well and shifted his attention for
+the next 25 years to a study of institutions.
+In their work on transportation, both Fogel and North did case studies
+exploring whether growth occurs hecause a particular sector takes off or
+because of a larger set of changes across many sectors. The answer, fr-om Fogel,
+was that the sector identified with growth—that of railroad transport—was not
+solely or primarily responsihle. Rather it was the contributions of many sectors.
+North's answer was that even if one sector pulled the economy along, the path
+of development depended crucially on institutions that, in turn, derived from
+the distribution of income, culture, and politics.
+On the Economic Impact of Slavery
+An area of greater overlap between the works of North and Fogel is the
+impact of slavery on the growth of the American South. In the midst of a
+Hartey (1988) offers a strongly dissenting view. Harley disagrees with North's conclusion because
+he disputes the frciglii rate series on which North's work rests. Accordinf^ lo Harley, transpnrtation
+rates decreased only trivially before 1850 and then quite rapidly with the adoption of the metal
+steamship. North's freight rates decline more continuously, claims Harley, because they refer
+largely to the shipment of cotton, and here the lighter packing ol ihe good lowered costs of
+shipment.
+
+[[PAGE 9]]
+Cliometrics and the Nobel 199
+growing industrial nation with a mobile and free labor force sat an agricultural
+slavocracy. Nortb's volume The Economtc Growth oj the United States, 1790-1860
+(1961) and Fogel and Stanley Engerman's Time on the Cross (1974), as well as
+Fogel's Without Consent or Contract (1989), all explore differential regional
+grcjwtb.
+After the American Civil War the North was economically vibrant; the
+South was, hy national standards, economically backward. But in 1860, per
+capita income was actually higher in the South than in the Midwest, another
+agricultural and rural region. Income per capita in the South decreased in real
+terms from 1860 to 1880 and did not regain its previous level until about 1900.
+Fven as late as the 1920s, southern income per capita was less than 60 percent
+of the U.S. average. The southern economy apparently collapsed after the Civil
+War and did not recover for almost a half century. Such economic deterioration
+could not have been due to the war itself. Rather, it must have had something
+to do with the institutions existing in the South hefore the American Civil War.
+According to Douglass North, the roots of southern stagnation are to be
+found in the geographic patterns of trade in the antehellum period. The South,
+using slave labor, grew cotton and exported it to the American North and to
+Britain. With the receipts from its northern shipments it purchased ibodstuHs
+from the Midwest and indu.strial goods from the North." With its receipts from
+Furopean shipments, it purchased luxury items and other industrial wares.
+Little was ploughed back into the South as internal improvements. Schooling
+was denied slaves and was poorly provided to southerners in general. Cities,
+those generators of agglomeration economies, were rare in the South. Innova-
+tion was thereby stifled.
+The North ran a very different ship. With far more equality of income and
+wealth, northerners purchased goods produced hy local tradesmen and local
+firms. Its funds were ploughed back into local industry and internal improve-
+ments. Its people were the best educated in the world. The North established
+institutions that served an egalitarian society and that furthered an industrial
+and growing region. The South had norms that reinforced a caste and race-
+based society and that inhibited growth at the service of a master class. Such
+institutions have long lives.
+The message, repeated in many of Douglass North's later works, is that
+when institutions serve to enrich one group (masters, feudal lords) at the
+expense of another (slaves, serfs), it does not matter that these institutions also
+reduce the potential income of the elite. Pareto-improving trades are generally
+impossihle between the two groups, and thus there is no assurance that more
+efficient institutions will drive out less efficient ones.
+Tbe view tbat there was extensive trilateral irade among tbe three regions—the North, the
+South, and the Midwest— in the antebellum period was cballenged by several economic historians
+on the basis of actual trade flow data and the production of foodstulTs on southern farms. Ail but
+tbe very smallest southern farms were actually scU-sufikifnt in agricultural commodities prior to
+I860.
+
+[[PAGE 10]]
+200 Journal of Economic Perspectives
+Robert FogcI's tnany volumes on the South and slavery explore why the
+South was rich before the Civil War, and thus why emancipation greatly
+reduced iticome per capita. In 1860, southern income per capita (including
+slaves) was 57 percent of the per capita income of the urhan industt iai North,
+and 116 percent of the tnore rutal and agricultural Midwest. If slaves ate
+allotted a mere suhsistence statidard of living, then per capita income for the
+rest of the South would rise to 98 percent of northern, and 200 percent of
+midwestern income. Free southerners, then, were relatively rich in the antebel-
+lum period. How did the South achieve its economic position hefore the Civil
+War antl how did it lose it? Fogel focuses on the first question, for his ititerests
+were mainly iti the role of slavery in the antebellum economy and the manner
+iti which it itilluenced the material condition of slaves.
+He and ccjauthot Engerman asked whether slaves worked more intensively
+than did free laborers and whether large plantations were more efficient than
+smaller cotton fattns. The evidence revealed substantial economies of scale, but
+the economies of scale were reaped only on slave plantations.'' Plantations with
+more than 15 slaves produced about 40 percent tnote output per unit input
+than did farms with no slaves or fartiis with fewer than 15 slaves. The key was
+gang labor on plantations and the more effective use of all slaves around the
+seasons, as well as the old, the infirm, pregnant women, and children. Southern
+farms utilized slaves efficiently by tiieshing the seasons for cotton and corn, the
+care of livestock and buildings, and the production of manufactured goods,
+such as shoes and clothing. The South was actually self-sufficient in the
+production of foodstuffs in the antebellum period.'^' The hypothesized triangu-
+lar trade atnong the South, the North, and the West did not exist at the scale
+most imagined (including Douglass North). Slavery stified the growth of indus-
+trial firms and cities iti the South, but not the way most thought. Slaves were
+not incotiipatible with cities and industry. Rather, they had a strong compara-
+tive advantage in the production of cotton.
+Fogel's research revealed slavery's harshness and cruelty. Yet even though
+slavery was a brutal labor system, the prosperity of the antebellum Soutb may
+have benefited N<ji th Atiierican slaves who lived longer lives, achieved greater
+physical stature, and had better living conditions than their bound counter-
+parts in the rest of the New World, such as Latin America and the Carihbean.
+Although Fogel's conclusions about the South are rather dilterent from
+North's, their views of the regional differences are compatible. At the heart of
+• Foge! and Eiifrfrman (1977) revise rheir original estimates of the relative efTiciency of slave
+agricullure increasing the size of slave plantation.s subject to economies of scale. Their earlier
+estimates, presented in Fogel and Engcrtiian (1974). showed productivity declining after lfi slaves,
+whereas the new estimates, which nci out locational renis on farms, have increasing productivity
+throughotit the range. The view that extensive scale economies existed is not shared by ali scholars
+of the antebellum and postbellum South. See, for example, Gavin Wright (1979). Some of the
+debate centers on the 1859 cotton-crop yield. See Fogel and Engerman (1980) for a response to
+Wright's piihil ihat cotlon yields were abnormally high in 1859 and therefore that larger farms,
+wliich })rodN(ed relatively more cotlon. apprared exceptionally ellicieni in that year.
+'One (.akulaiioii of ihe self-sufliciencv of southern iarms was made bv Robert Clallman (1970).
+
+[[PAGE 11]]
+Claudia (.oldin 201
+Fogel's explanation is a very Northian point that organizational innovations
+allowed an oppressive institution to flourish, The Soiuh may have heeu a rich
+farming area in the antehellum period, but its wealth rested on slave labor. In
+the absence of slavery, production plummeted. The different paths to develop-
+ment taken hy the agricultural South and the agricultural Midwest point to the
+persistence of norms, laws, traditions, and oiganizations that retained inequal-
+ity iu the South and implicitly taxed both rich and poor.
+Recent Writings
+The final chapters iu the writings of North and Fogel are likely to he
+considered their finest achievements. North's most recent writings are a contin-
+uation of an agenda he began in the early 1970s. Rohert Fogel's build on his
+work since the mid-1970s.
+North's current agenda concerns the role of institutions in economic
+growth. One can see a glimmer in his studies of transportation and antebellum
+growth. Economists have recently become aware that the rules ot economic and
+social interaction determine ec()nomic outcomes more than the stock of re-
+sources and the level of technology, Other parts of the world, for example, had
+even more ahundant natural resources than did North America. Yet the United
+States engineered a more intensive exploitation of its natural resources than
+did any other nation in the nineteenth centtiry. The reason had to do with its
+institutions, particularly those pertaining to property rights. North began liis
+exploration of these ideas in Institutional Change and American Economic (•roivth
+(1971), cowritten with Lance Davis.
+The United States was a great success story in large measure because of its
+pedigree. It inherited its private property laws from FLngland, but because of
+Fnglish domination, it also learned to detest strong central government. Davis
+and North explore how various unique American institutions served to encour-
+age economic growth and how Madison's eflbrt (througli Federalist Paper #10
+and the Constitution) to control interest groups was eventually in vain. In two
+volumes, The Rise of the Western World (1973, with Robert Paul lhomas) and
+Structure and Change in Economic Hi.stoty (1981), North investigated world history
+in this light, The principal question in these volumes is why Europe failed to
+grow in a sustained manner from 900 to 1700, yet succeeded after.
+Although economic growth was not sustained for long during the 900 to
+1700 period, important institutional changes occurred that eventually led to
+the breakthroughs of the eighteenth century. Changes in military technology
+led to increases in the optimal size of the manor. Population increase led to the
+settlement of the areas between manors, and more settled land brought greater
+order and even cities. F"eudal areas that weie initially unconiicdcd and
+self-sufficient now traded. Markets expanded and regions specialized. Witli
+goods and factors entering markets, traditional feudal dues and leaky were
+
+[[PAGE 12]]
+202 Jounial of Economic Perspectives
+abandoned. And with expanded markets there was more need for a larger unit
+—the nation-state—to assume the function of securing order. Nation-states
+ofteti set down t ules govei'tiing property rights attd laws that gave incentives to
+innovation. Increased trade withiti and among the tiew nation-states was a
+further fillip to the flowering that was to come in the eighteenth century.
+North tetninds us that war and rebellion were widespread in fourteenth-
+and fifteenth-century England and that nothing guaranteed the success of
+England. The rise of Parliament was crucial. Without Parliament there would
+have been no private property guarantees, and without that institutional
+change, innovation would have been stilled. Why a Parliament tose in England,
+but not in Spain or France, cannot be ascribed to one factor but to several that
+hinge on England's island status. Because foreign invasion was not a serious
+threat, the power of the tnonarch was less important in Etigland. Because an
+export—wool^—^could be taxed with little evasion, a large bureaucracy was not
+essential. As North (1981, p. 156) notes regarding the rise of Parliament, "Had
+such a shift not occurred, the economic history of England would have been
+much diftierent."
+The critical elemetit in North's story, telling of the emergence of the
+modern, is the ititerplay between structural change and technological change.
+Technological change blossomed, not so much because people got smarter, but
+because they were enabled to reap greater rewards as markets expanded and
+property rights were better defined and defended. North at gues that increases
+in the conventional factors used to explain economic growth imply that an
+economy has the capacity to grow. They do not theiefore explain why growth is
+absent in particular countries or at pat ticular times. Saying that countries grow
+because they increase their stock of capital is, according to North, hke saying
+that people are rich because they have money.
+One of my favorite of Douglass North's pieces is "Ideology and the Free
+Rider," a chapter in Structure and Chcmge in Economic History (North, 1981). We
+all live in a Hobbesian world, he argues, and the only way economies can
+operate near the frontier is to keep nasty behavior in check, Governments are
+organized to do that. Laws governing behavior are set down, governments are
+given the authority to police, incentive-compatible contracts are drawn up, and
+so on. But itidividuals can still engage in behavior that undermines the very
+foundations of the system. In the absence of truly Draconian measures, we will
+have social chaos and economic collapse.
+Ideology, says North, has kept such behaviors in check. All civilized
+societies have cultivated particular ideologies (by which is meant belief systems),
+such as those making families primary, those bonding individuals to groups
+(such as families, communities, tribes, clans), and those conferring social oppro-
+brium on individuals who engage in various behaviors. Stealing alters economic
+incentives and imposes negative externalities on everyone. Thus the person
+who steals is a free rider. Ideology and norms ate a tneans of reducing such
+behavior by imposing extralegal penalties on the perpetrator and their kin.
+
+[[PAGE 13]]
+Cliometrics and the Nobel 203
+According to North, the clionietric revolution helped economic historians
+make progress in understanding why economies perform favorably, given
+institutions, hut not what the role of institutions is. With an enabling structure,
+capital can accumulate, innovation can flourish, and economic growth can be
+sustained. Without it, nothing. North (1990, p. 3) would like to return eco-
+nomic historians to one of their original tasks—understanding the "humanly
+devised constraints that shape human interaction," whether they he laws,
+norms, ideology, government agencies, constitutions, codes of hehavior, reli-
+gion, or conventions. The difficult part is the dynamics of institutional change
+and whether and how these structures and institutions change for the good of
+all. That is the task of future work.
+For the past 20 years, Robert Fogel has turned his attention to demogra-
+phy and economics. The project is large, far-reaching, and a challenge to
+summarize. It has involved scholars frotn economics, history, medicine, physiol-
+ogy, demography, and statistics, and a data collection that is the largest ever in
+the field of ecotiomic history and one of the largest that has heen privately
+amassed in economics.'^ It covers several centuries and continents. The re-
+search, like North's, is ongoing. The nnost massive of the data sets, that on the
+Civil War pension records, is still heing collected.
+The project explores the relationship between economic resources and the
+standard of living. The standard of living includes health, a multidimensional
+quantity incorporating morbidity and mortality. The central question is when
+and how the world's people improved their health, and how health in turn
+enhanced productivity. The first part of the project, pertaining primarily to
+North America, sunimari/x's much of Rohert Kogel's work to the mid-1980s
+(Fogel, 1986; F"<3gel et al., 1983). America was rich in resources, with a relatively
+high standard of living from at least the eighteenth century onward, overtaking
+France on a per capita basis early in the nineteenth century and Britain
+somewhat later. But international comparisons of standards of living are diffi-
+cult, both now and then. Comparisons of one aspect of the standard of living
+over time and across countries—^health—may not he so difficult. The early
+work on the project was directed to measuring aspects of health—adult height,
+the adolescent growth spurt, mortality, and birth weight, to mention a fiew—for
+much of American history and the histories of various European countries as
+comparisons.
+Some of Robert Fogel's research has bcfii funded by U.S. government grants, but much lias been
+supported by private (oundation.s and universities.
+As in other fields in economics and in tbe .science.s in general, advances in computer
+technology in the 1960s provided a spur to empirical work in economic history. This Iactor may
+explain tbe growtb of tbe new economic history in ibf 1960s and t970s. New computer tecbn(jlogy
+has fostered tbe collection ol large bistorical samples. Kor example, Fogel's Union Army sample
+would not bave been possible witboui tbe personal computer. The collection of extensive new
+bodies of historical evidence is a central goal of Fogel's research, as it was during his tenure as
+Program Director of tbe Development of the American F.conomy Program at the National Bureau
+of Economic Research.
+
+[[PAGE 14]]
+204 Journal of Economic Ferspeclives
+The results have heen astonishing. Native-born American men were as tall
+on the eve of the American Revolutioti as they were oti the eve of the American
+Civil War, and as tall as they were on the eve of World War II. But the
+foreign-horn men who fought on the American side during the Revolution
+were almost two inches shorter than the native-born, as were the British they
+fought. Birth in the American colonies, particularly in the South, endowed men
+with nutrients and calories to enable them to reach adult heights that were high
+even by twentieth-century standards.
+Why the adult height of native horn American men did not rise is puzzling.
+One possihility (and I note again that the research is ongoing) is that native-horn
+Americans were sometimes nonetheless the sons of foreign-horn women. Physi-
+ological studies show that stunted adults (here, undernourished European
+women) give birth, on average, to young who are relatively stunted. Fogel also
+argues that the Industrial Revolution and the disease, environment is another
+part of the story. Fogel and his colleagues have amassed considerable evidence
+that heights and life expectancy (conditional on reaching age 20) actually cycled
+during mtich of the nineteenth century. Rising real incomes may not have heen
+experienced hy the hulk of the working-class population. Crowding in the
+nation's burgeoning cities and the large influx of immigrants in the 1840s tnay
+have heightened the disease environment; greater work intensity in factories
+during the 1830s and 1840s may have increased the need for calories and
+protein. With more of the population removed from food supplies, and refrig-
+eration and improved transportation decades away, it seems plausible that the
+Industrial Revoltition decreased some elements of the standard of living for a
+growing subsection of the American populatioti.
+The second, and the more ongoing, portion of Fogel's project concerns
+both long-term trends in Europe and the data on the Civil War veterans (Fogel,
+1994). It seems to uncover the relationship between early nutritional depriva-
+tion and later productivity and health outcomes. It rests on evidence from
+medical and physiological studies underscoring the importance of height and
+body mass in improving life expectancy, and that chronic conditions at older
+ages result from early nutritional deprivation, the impact of which may remain
+concealed for decades.
+Before the nineteenth century, most European populations were severely
+undernourished. Frenchmen around 1790, for example, were probahly two-
+thirds their current hody weight and four inches shorter. Although they were
+hoth sttiiited and wasted, they would have heen even more undernourished
+had they been taller. Fogel emphasizes that height serves as a crucial equilibrat-
+ing mechanism across generations, adjusting to food supplies, work intensity,
+and the disease environment. But even with the equilibration of height, those
+who are stunted still have a greater incidence of chronic disease and lower life
+expectancy. (Jiven the cahnies available and their distrihution, 20 percent of
+the Fretich popttlation iu 1790 could do little more than beg. A large amount of
+economic growth, therefore, was due to increased nourishment ot the popula-
+
+[[PAGE 15]]
+(Claudia (iolditi 205
+tion. Fogel estimates for Britain that one-third of the increase in growth per
+capita from 1790 to 1980 was due to increased nutrition. How tnore food got
+produced is another question.
+Almost all able-bodied young men were drafted to serve in the U.S. Utiioti
+Army, and the pension frotn the Union Army sttpported large tittmbers of men
+in their old age during the early twentieth cetitury. Fogel's team is linking the
+Union Army draft records backward in time to the 1850 and 1860 federal
+popttiation censuses to obtain information on the family of origin. The records
+are then linked forward to veterans' records and Utiion Army pensions. Finally
+the recoids are linked to the 1900 atul 1910 federal poptilation censuses to get
+information on labor fbtce status in old age, The conclusion is that illness is
+more likely the shortei" the adult and the lower the adult's body mass, both
+today and in the Union Artiiy sample. Nutritional advances, not just medical
+technology, have reduced the incidetice of chrotiic diseases and may also have
+reduced death atid ill health from contagious disease. Increased nutrition was
+responsible for a huge proportion of the increase in life expectancy until the
+mid-twentieth century, when advatices in medical techtiolog) become instiu-
+mental. Better-nourished people have less chronic disease, are less susceptible
+to contagious disease, and are considerably more productive.
+Fogel's emphasis on the health risks of low body mass may strike many in
+our low-cal, thin-is-in, diet-happy titnes as odd. An optititum weight (given
+height) exists, and a stibstantial fraction of Americans have gone beyond it. But
+for most of world history atid iti much of the developing world today severe
+stunting atid low body mass seriously litnit life. How those in the developed
+world escaped frotii hunger has been foremost in Fogel's tesearch agenda
+(Fogel, 1992).
+The works of F(jgel and of North have relevance for both economic policy
+and ecotiomic theory. Fogel's shottid catttion those making health care policy
+not to rely on short-tertii series coticcrning life expectancy, to pay attention to
+the nutritional and hidden causes of chionic disease, and to consider the
+productivity effects of a healthier population. It contains implicit warnitigs to
+the governtnents of poor countries and the agencies of rich countries attempt-
+ing to assist them. Distributional factors, not the aggregate lack of food, are
+often to blame for famines; fatnities have repcrctissions that ofteti last lor
+getierations; eveti when body tnass is optimal for height, stunting has serious
+consequences later iti life and lowers life expectancy; and stunting is caused
+more by day-to-day nutritional deficieticies than by catastrophic events such as
+fatnines. North's work directs the etiietgitig nations of easterti Europe and the
+forttter Soviet Union to reconsidet their slructittes atid institutions as they
+embrace other reforms. He also catitiotis tlieir advisors that Western organiza-
+tiotial forms will not function properly without enabling norms and ideologies.
+His work has considetable relevance in organization theoty atid game theory.
+North (1990) ptovides a menu of institutions and guidance about how they
+fared.
+
+[[PAGE 16]]
+206 Journal of Economic Perspectives
+Conclusions
+The birth of cliometrics brought econotiiic history into the discipline of
+economics. It subjected its claims to the same standards of proof hy which
+others in economics had to abide. It used the same models and statistical tools,
+and often better and more critically examined data. But as iu other revolutions,
+unanticipated repercussions occurred. One is that few departments of history
+now have economic historians at all; in effect, the new economic historians
+extinguished the other .side. The intent, however, was to proselytize, not
+obliterate. Why the unintended consequence arose had as much to do with the
+history profession, as that of economics.
+A second consequence is of greater significance to the field of economics. It
+used to be that economic history was a requirement for the doctorate in the
+premier departments, but as economic history began to use the same tools as
+other specialties, many believed the economic history requiretnent for the
+doctorate could be abolished without consequence. The young turks had taken
+a discipline that had a unique place in economics and made it appear familiar
+to all economists. Familiarity did not breed contempt, but it had almost as
+harmful an effect. Economic historians were after some time no longer viewed
+by many economists as a distinct group. One economic historian recently went
+so far as to argue that cliometricians engineered the "end of economic history.""*
+The work of Fogel and North, however, suggests the opposite. Economic
+history is not a quaint nor outdated field, but a highly relevant one. Both Fogel
+and North concentrated their early efforts on transportation and market
+integration to understand the development of U.S. and European economies.
+But they also pursued these topics because they were foremost in the minds of
+policymakers in the 1950s and 1960s. Fogel's work on slavery revealed why the
+antebellum South was so rich and how slaves contributed to high productivity
+that would decline with emancipation. But it was written in large measure to
+expose an important piece of the current American dilemma.
+Economic historians today aie primarily concerned witli economic growth,
+the persistence of institutions, and the roots of current economic issues. In the
+past, it was the tbcus on institutions that made economic historians appear to be
+distinctive. Because that knowledge is now subject to the same rigor as some
+other economics does not mean that it is any less special and certainly does not
+mean that economic historians possess less of it. Economic historians who came
+before the cliometric revolution distinguished themselves by mastering a wide
+array of facts and by their knowledge of institutions. But without the rigor of
+economics and econometrics, they sometimes built on faulty reasoning. Because
+theories were not tested properly, important data were otten overlooked. By
+This is ihc title of C:hristina R(»mei's I99.'i lalk on "Recent Developments in Economic History,"
+delivered to the American Economic A.ssociation (Romer. 1994), However, I do not helieve that she
+meant the title as a literal statement about the field.
+
+[[PAGE 17]]
+Cliometrics and the Nobel 207
+bringing economic history into modern economics, cliometricians have not
+ended ecotiomic history. On the cotitrary, they have brought it to a higher
+plane.
+Most fields of economics can be viewed as particular segments of a general
+equilibrium system. Labor economics analyzes the labor market, industrial
+organization deals with the goods market, public Hnancc studies the goverti-
+ment, and so on. Economic historians, however, consider the etitire system. To
+use an analogy from medicine, economic historians are family practitioners, not
+specialists, and like the family doctor they follow the patient over the long run.
+Economic history is, like other fields of economics, unified hy a common set of
+questions. But in economic history the questions typically concern how whole
+economies have developed, why some grew while others did not, atid what the
+consequences of economic growth have been. In this way, econotnic history is
+very much related to development economics.
+What is it then that makes economic historians, such as Robert Fogel and
+Douglass Notth, unique among economists? It is not that they study the past,
+use historical data, exploit the past for natural experiments, use a particular
+methodology, are open to the ideas from other disciplines, or find lessons in
+the past for developing countries. Rather, it is all of these plus one indispen-
+sable ingredient. Economic historians study economies over the long term. I he
+evolution of economies is their particular niche.
+• / thcmk Dora Costa, Lance Dcwis, Stanley Engentmn, Ijiwrence Katz, Robert Margo,
+Donald McCloskey, Joel Mokyr, Ijirry Neal, Dahlia Render. Kenneth Sokolojf, Robert
+Wimples, Gavin Wright, and the editorial office of this journal for their suggestions.
+References
+Coatsworth, John H., Growlti Against Devel-
+opnifni: The Economic Impact oj the Railrouds in
+Porfirmn Mexico. DeKalb, 111.; Northern Illinois
+University Press, 1981.
+Conrad, Aifred H., and John R. Meyer,
+"The Kconomics of Slavery in the Antebelliiin
+South," journal oj FohUcal Economy. April 195H.
+66.94-130.
+Davis, Lance, ' 'And It Will Never Be Liter-
+auite'; Ihe New Economic History; A Cri-
+tique." Explorations in Economic History, Fall
+1968, 6, 75-92.
+* Davis, Lance E., and Douglass C. North,
+institutional Change and American Economic
+Growth. New York; (lainbridge University
+Press, 1971.
+Engerman, Stanley, L., "rhe Economic Im-
+pacl of tlie Civil War," Explorations in Economic
+Hkloiy, Spruig/Slimmer 19(i(). 3. 176-99.
+Fishlow, Albert, .•\mencan Railroads and the
+Transjorinaiurn oj ihe Atite-helliim Economy. Cam-
+bridj^e. Mass.; Harvard University Press. 1965.
+* Fogel, Robert W., Railroads aiitl Amrncan
+Economu. Growth: Essays in Econometnc History.
+'indicates a publication cited by the Royal Swedish Academy of Sciences.
+
+[[PAGE 18]]
+208 Journal of Economic Perspectives
+Baltimore: Johns Hopkins University Press,
+1964.
+Fogel, Robert W., "Nutrition and the De-
+cline in Mortality since 1700: Some Prelimi-
+nary Findings." In Engerman, Stanley L., and
+Robert L. (lallnuin, ed.s.. Long-Term Factors in
+Amerucni Economic (irowth. Studies in hicnine and
+Wealth. Vol. .'JI. Chicago: University of Chicago
+Pre.ss, 1986, pp. 439-527.
+* Fogel, Robert W., Without Consent or Con-
+tract: The Hisf and Fall of American Stavery. New
+York: W. W. Norton and Company, 1989.
+*Fogel, Robert W., "Second lhougbls on
+tbe European Escape from Hunger: Famines,
+Chronic Malnutrition, and Mortality." In
+Osinani, S. R., ed.. Ntdritwn and Poverty. Ox-
+ford: Claienclon Press, 1992, pp. 243-86.
+Fogei, Robert W., "Fxonomic Growth, Pop-
+ulation Iheoiy, and Physiology: The Bearing
+of Long-Ierm Processes on the Making of
+Economic Policy." American Ecotiomic Reinew,
+June HH)4, 84. :iti9-9:5.
+Fogel, Robert W., et al., "Secular Changes
+in American and Briiisb .Stature and Nutri-
+tion," joiiriuil of hiterdisciplmary History, Au-
+lumn 1983, 14, 44.5-81.
+* Fogel, Robert W., and Stanley L. Enger-
+man, 'I'lnw on the Croi.s: The Economics of Amen-
+can S'egio Slavery. VoLs. 1 and 2. New York:
+Liiile. Brown ;iri(l t^o.. 1974.
+Fogel, Robert W., and Stanley L. Enger-
+man, Explaining ilie Relative Efficiency of
+.Slave Agriculture in ibe Antebellum Soutb,"
+America)] F.conomic Review, June 1977, 67,
+275-9fi.
+Fogel, Robert W., and Stanley L. Enger-
+man, Explaining tbe Relative Eflicicncy of
+Slave Agriculture in tbe Antebellum Soutb:
+Reply." American Economic Hevieio, September
+1980. 7fV. 672-90.
+Gallman, Robert, "SeiI-Sufficiency of ibe
+(^oiion Economy of tbe Antebellum Soutb."
+In Parker, William, ed.. The .Structure of the
+Cotton Economy of the Atilebeltum South. Wash-
+ington. D.C:.: Agricultural History Society,
+1970. pp. .5-24.
+Goodrich, Carter, (Government Promotion of
+American Canals, and Railroads 1800-1890. New
+York: C:olumbia University Press, i960.
+Harley, C. Knick, "(Xean Freigbt Rates and
+Productiviu, 1740-1913: Tbe Primacy of Me-
+cbanica! Invention ReafTirmed," Journal of
+Economic lliston. December 1988. 48. 851-76.
+Hughes, Jonathan R. T., "Douglass Nortb
+as a leatber." In Ransom, Roger L., Richard
+Sutcb, and Gary M. Walt(m, eds., Exploration.'i
+in the AVjc Economic History: Essays m Honor of
+Douglci.v\ C. Morth. New York: Academic Press,
+1982, pp. 3-11,
+McCloskey, Donald N., "Docs (be Pasi Have
+Useful Economics?," Journal of Economic Liter-
+attire, ]\M\e 1976, 14. 434-61.
+Murphy, Kevin M., Andrei Shleifer, and
+Robert W. Vishny, "Industrialisation and the
+Big Push." jounial of Potiiical Economy, Octo-
+ber 1989. 97. 1003-26.
+"Nortb, Douglass C, The Economic Cnnuth of
+the United States, 1790-1860. New York: Pren-
+tice Hall. 1961.
+North, Douglass C, "Sources ul Produc-
+tivity Change in Ocean Shipping, 1600-1850,"
+Journal of Political Economy, September 1968.
+76, 953-70.
+Nortb, Douglass C, "Ibe New Economic
+History After Twenty Years," Atnericaii Behav-
+ioral Scientist. December 1977, 21, 187-200.
+Nortb, Douglass C, Sirurtiire and Change
+ni Economic History. New York: W. W. Norton
+and Company. 1981.
+* Nortb, Douglass C, tnstitutions, tnstitu-
+tional Change and Economic Performutue. New
+York: Cambridge University Press. 1990.
+Nortb, Douglass C, and Lance E. Davis,
+Institutional Change and American Economic
+Growth. London: tlamhrjdge University Press,
+1971.
+* Nortb, Douglass C, and Robert Paul
+Tbomas, The Rise n/ the We.^tern World: A New
+Economic Hi.stoiy. London: Cambridge Univer-
+sity Press, 197.3.
+Parker, William N., ed.. Trends in the Ameri-
+can Economy in the Nineteenth Century, Studies in
+Incotne and Wealth. Vol. 24. Conference on
+Research in Income and Wealth. Princeton:
+Princeton University Press, I960.
+Romer, Christina, "The End of Economic
+History." Journal oj Economic Education, Win-
+ter 1994, 25. 49-66.
+Rostow, W. W., The Stages of Economic
+Growth: A \'on-Commiinist Matufesto. Cam-
+bridge: Cambridge University Pre.ss. I960.
+Temin, Peter, The Jacksoniari Economy. New
+York: W. W. Norton and Company, 1969.
+Thomas, Robert Paul, "A Quanlitative Ap-
+proach lo the Study of the KfFects ul British
+Imperial Policy on Colonial Welfare: Some
+Preliminary Findings." journal of Economic
+Histoiy. December 1965. 25, 615-38.
+Whaples, Robert, "A Quantitative History
+of the Journal oJ Economic Histoiy and the
+Clionietric Revolution," Journal of Economic
+Hislo>y,\\wc 1991. 5/, 289-301.
+Wrigbt, Gavin, "1 he Efficiency of Slavery:
+Another Interpretation." American Economic
+Review, Marcb 1979, 69, 219-26.
+
+[[PAGE 19]]
+Copyright of Journal of Economic Perspectives is the property of American Economic Association
+and its content may not be copied or emailed to multiple sites or posted to a listserv without the
+copyright holder's express written permission. However, users may print, download, or email
+articles for individual use.

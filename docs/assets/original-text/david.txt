@@ -1,0 +1,604 @@
+Clio and the Economics of QWERTY
+PDF 쪽수 기준 · OCR
+
+[[PAGE 1]]
+Clio and the Economics of QWERTY
+By PAUL A. DAVID*
+
+[왼쪽 열]
+Cicero demands of historians, first, that we
+tell true stories. I intend fully to perform my
+duty on this occasion, by giving you a homely
+piece of narrative economic history in which
+"one damn thinig follows another." The main
+point of the story will become plain enough:
+it is sometimes not possible to uncover the
+logic (or illogic) of the world around us
+except by understanding how it got that way.
+A path-dependent sequence of economic
+changes is one of which important influences
+upon the eventual outcome can be exerted by
+temporally remote events, including happen-
+ings dominated by chance elements rather
+than systematic forces. Stochastic processes
+like that do not converge automatically to a
+fixed-point distribution of outcomes, and are
+called non-ergodic. In such circumstances
+" historical accidents" can neither be ignored,
+nor neatly quarantined for the purpose of
+economic analysis; the dynamic process itself
+takes on an essentialy historical character.
+Standing alone, my story will be simply il-
+lustrative and does not establish how much
+of the world works this way. That is an open
+empirical issue and I would be presumptuous
+to claim to have settled it, or to instruct you
+in what to do about it. Let us just hope the
+tale proves mildly diverting for those wait-
+ing to be told if and why the study of eco-
+nomic history is a necessity in the making of
+economists.
+*Department of Economics, Encina Hall, Stanford
+University, Stanford, CA 94305. Support provided for
+this research, under a grant to the Technological In-
+novation Program of the Center for Economic Policy
+Research, Stanford University, is gratefully acknowl-
+edged. Douglas Puffert supplied able research assistance.
+Some, but not the whole, of my indebtedness to Brian
+Arthur's views on QWERTY and QWERTY-like sub-
+jects is recorded in the References. I bear full responsi-
+bility for errors of fact and interpretation, as well as for
+the peculiar opinions abbreviated herein. A fuller ver-
+sion with complete references, entitled "Understanding
+the Economics of QWERTY or Is History Necessary?,'
+is available on request.
+
+[오른쪽 열]
+I. The Story of QWERTY
+Why does the topmost row of letters
+on your personal computer keyboard spell
+out QWERTYUIOP, rather than something
+else? We know that nothing in the engineer-
+ing of computer terminals requires the awk-
+ward keyboard layout known today as
+"QWERTY," and we all are old enough to
+remember that QWERTY somehow has been
+handed down to us from the Age of Type-
+writers. Clearly nobody has been persuaded
+by the exhortations to discard QWERTY,
+which apostles of DSK (the Dvorak Sim-
+plified Keyboard) were issuing in trade pub-
+lications such as Computers and Automation
+during the early 1970's. Why not? Devotees
+of the keyboard arrangement patented in
+1932 by August Dvorak and W. L. Dealey
+have long held most of the world's records
+for speed typing. Moreover, during the 1940's
+U.S. Navy experiments had shown that the
+increased efficiency obtained with DsK
+would amortize the cost of retraining a group
+of typists within the first ten days of their
+subsequent full-time employment. Dvorak's
+death in 1975 released him from forty years
+of frustration with the world's stubborn re-
+jection of his contribution; it came too soon
+for him to be solaced by the Apple IIC
+computer's built-in switch, which instantly
+converts its keyboard from QWERTY to
+virtual DSK, or to be further aggravated by
+doubts that the switch would not often be
+flicked.
+If as Apple advertising copy now says,
+DSK "lets you type 20-40% faster," why did
+this'superior design meet essentially the same
+rejection as the previous seven improvements
+on the QWERTY typewriter keyboard that
+were patented in the United States and Brit-
+ain during the years 1909-24? Was it the
+result of customary, nonrational behavior by
+countless individuals socialized to carry on
+an antiquated technological tradition? Or, as
+Dvorak himself once suggested, had there
+332
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 2]]
+ECONOMIC HISTORY
+
+[왼쪽 열]
+VOL. 75 NO. 2
+been a conspiracy among the members of the
+typewriter oligopoly to suppress an invention
+which they feared would so increase type-
+writer efficiency as ultimately to curtail the
+demand for their products? Or perhaps we
+should turn instead to the other popular
+"Devil Theory," and ask if political regu-
+lation and interference with the workings of
+a "free market" has been the cause of ineffi-
+cient keyboard regimentation? Maybe it's all
+to be blamed on the public school system,
+like everything else that's awry?
+You can already sense that these will not
+be the most promising lines along which to
+search for an economic understanding of
+QWERTY's present dominance. The agents
+engaged in production and purchase deci-
+sions in today's keyboard market are not the
+prisoners of custom, conspiracy, or state con-
+trol. But while they are, as we now say,
+perfectly "free to choose," their behavior,
+nevertheless, is held fast in the grip of events
+long forgotten and shaped by circumstances
+in which neither they nor their interests
+figured. Like the great men of whom Tolstoy
+wrote in War and Peace, "(e) very action of
+theirs, that seems to them an act of their own
+free will, is in an historical sense not free at
+all, but in bondage to the whole course of
+previous history..." (Bk. IX, ch. 1).
+This is a short story, however. So it begins
+only little more than a century ago, with the
+fifty-second man to invent the typewriter.
+Christopher Latham Sholes was a Milwau-
+kee, Wisconsin printer by trade, and a me-
+chanical tinkerer by inclination. Helped by
+his friends, Carlos Glidden and Samuel w.
+Soule, he had built a primitive writing ma-
+chine for which a patent application was
+filed in October 1867. Many defects in the
+working of Sholes' "Type Writer* stood in
+the way of its immediate commercial intro-
+duction. Because the printing point was
+located underneath the paper carriage, it was
+quite invisible to the operator. " Non-visibil-
+ity' remained an unfortunate feature of this
+and other up-stroke machines long after the
+flat paper carriage of the original design had
+been supplanted by arrangements closely re-
+sembling the modern continuous roller-
+platen. Consequently, the tendency of the
+typebars to clash and jam if struck in rapid
+
+[오른쪽 열]
+333
+succession was a particularly serious defect.
+When a typebar stuck at or near the print-
+ing point, every succeeding stroke merely
+hammered the same impression onto the
+paper, resulting in a string of repeated letters
+that would be discovered only when the typist
+bothered to raise the carriage to inspect what
+had been printed.
+Urged onward by the bullying optimism of
+James Densmore, the promoter-venture capi-
+talist whom he had taken into the partner-
+ship in 1867, Sholes struggled for the next six
+years to perfect "the machine." From the
+inventor's trial-and-error rearrangements of
+the original model's alphabetical key order-
+ing, in an effort to reduce the frequency of
+typebar clashes, there emerged a four-row,
+upper case keyboard approaching the mod-
+ern QWERTY standard. In March 1873,
+Densmore succeeded in placing the manufac-
+turing rights for the substantially trans-
+formed Sholes-Glidden "Type Writer" with
+E. Remington and Sons, the famous arms
+makers. Within the next few months
+QWERTY's evolution was virtually com-
+pleted by Remington's mechanics. Their
+many modifications included some fine-
+tuning of the keyboard design in the course
+of which the “R" wound up in the place
+previously allotted to the period mark ""
+Thus were assembled into one row all the
+letters which a salesman would need to im-
+press customers, by rapidly pecking out the
+brand name: TYPE WRITER
+Despite this sales gimmick, the early com-
+mercial fortunes of the machine, with which
+chance had linked QWERTY's destiny re-
+mained terrifyingly precarious. The eco-
+nomic downturn of the 1870's was not the
+best of times in which to launch a novel
+piece.of office equipment costing $125, and
+by 1878, when Remington brought out its
+Improved Model Two (equipped with car-
+riage : shift key), the whole enterprise was
+teetering on the edge of bankruptcy. Conse-
+quently, even though sales began to pick up
+pace with the lifting of the depression and
+annual typewriter production climbed to
+1200 units in 1881, the market position which
+QWERTY had acquired during the course
+of its early career was far from deeply
+entrenched; the entire stock of QWERTY-
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 3]]
+AEA PAPERS AND PROCEEDINGS
+
+[왼쪽 열]
+334
+embodying machines in the United States
+could not have much exceeded 5000 when
+the decade of the 1880's opened.
+Nor was its future much protected by any
+compelling technological necessities. For
+there were ways to make a typewriter without
+the up-stroke typebar mechanism that had
+called forth the QWERTY adaptation, and
+rival designs' were appearing on the Amer-
+ican scene. Not only were there typebar
+machines with "down-stroke" and "front-
+stroke" actions that afforded a visible print-
+ing point; the problem of typebar clashes
+could be circumvented by dispensing with
+typebars entirely, as young Thomas Edison
+had done in his 1872 patent for an electric
+print-wheel device which later became the
+basis for teletype machines. Lucien Stephen
+Crandall, the inventor of the second type-
+writer to reach the American market (in 1879)
+arranged the type on a cylindrical sleeve: the
+sleeve was made to revolve to the required
+letter and come down onto the printing-point,
+Iocking in place for correct alignment. (So
+much for the "revolutionary" character of
+the IBM 72/82's "golf ball" design.) Freed
+from the legacy of typebars, commercially
+successful typewriters such as the Hammond
+and the Blickensderfer first sported a key-
+board arrangement which was more sensible
+than QWERTY. Then so-called "Ideal" key-
+board placed the sequence DHIATENSOR
+in the home row, these being ten letters with
+which one may compose over 70 percent of
+the words in the English language.
+The typewriter boom beginning in the
+1880's thus witnessed a rapid proliferation of
+competitive designs, manufacturing compa-
+nies, and keyboard arrangements rivalling
+the Sholes-Remington QWERTY. Yet, by
+the middle of the next decade, just when it
+had become evident that any micro-techno-
+logical rationale for QWERTY's dominance
+was being removed by the progress of type-
+writer engineering, the U.S. industry was
+rapidly moving towards the standard of an
+upright front-stroke machine with a four-row
+QWERTY keyboard that was referred to as
+"the Universal" During the period 1895-
+1905, the main producers of non-typebar
+machines fell into line by offering " the Uni-
+versal' as an option in place of the Ideal
+keyboard.
+
+[오른쪽 열]
+MAY1985
+II. Basic QWERTY-Nomics
+To understand what had happened in the
+fateful interval of the 1890's, the economist
+must attend to the fact that typewriters were
+beginning to take their place as an element
+of a larger, rather complex system of produc-
+tion that was technically interrelated. In ad-
+dition to the manufacturers and buyers of
+typewriting machines, this system involved
+typewriter operators and the variety of
+organizations (both private and public) that
+undertook to train people in such skills. Still
+more critical to the outcome was the fact
+that, in contrast to the hardware subsystems
+of which QWERTY or other keyboards were
+a part, the larger system of production was
+nobody's design. Rather like the proverbial
+Topsy, and much else in the history of econ-
+omies besides, it "jes' growed."
+The advent of "touch" typing, a distinct
+advance over the four-finger hunt-and-peck
+method, came late in the 1880's and was
+critical, because this innovation was from
+its inception adapted to the Remington's
+QWERTY keyboard. Touch typing gave rise
+to three features of the evolving production
+system which were crucially important in
+causing QWERTY to become "locked in" as
+the dominant keyboard arrangement. These
+features were technical interrelatedness, econ-
+omies of scale, and quasi-irreversibility of
+investment. They constitute the basic in-
+gredients of what might be called QWERTY-
+nomics.
+Technical interrelatedness, or the need
+for system compatibility between keyboard
+"hardware" and the "software" represented
+by the touch typist's memory of a particular
+arrangement of the keys, meant that the ex-
+pected present value of a typewriter as an
+instrument of production was dependent
+upon the availability of compatible software
+created by typists' decisions as to the kind of
+keyboard they should learn. Prior to the
+growth of the personal market for type-
+writers, the purchasers of the hardware typi-
+cally were business firms and therefore dis-
+tinct from the owners of typing skills. Few
+incentives existed at the time, or later, for
+any one business to invest in providing its
+employees with a form of general human
+capital which so readily could be taken
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 4]]
+ECONOMIC HISTORY
+
+[왼쪽 열]
+VOL. 75 NO. 2
+elsewhere. (Notice that it was the wartime
+U.S. Navy, not your typical employer, that
+undertook the experiment of retraining typ-
+ists on the Dvorak keyboard.) Nevertheless
+the purchase by a potential employer of a
+QWERTY keyboard conveyed a positive
+pecuniary externality to compatibly trained
+touch typists. To the degree to which this
+increased the likelihood that subsequent
+typists would choose to learn QWERTY, in
+preference to another method for which the
+stock of compatible hardware would not be
+so large, the overall user costs of a typewrit-
+ing system based upon QWERTY (or any
+specific keyboard) would tend to decrease as
+it gained in acceptance relative to other sys-
+tems. Essentially symmetrical conditions ob-
+tained in the market for instruction in touch
+typing.
+These decreasing cost conditions-or sys-
+tem scale economies --had a number of con-
+sequences, among which undoubtedly the
+most important was the tendency for the
+process of intersystem competition to lead
+towards de facto standardization through the
+predominance of a single keyboard design.
+For analytical purposes, the matter can be
+simplified in the foilowing way: suppose that
+buyers of typewriters uniformly were without
+inherent preferences concerning keyboards,
+and cared only about how the stock of touch
+typists was distributed among alternative
+specific keyboard styles. Suppose typists, on
+the other hand, were heterogeneous in their
+preferences for learning QWERTY-based
+"touch," as opposed to other methods, but
+attentive also to the way the stock of ma-
+chines was distributed according to keyboard
+styles. Then imagine the members of this het-
+erogenous population deciding in random or-
+der what kind of typing training to acquire.
+It may be seen that, with unbounded de-
+creasing costs of selection, each stochastic
+decision in favor of QWERTY would raise
+the probability (but not guarantee) that the
+next selector would favor QWERTY. From
+the viewpoint of the formal theory of sto-
+chastic processes, what we are looking at
+now is equivalent to a generalized "Polya
+urn scheme. In a simple scheme of that
+kind, an urn containing balls of various col-
+ors is sampled with replacement, and every
+drawing of a ball of a specified color results
+
+[오른쪽 열]
+335
+in a second ball of the same color being
+returned to the urn; the probabilities that
+balls of specified colors will be added are
+therefore increasing (linear) functions of the
+proportions in which the respective colors
+are represented within the urn, A recent the-
+orem due to W. Brian Arthur et al. (1983;
+1985)' allows us to say that when a gener-
+alized form of such a process (characterized
+by unbounded increasing returns) is ex-
+tended indefinitely, the proportional share of
+one of the colors will, with probability one,
+converge to unity.
+There may be many eligible candidates for
+supremacy, and from an ex ante vantage
+point we cannot say with corresponding cer-
+tainty which among the contending colors
+--or rival keyboard arrangements-will be
+the one to gain eventual dominance. That
+part of the story is likely to be governed by
+" historical accidents, which is to say, by the
+particular sequencing of choices made close
+to the beginning of the process. It is there
+that essentially random, transient factors are
+most likely to exert great leverage, as has
+been shown neatly by Arthur's (1983) model
+of the dynamics of technological competition
+under increasing returns. Intuition suggests
+that if choices were made in a forward-look-
+ing way, rather than myopically on the basis
+of comparisons among the curently prevail-
+ing costs of different systems, the final out-
+come could be influenced strongly by expec-
+tations. A particular system could triumph
+over rivals merely because the purchasers 'of
+the software (and/or the hardware) expected
+that it would do so. This intuition 'seems to
+be supported by recent formal analyses by
+Michael Katz and Carl Shapiro (1983), and
+Ward Hanson (1984), of markets where
+purchasers of rival products benefit from ex-
+ternalities conditional upon the size of the
+compatible system or "network" with which
+they thereby become joined. Although the
+initial lead acquired by QWERTY through
+its association with the Remington was
+quantitatively very slender, when magnified
+by expectations it may well have been quite
+sufficient to guarantee that the industry even-
+tually would lock in to a de facto QWERTY
+standard.
+The occurrence of this "lock in" as early
+as the mid-1890's does appear to have owed
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 5]]
+AEA PAPERSAND PROCEEDINGS
+
+[왼쪽 열]
+336
+something also to the high costs of software
+"conversion" and the resulting quasi-irre-
+versibility of investments in specific touch-
+typing skills. Thus, as far as keyboard con-
+version costs were concerned, an important
+asymmetry had appeared between the soft-
+ware and the hardware components of the
+evolving system: the costs of typewriter
+software conversion were going up, whereas
+the costs of typewriter hardware conversion
+were coming down. While the novel, non-
+typebar technologies developed during the
+1880's were freeing the keyboard from tech-
+nical bondage to QWERTY, typewriter
+makers were by the same token freed from
+fixed-cost bondage to any particular key-
+board arangement. Non-QWERTY type
+writer manufacturers seeking to expand
+market share could cheaply switch to achieve
+compatibility with the already existing stock
+of QWERTY-programmed typists, who could
+not. This, then, was a situation in which the
+precise details of timing in the developmen-
+tal sequence had made it privately profitable
+in the short run to adapt machines to the
+habits of men (or to women, as was increas-
+ingly the case) rather than the other way
+around. And things have been that way ever
+since.
+II. Message
+In place of a moral, I want to leave you
+with a message of faith and qualified hope.
+The story of QWERTY is a rather intriguing
+one for economists. Despite the presence of
+the sort of externalities that standard static
+analysis tells us would interfere with the
+achievement of the socially optimal degree of
+system compatibility, competition in the ab-
+sence of perfect futures markets drove the
+industry prematurely into standardization on
+the wrong system --where decentralized deci-
+sion making subsequently has sufficed to hold
+it. Outcomes of this kind are not so exotic.
+For such things to happen seems only too
+possible in the presence of strong technical
+interrelatedness, scale economies, and irre-
+versibilities due to learning and habituation.
+They come as no surprise to readers pre-
+pared by Thorstein Veblen's classic passages
+in Germany and the Industrial Revolution
+
+[오른쪽 열]
+MAY1985
+(1915), on the problem of Britain's under-
+sized railway wagons and " the penalties of
+taking the lead" (see pp. 126--27); they may
+be painfully familiar to students who have
+been obliged to assimilate the details of de-
+servedly less-renowned scribblings (see my
+1971, 1975 studies) about the obstacles which
+ridge-and-furrow placed in the path of British
+farm mechanization, and the inffuence of
+remote events in nineteenth-century U.S. fac-
+tor price history upon the subsequently
+emerging bias towards Hicks' labor-saving
+improvements in the production technology
+of certain branches of manufacturing.
+I believe there are many more QWERTY
+worlds lying out there in the past, on the
+very edges of the modern economic analyst's
+tidy universe; worlds we do not yet fully
+perceive or understand, but whose infuence,
+like that of dark stars, extends nonetheless to
+shape the visible orbits of our contemporary
+economic affairs. Most of the time I feel sure
+that the absorbing delights and quiet terrors
+of exploring QWERTY worlds will suffice to
+draw adventurous economists into the sys-
+tematic study of essentially historical dy-
+namic processes, and so will seduce them
+into the ways of economic history, and a
+better grasp of their subject.
+REFERENCES
+Arthur, W. Brian, "On Competing Technol-
+ogies and Historical Small Events: The
+Dynamics of Choice Under Increasing Re-
+turns," Technological Innovation Program
+Workshop Paper, Department of Econom-
+ics, Stanford University, November 1983.
+Arthur, W. Brian, Ermoliev, Yuri M. and Kanioy.
+ski, Yuri M., " On Generalized Urn Schemes
+of the Polya Kind,' Kibernetika, No. 1,
+1983, 19, 49--56 (translated from the Rus-
+sian in Cybernetics, 1983, 19, 61-71).
+"Strong Laws
+, and
+for a Class of Path-Dependent Urn Pro-
+cesses," in Proceedings of the International
+Conference on Stochastic Optimization,
+Kiev, Munich: Springer-Verlag, 1985.
+David, Paul A., " The Landscape and the Ma-
+chine: Technical Interrelatedness, Land
+Tenure and the Mechanization of the Corn
+Harvest in Victorian Britain,' in D. N.
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 6]]
+ECONOMIC HISTORY
+
+[왼쪽 열]
+VOL. 75 NO. 2
+McCloskey, ed., Essays on a Mature Econ-
+omy: Britain after 1840, London: Methuen,
+1971, ch. 5.
+Technical Choice, Innovation and
+Economic Growth: Essays on American and
+British Experience in the Nineteenth Cen-
+tury, New York: Cambridge University
+Press, 1975.
+Hanson, Ward A., " Bandwagons and Orphans:
+Dynamic Pricing of Competing Techno-
+logical Systems Subject to Decreasing
+
+[오른쪽 열]
+337
+Costs," Technological Innovation Program
+Workshop Paper, Department of Econom-
+ics, Stanford University, January, 1984.
+Katz, Michael L. and Shapiro, Carl, " Network
+Externalities, Competition, and Compati-
+bility," Woodrow Wilson School Discus-
+sion Paper in Economics No. 54, Prince-
+ton University, September, 1983.
+Veblen, Thorstein, Imperial Germany and the
+Industrial Revolution, New York: MacMil-
+lan, 1915.
+
+Copyright @ 2001 All Rights Reserved
+
+[[PAGE 7]]
+Copyright of American Economic Review is the property of American Economic Association and its content
+
+[왼쪽 열]
+may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express
+written permission. However, users may print, download, or email articles for individual use.

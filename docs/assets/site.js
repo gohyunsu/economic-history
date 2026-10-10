@@ -34,6 +34,88 @@ document.querySelectorAll('[data-zoom-src]').forEach(button=>button.addEventList
 document.querySelectorAll('[data-dialog-close]').forEach(b=>b.addEventListener('click',()=>slideDialog.close()));
 slideDialog.addEventListener('click',e=>{if(e.target===slideDialog)slideDialog.close()});
 
+  const originalDialog=document.getElementById('original-text-dialog');
+  if(originalDialog){
+    const readingId=originalDialog.dataset.readingId;
+    const status=originalDialog.querySelector('[data-original-status]');
+  const pageSelect=originalDialog.querySelector('[data-original-page]');
+  const pageView=originalDialog.querySelector('[data-original-view]');
+  const search=originalDialog.querySelector('[data-original-search]');
+  const matches=originalDialog.querySelector('[data-original-matches]');
+  const previous=originalDialog.querySelector('[data-original-prev]');
+  const next=originalDialog.querySelector('[data-original-next]');
+    let pages=[];
+    let current=0;
+    let loading=null;
+    function parseOriginal(raw){
+      const markers=[...raw.matchAll(/^\[\[PAGE (\d+)\]\]\s*$/gm)];
+      if(!markers.length)throw new Error('원문 텍스트의 쪽 구분을 읽지 못했습니다.');
+      return markers.map((marker,i)=>({number:Number(marker[1]),text:raw.slice(marker.index+marker[0].length,markers[i+1]?.index??raw.length).trim()}));
+  }
+  function setStatus(message,error=false){status.textContent=message;status.classList.toggle('is-error',error)}
+  function renderPage(){
+    const page=pages[current];
+    pageView.replaceChildren();
+    if(!page)return;
+    pageSelect.value=String(current);
+    previous.disabled=current===0;
+    next.disabled=current===pages.length-1;
+    const needle=search.value.trim();
+    if(!needle){pageView.textContent=page.text;return}
+    const lower=page.text.toLocaleLowerCase();
+    const query=needle.toLocaleLowerCase();
+    let cursor=0;
+    while(cursor<page.text.length){
+      const found=lower.indexOf(query,cursor);
+      if(found<0){pageView.append(document.createTextNode(page.text.slice(cursor)));break}
+      pageView.append(document.createTextNode(page.text.slice(cursor,found)));
+      const mark=document.createElement('mark');mark.textContent=page.text.slice(found,found+needle.length);pageView.append(mark);
+      cursor=found+needle.length;
+    }
+  }
+  function renderMatches(){
+    matches.replaceChildren();
+    const query=search.value.trim().toLocaleLowerCase();
+    if(!query||!pages.length)return;
+    const found=pages.map((page,i)=>({page,i})).filter(item=>item.page.text.toLocaleLowerCase().includes(query));
+    matches.append(document.createTextNode(found.length?`${found.length}개 PDF 쪽에서 발견: `:'일치하는 쪽이 없습니다.'));
+      for(const item of found){
+      const button=document.createElement('button');button.type='button';button.textContent=String(item.page.number);
+      button.addEventListener('click',()=>{current=item.i;renderPage();pageView.scrollTop=0});
+      matches.append(button);
+    }
+  }
+    function loadOriginal(raw){
+      pages=parseOriginal(raw);
+    current=0;
+    pageSelect.replaceChildren();
+    for(const [i,page] of pages.entries()){
+      const option=document.createElement('option');option.value=String(i);option.textContent=`${page.number} / ${pages.length}`;pageSelect.append(option);
+    }
+      setStatus(`${pages.length}쪽의 원문 텍스트를 열었습니다.`);
+      renderPage();renderMatches();
+    }
+    document.querySelectorAll('[data-original-open]').forEach(button=>button.addEventListener('click',async()=>{
+      originalDialog.showModal();
+      if(pages.length)return;
+      if(loading)return;
+      setStatus('원문 텍스트를 불러오는 중입니다.');
+      loading=fetch(`../assets/original-text/${encodeURIComponent(readingId)}.txt`)
+        .then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.text()})
+        .then(loadOriginal);
+      try{
+        await loading;
+      }catch(error){setStatus('원문 텍스트를 불러오지 못했습니다. 잠시 후 다시 열어 주세요.',true)}
+      finally{loading=null}
+    }));
+  originalDialog.querySelector('[data-original-close]').addEventListener('click',()=>originalDialog.close());
+  originalDialog.addEventListener('click',event=>{if(event.target===originalDialog)originalDialog.close()});
+  previous.addEventListener('click',()=>{if(current>0){current--;renderPage();pageView.scrollTop=0}});
+  next.addEventListener('click',()=>{if(current<pages.length-1){current++;renderPage();pageView.scrollTop=0}});
+  pageSelect.addEventListener('change',()=>{current=Number(pageSelect.value);renderPage();pageView.scrollTop=0});
+  search.addEventListener('input',()=>{renderMatches();renderPage()});
+}
+
 const sections=[...document.querySelectorAll('.slide')];
 const links=[...document.querySelectorAll('[data-slide-link]')];
 if(sections.length&&links.length){

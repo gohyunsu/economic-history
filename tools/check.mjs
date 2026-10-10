@@ -41,6 +41,22 @@ for(const name of readings){
   if(nav.length!==headings)errors.push(`${id}: ${nav.length}/${headings} reading navigation links`);
   sections.forEach((section,i)=>{if(section[1]!==String(i+1).padStart(2,'0')||nav[i]?.[1]!==section[1])errors.push(`${id}: reading navigation mismatch at ${i+1}`);});
   readingQuestions+=questions;
+  const textReading=['mccloskey','david','goldin','greif'].includes(id);
+  const originalTriggers=[...html.matchAll(/data-original-open/g)].length;
+  const originalDialogs=[...html.matchAll(/id="original-text-dialog"/g)].length;
+  if(originalTriggers!==(textReading?1:0)||originalDialogs!==(textReading?1:0))errors.push(`${id}: original-text panel ${originalTriggers} triggers, ${originalDialogs} dialogs`);
+  if(textReading&&!html.includes(`data-reading-id="${id}"`))errors.push(`${id}: original-text panel id mismatch`);
+}
+
+for(const [id,expectedPages] of Object.entries({mccloskey:29,david:7,goldin:19,greif:5})){
+  const file=path.join(docs,'assets','original-text',`${id}.txt`);
+  if(!fs.existsSync(file)){errors.push(`Missing original text: ${id}`);continue}
+  const source=fs.readFileSync(file,'utf8');
+  const markers=[...source.matchAll(/^\[\[PAGE (\d+)\]\]$/gm)];
+  const pageNumbers=markers.map(match=>Number(match[1]));
+  if(pageNumbers.length!==expectedPages||pageNumbers.some((number,i)=>number!==i+1))errors.push(`${id}: original text page sequence mismatch (${pageNumbers.length}/${expectedPages})`);
+  if(markers.some((marker,i)=>source.slice(marker.index+marker[0].length,markers[i+1]?.index??source.length).trim().length<100))errors.push(`${id}: an original text page is empty or too short`);
+  if(source.length<expectedPages*250)errors.push(`${id}: original text appears too short`);
 }
 
 for(const name of [...lectures.map(x=>`lecture/${x}`),...readings.map(x=>`reading/${x}`),'index.html']){
