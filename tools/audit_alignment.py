@@ -1,8 +1,7 @@
 """Create a private side-by-side audit of slide titles and guide headings.
 
-Run after extracting each source PDF with `pdftotext -layout` into the
-workspace's `.research/{date}-layout.txt`. The report stays outside the
-public repository.
+Run after extracting each source PDF into the workspace's private
+`.research/` directory. The report stays outside the public repository.
 """
 
 from pathlib import Path
@@ -12,13 +11,17 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT.parent / ".research"
 RESEARCH.mkdir(exist_ok=True)
-DATES = ("260902", "260909", "260916", "260923", "260930")
+SOURCES = {
+    date: f"{date}-layout.txt"
+    for date in ("260902", "260909", "260916", "260923", "260930")
+}
+SOURCES["261007"] = "261007-extracted.txt"
 
 rows = []
-for date in DATES:
+for date, filename in SOURCES.items():
     notes = (ROOT / "content" / "lectures" / f"{date}.md").read_text(encoding="utf-8")
     heads = list(re.finditer(r"^## 슬라이드 (\d+) · (.*)$", notes, re.MULTILINE))
-    pages = (RESEARCH / f"{date}-layout.txt").read_text(encoding="utf-8").split("\f")
+    pages = (RESEARCH / filename).read_text(encoding="utf-8").split("\f")
     if pages and not pages[-1].strip():
         pages.pop()
     if len(heads) != len(pages):
