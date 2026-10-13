@@ -18,7 +18,7 @@
 
 ## 빌드
 
-Node.js 22 이상에서 `npm install`과 `npm run build`를 실행하면 사이트와 `guide/main.tex`가 갱신된다. PDF 배포본은 LaTeX 원고를 컴파일한 결과를 `docs/study-guide.pdf`에 반영한다. `npm run check`는 페이지, 슬라이드 이미지, 원문 텍스트의 쪽수, 내부 링크와 배포용 PDF의 존재를 검사한다.
+Node.js 22 이상에서 `npm install`과 `npm run build`를 실행하면 사이트와 `guide/main.tex`가 갱신된다. XeLaTeX가 설치된 환경에서 `npm run build:pdf`를 실행하면 같은 원고를 두 번 컴파일해 목차와 링크를 갱신한 뒤 `docs/study-guide.pdf`에 반영한다. 컴파일이 실패하면 배포용 PDF를 교체하지 않는다. `npm run check`는 페이지, 슬라이드 이미지, 원문 텍스트의 쪽수, 내부 링크와 배포용 PDF의 존재를 검사한다.
 
 강의·읽기 자료의 보충 질문은 `:::question 질문`으로 시작하고 `:::`으로 닫는다. 읽기 자료의 질문은 관련 단락 뒤에 배치하며, 사이트에서는 슬라이드와 같은 펼쳐 보기 창으로 표시한다. 읽기 페이지의 단락 목차는 `##` 제목에서 자동 생성된다. LaTeX에서는 질문 제목과 답변이 본문에 이어진다.
 

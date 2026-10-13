@@ -84,6 +84,7 @@ function inlineTex(s) {
   while(i<s.length){
     if(s[i]==='$' && s[i-1]!=='\\') {const j=s.indexOf('$',i+1); if(j>i){out+=s.slice(i,j+1);i=j+1;continue;}}
     if(s.startsWith('**',i)){const j=s.indexOf('**',i+2);if(j>i){out+=`\\textbf{${inlineTex(s.slice(i+2,j))}}`;i=j+2;continue;}}
+    if(s[i]==='*'){const j=s.indexOf('*',i+1);if(j>i+1){out+=`\\emph{${inlineTex(s.slice(i+1,j))}}`;i=j+1;continue;}}
     if(s[i]==='`'){const j=s.indexOf('`',i+1);if(j>i){out+=`\\texttt{${texEscape(s.slice(i+1,j))}}`;i=j+1;continue;}}
     if(s[i]==='['){const link=s.slice(i).match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);if(link){out+=`\\href{${texUrl(link[2])}}{${texEscape(link[1])}}`;i+=link[0].length;continue;}}
     let j=i+1;while(j<s.length&&!['$','*','`','['].includes(s[j]))j++;
@@ -111,6 +112,7 @@ function writeTex(){
   let out=String.raw`\documentclass[10pt,a4paper]{article}
 \usepackage[a4paper,margin=22mm,headheight=14pt]{geometry}
 \usepackage{kotex}
+\setmainhanjafont{SimSun}
 \usepackage{amsmath,amssymb}
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!55!black,urlcolor=blue!55!black]{hyperref}
