@@ -92,7 +92,7 @@ function inlineTex(s) {
   }
   return out;
 }
-function markdownToTex(md){
+function markdownToTex(md,{reading=false}={}){
   const lines=md.replaceAll('\r\n','\n').split('\n');const out=[];
   for(let i=0;i<lines.length;i++){
     const line=lines[i].trim();if(!line){out.push('');continue;}
@@ -100,7 +100,7 @@ function markdownToTex(md){
     if(line.startsWith(':::question ')){out.push(`\\paragraph{${inlineTex(line.slice(12))}}`);continue;}
     if(line===':::')continue;
     if(line.startsWith('### ')){out.push(`\\paragraph{${inlineTex(line.slice(4))}}`);continue;}
-    if(line.startsWith('## ')){out.push(`\\subsubsection{${inlineTex(line.slice(3))}}`);continue;}
+    if(line.startsWith('## ')){out.push(`${reading?'\\subsubsection*':'\\subsubsection'}{${inlineTex(line.slice(3))}}`);continue;}
     if(line.startsWith('- ')){out.push(`\\noindent\\textbullet\ ${inlineTex(line.slice(2))}\\par`);continue;}
     if(line.startsWith('<details>')){const plain=line.replace(/<[^>]*>/g,' ');out.push(`${inlineTex(plain)}\\par`);continue;}
     if(line.startsWith('|')){out.push(inlineTex(line.replaceAll('|',' · '))+'\\par');continue;}
@@ -130,7 +130,10 @@ function writeTex(){
   for(const c of lectures){
     out+=`\n\\section{${texEscape(c.title)}}\n${inlineTex(c.intro)}\\par\n`;
     for(const s of c.slides)out+=`\n\\subsection{${texEscape(`슬라이드 ${String(s.number).padStart(2,'0')} · ${s.title}`)}}\n${markdownToTex(s.markdown)}\n`;
-    for(const r of readingDocs.filter(x=>x.date===c.id))out+=`\n\\subsection{읽기 · ${texEscape(r.title)}}\n${markdownToTex(r.markdown)}\n`;
+    for(const r of readingDocs.filter(x=>x.date===c.id)){
+      const title=`읽기 · ${texEscape(r.title)}`;
+      out+=`\n\\clearpage\\phantomsection\n\\addcontentsline{toc}{subsection}{${title}}\n\\subsection*{${title}}\n${markdownToTex(r.markdown,{reading:true})}\n`;
+    }
   }
   // Math mode's Latin font has no Hangul glyphs; wrap Korean labels in text mode.
   const hangulInMath=expr=>expr.replace(/\\text\{([^}]*[가-힣][^}]*)\}/g,(_,s)=>`\\mbox{${s}}`).replace(/[가-힣]+/g,(s,pos,whole)=>whole.slice(0,pos).endsWith('\\mbox{')?s:`\\mbox{${s}}`);
