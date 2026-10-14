@@ -91,6 +91,7 @@ if(lectures.length!==6)errors.push(`${lectures.length}/6 lecture pages`);
 if(readings.length!==9)errors.push(`${readings.length}/9 reading pages`);
 const ferguson=fs.readFileSync(path.join(readingDir,'ferguson.html'),'utf8');
 if(!ferguson.includes('https://embed.ted.com/talks/niall_ferguson_the_6_killer_apps_of_prosperity'))errors.push('Ferguson video embed missing');
+if(ferguson.includes('reading-question-count')||/\d+개 (?:질문 )?펼쳐보기/.test(ferguson))errors.push('Ferguson video guide shows question-count labels');
 if(!fs.readFileSync(path.join(lectureDir,'261007.html'),'utf8').includes('href="../reading/ferguson.html"'))errors.push('Ferguson lecture link missing');
 if(slideSections!==395||images!==395||expectedSlides!==395)errors.push(`Slide coverage: ${slideSections} sections, ${images} images, ${expectedSlides} expected`);
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}
