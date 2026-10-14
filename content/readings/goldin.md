@@ -68,6 +68,8 @@ North는 19세기 해운과 미국 성장, 더 길게는 제도의 변화에 관
 
 제도는 법률 문구만이 아니다. 관행과 신뢰, 권력자의 약속을 믿을 수 있는 정도도 투자 결정을 바꾼다. 다만 재산권이 좋아진 나라가 성장했다는 상관만으로 제도가 원인이라고 결론 내리기 어렵다. 성장한 경제가 더 나은 법원을 만들었을 수도 있으므로 변화의 시점과 기제를 찾아야 한다.
 
+Goldin이 소개한 North의 장기 비교에서 잉글랜드의 의회와 법원은 왕이 재산을 임의로 빼앗거나 채무 약속을 뒤집는 일을 제약하는 장치다. 1689년 권리장전의 의회 승인 조세 원칙과 1694년 영란은행을 통한 정부 차입은 이 기제가 작동할 수 있는 구체적 사례다. 검증할 연결은 **정치적 제약 → 정부 채무의 신뢰와 민간 재산의 보호 → 자금조달·투자 → 성장**이다. 국채 발행·상환과 금리는 정부 신용을, 민간 자산 수익률·투자·생산은 개인과 기업에 미친 효과를 각각 보여 준다. 명예혁명 전후의 민간 수익률과 전쟁 중 국채 금리를 따진 후속 연구는 각 단계를 별도 자료로 시험하게 한다. [North와 Weingast의 원 논문](https://cdn-dev.vanderbilt.edu/t2-my-dev/wp-content/uploads/sites/138/2016/12/NorthWeingast-1989-Constitutions-and-Commitment.pdf) · [Sussman과 Yafeh의 국채 자료 재검토](https://economichistory.ucla.edu/wp-content/uploads/sites/69/2017/07/sussman_and_yafeh_2006.pdf).
+
 North의 **ideology and free rider** 논의는 법원의 감시가 닿지 않는 거래를 설명한다. 한 상인이 속임수로 이익을 얻어도 거래 상대와 다른 상인은 신뢰를 잃는다. 공동체 규범, 평판과 가족에 대한 사회적 제재는 법적 처벌 밖에서 속임수의 사적 비용을 높일 수 있다. 규범이 누구의 거래를 보호하고 누구를 배제하는지도 제도의 성과에 포함해야 한다. [골딘의 논문 원문](https://goldin.scholars.harvard.edu/sites/g/files/omnuum5966/files/goldin/files/cliometrics.pdf).
 
 :::question 총소득을 줄이는 제도라면 모두에게 손해이므로 저절로 사라지지 않나?
