@@ -194,7 +194,7 @@ function writeReading(r){
   const video=r.embed?`<section class="reading-video" aria-label="강연 영상"><div class="reading-video-heading"><span class="slide-index">WATCH THE TALK</span><span>Niall Ferguson · TEDGlobal 2011</span></div><div class="reading-video-frame"><iframe src="${esc(r.embed)}" title="Niall Ferguson: The 6 killer apps of prosperity — TEDGlobal 2011" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><p>영상을 재생하며 아래의 주제별 해설을 함께 읽을 수 있습니다.</p></section>`:'';
   const sections=r.markdown.trim().split(/(?=^## )/m);
   const questionCount=[...r.markdown.matchAll(/^:::question /gm)].length;
-  const showQuestionCounts=r.format!=='video';
+  const showQuestionCounts=isTextReading;
   const headings=sections.map(section=>{
     const heading=section.match(/^## (.+)\r?\n/);
     if(!heading)throw new Error(`${r.id}: reading section needs a level-two heading`);
