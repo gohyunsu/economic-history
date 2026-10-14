@@ -100,7 +100,7 @@ function markdownToTex(md,{reading=false}={}){
     if(line.startsWith(':::question ')){out.push('\\ReserveQuestionSpace',`\\paragraph{${inlineTex(line.slice(12))}}`);continue;}
     if(line===':::')continue;
     if(line.startsWith('### ')){out.push(`\\paragraph{${inlineTex(line.slice(4))}}`);continue;}
-    if(line.startsWith('## ')){out.push(`${reading?'\\subsubsection*':'\\subsubsection'}{${inlineTex(line.slice(3))}}`);continue;}
+    if(line.startsWith('## ')){if(reading)out.push('\\ReserveReadingSectionSpace');out.push(`${reading?'\\subsubsection*':'\\subsubsection'}{${inlineTex(line.slice(3))}}`);continue;}
     if(line.startsWith('- ')){out.push(`\\noindent\\textbullet\ ${inlineTex(line.slice(2))}\\par`);continue;}
     if(line.startsWith('<details>')){const plain=line.replace(/<[^>]*>/g,' ');out.push(`${inlineTex(plain)}\\par`);continue;}
     if(line.startsWith('|')){out.push(inlineTex(line.replaceAll('|',' · '))+'\\par');continue;}
@@ -120,6 +120,12 @@ function writeTex(){
   \par\begingroup
   \dimen0=\pagegoal \advance\dimen0 by -\pagetotal
   \dimen2=\baselineskip \multiply\dimen2 by 12
+  \ifdim\dimen0<\dimen2 \newpage\fi
+  \endgroup}
+\newcommand{\ReserveReadingSectionSpace}{%
+  \par\begingroup
+  \dimen0=\pagegoal \advance\dimen0 by -\pagetotal
+  \dimen2=\baselineskip \multiply\dimen2 by 8
   \ifdim\dimen0<\dimen2 \newpage\fi
   \endgroup}
 \setlength{\parindent}{0pt}
