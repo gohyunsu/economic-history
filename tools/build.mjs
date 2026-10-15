@@ -98,7 +98,7 @@ function markdownToTex(md,{reading=false}={}){
   for(let i=0;i<lines.length;i++){
     const line=lines[i].trim();if(!line){out.push('');continue;}
     if(line==='$$'){let block=[];i++;while(i<lines.length&&lines[i].trim()!=='$$')block.push(lines[i++]);if(i>=lines.length)throw new Error('Unclosed math');out.push('\\[',...block,'\\]');continue;}
-    if(line.startsWith(':::question ')){out.push(`\\paragraph{${inlineTex(line.slice(12))}}`);continue;}
+    if(line.startsWith(':::question ')){out.push(`\\Needspace{5\\baselineskip}\\paragraph{${inlineTex(line.slice(12))}}`);continue;}
     if(line===':::')continue;
     if(line.startsWith('### ')){out.push(`\\paragraph{${inlineTex(line.slice(4))}}`);continue;}
     if(line.startsWith('## ')){out.push(`${reading?'\\subsubsection*':'\\subsubsection'}{${inlineTex(line.slice(3))}}`);continue;}
@@ -115,6 +115,7 @@ function writeTex(){
 \usepackage{kotex}
 \setmainhanjafont{SimSun}
 \usepackage{amsmath,amssymb}
+\usepackage{needspace}
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!55!black,urlcolor=blue!55!black]{hyperref}
 \setlength{\parindent}{0pt}
