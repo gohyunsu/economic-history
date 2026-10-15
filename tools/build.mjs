@@ -132,7 +132,7 @@ function writeTex(){
     out+=`\n\\section{${texEscape(c.title)}}\n${inlineTex(c.intro)}\\par\n`;
     // Keep these slide headings with their opening explanations across PDF page breaks.
     for(const s of c.slides){
-      const freshPage=(c.id==='260909'&&s.number===53)||(c.id==='260916'&&[33,97].includes(s.number))||(c.id==='260923'&&s.number===27)||(c.id==='260930'&&[20,28,40].includes(s.number))||(c.id==='261007'&&[75,76].includes(s.number));
+      const freshPage=(c.id==='260909'&&s.number===53)||(c.id==='260916'&&[33,97].includes(s.number))||(c.id==='260923'&&[27,32,74].includes(s.number))||(c.id==='260930'&&[20,28,40].includes(s.number))||(c.id==='261007'&&[75,76].includes(s.number));
       out+=`\n${freshPage?'\\clearpage\n':''}\\subsection{${texEscape(`슬라이드 ${String(s.number).padStart(2,'0')} · ${s.title}`)}}\n${markdownToTex(s.markdown)}\n`;
     }
     for(const r of readingDocs.filter(x=>x.date===c.id)){
