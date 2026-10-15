@@ -142,7 +142,8 @@ function writeTex(){
 `;
   for(const c of lectures){
     out+=`\n\\section{${texEscape(c.title)}}\n${inlineTex(c.intro)}\\par\n`;
-    for(const s of c.slides)out+=`\n\\subsection{${texEscape(`슬라이드 ${String(s.number).padStart(2,'0')} · ${s.title}`)}}\n${markdownToTex(s.markdown)}\n`;
+    // The final case study starts on a fresh page so its heading and explanation stay together.
+    for(const s of c.slides)out+=`\n${c.id==='260916'&&s.number===97?'\\clearpage\n':''}\\subsection{${texEscape(`슬라이드 ${String(s.number).padStart(2,'0')} · ${s.title}`)}}\n${markdownToTex(s.markdown)}\n`;
     for(const r of readingDocs.filter(x=>x.date===c.id)){
       const title=`읽기 · ${texEscape(r.title)}`;
       out+=`\n\\clearpage\\phantomsection\n\\addcontentsline{toc}{subsection}{${title}}\n\\subsection*{${title}}\n${markdownToTex(r.markdown,{reading:true})}\n`;
