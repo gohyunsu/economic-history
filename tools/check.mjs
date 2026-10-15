@@ -91,9 +91,9 @@ if(lectures.length!==6)errors.push(`${lectures.length}/6 lecture pages`);
 if(readings.length!==9)errors.push(`${readings.length}/9 reading pages`);
 const ferguson=fs.readFileSync(path.join(readingDir,'ferguson.html'),'utf8');
 if(!ferguson.includes('https://embed.ted.com/talks/niall_ferguson_the_6_killer_apps_of_prosperity'))errors.push('Ferguson video embed missing');
-for(const id of ['ferguson','population-basics','demographic-transition','mortality-transition','fertility-transition']){
-  const videoGuide=fs.readFileSync(path.join(readingDir,`${id}.html`),'utf8');
-  if(videoGuide.includes('reading-question-count')||/\d+개 (?:질문 )?펼쳐보기/.test(videoGuide))errors.push(`${id} video guide shows question-count labels`);
+for(const name of readings){
+  const readingGuide=fs.readFileSync(path.join(readingDir,name),'utf8');
+  if(readingGuide.includes('reading-question-count')||/\d+개 (?:질문 )?펼쳐보기/.test(readingGuide))errors.push(`${name} reading guide shows question-count labels`);
 }
 if(!fs.readFileSync(path.join(lectureDir,'261007.html'),'utf8').includes('href="../reading/ferguson.html"'))errors.push('Ferguson lecture link missing');
 if(slideSections!==395||images!==395||expectedSlides!==395)errors.push(`Slide coverage: ${slideSections} sections, ${images} images, ${expectedSlides} expected`);

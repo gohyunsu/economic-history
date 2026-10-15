@@ -132,7 +132,7 @@ function writeTex(){
     out+=`\n\\section{${texEscape(c.title)}}\n${inlineTex(c.intro)}\\par\n`;
     // Keep these slide headings with their opening explanations across PDF page breaks.
     for(const s of c.slides){
-      const freshPage=(c.id==='260909'&&s.number===53)||(c.id==='260916'&&[33,97].includes(s.number))||(c.id==='260923'&&[27,32,74].includes(s.number))||(c.id==='260930'&&[20,28,40].includes(s.number))||(c.id==='261007'&&[75,76].includes(s.number));
+      const freshPage=(c.id==='260909'&&s.number===53)||(c.id==='260916'&&[33,97].includes(s.number))||(c.id==='260923'&&[27,32,56,74].includes(s.number))||(c.id==='260930'&&[20,28,40].includes(s.number))||(c.id==='261007'&&[75,76].includes(s.number));
       out+=`\n${freshPage?'\\clearpage\n':''}\\subsection{${texEscape(`슬라이드 ${String(s.number).padStart(2,'0')} · ${s.title}`)}}\n${markdownToTex(s.markdown)}\n`;
     }
     for(const r of readingDocs.filter(x=>x.date===c.id)){
@@ -185,8 +185,6 @@ function writeReading(r){
   const diagram=r.id==='demographic-transition'?'<figure class="concept-figure reading-diagram"><img src="../assets/diagrams/demographic-transition.svg" alt="사망률이 먼저 낮아지고 출생률이 뒤이어 낮아지는 인구변천 도식"><figcaption>곡선 사이의 간격이 자연증가율을 결정한다. 각 나라의 실제 전환 시기와 속도는 다르다.</figcaption></figure>':'';
   const video=r.embed?`<section class="reading-video" aria-label="강연 영상"><div class="reading-video-heading"><span class="slide-index">WATCH THE TALK</span><span>Niall Ferguson · TEDGlobal 2011</span></div><div class="reading-video-frame"><iframe src="${esc(r.embed)}" title="Niall Ferguson: The 6 killer apps of prosperity — TEDGlobal 2011" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><p>영상을 재생하며 아래의 주제별 해설을 함께 읽을 수 있습니다.</p></section>`:'';
   const sections=r.markdown.trim().split(/(?=^## )/m);
-  const questionCount=[...r.markdown.matchAll(/^:::question /gm)].length;
-  const showQuestionCounts=isTextReading;
   const headings=sections.map(section=>{
     const heading=section.match(/^## (.+)\r?\n/);
     if(!heading)throw new Error(`${r.id}: reading section needs a level-two heading`);
@@ -195,12 +193,10 @@ function writeReading(r){
   const readingHtml=sections.map((section,i)=>{
     const n=String(i+1).padStart(2,'0');
     const content=section.replace(/^## .+\r?\n/,'').trim();
-    const sectionQuestions=[...content.matchAll(/^:::question /gm)].length;
-    const countLabel=showQuestionCounts&&sectionQuestions?`<span class="reading-question-count">${sectionQuestions}개 질문 펼쳐보기</span>`:'';
-    return `<section class="reading-section" id="r${n}"><div class="slide-heading"><span class="slide-index">${contentType} / ${n}</span><h2>${esc(headings[i])}</h2>${countLabel}</div><div class="reading-section-body">${htmlWithMath(content)}</div></section>`;
+    return `<section class="reading-section" id="r${n}"><div class="slide-heading"><span class="slide-index">${contentType} / ${n}</span><h2>${esc(headings[i])}</h2></div><div class="reading-section-body">${htmlWithMath(content)}</div></section>`;
   }).join('');
   const readingNav=headings.map((title,i)=>`<a href="#r${String(i+1).padStart(2,'0')}" data-reading-link="r${String(i+1).padStart(2,'0')}"><span>${String(i+1).padStart(2,'0')}</span>${esc(title)}</a>`).join('');
-  const body=`<div class="layout"><aside class="sidebar"><a class="sidebar-home" href="../lecture/${c.id}.html">← ${esc(c.title)}</a><div class="sidebar-label">같은 회차의 읽기 자료</div><nav class="chapter-nav">${readingDocs.filter(x=>x.date===r.date).map(x=>`<a class="chapter-link ${x.id===r.id?'is-current':''}" href="${x.id}.html"><span class="chapter-num">↗</span><span><strong>${esc(x.title)}</strong><small>${esc(x.author)}</small></span></a>`).join('')}</nav><div class="sidebar-label sidebar-label-slides">이 ${r.format==='video'?'영상':'읽기'}의 차례</div><nav aria-label="읽기 자료 목차" class="slide-nav">${readingNav}</nav></aside><main class="lecture-main"><section class="lecture-hero"><div class="eyebrow">${contentType} · ${r.date.slice(2)} · ${headings.length}개 주제${showQuestionCounts?` · ${questionCount}개 펼쳐보기`:''}</div><h1>${esc(r.title)}</h1><div class="lecture-intro"><p>${esc(r.author)}</p></div><div class="lecture-start"><div class="reading-source-actions"><a href="${esc(r.source)}" target="_blank" rel="noopener">${r.embed?'영상 원본 보기':'원문 정보와 자료 보기'} ↗</a>${originalButton}</div><a href="#r01">첫 주제로 내려가기 ↓</a></div></section>${video}${diagram}<article class="reading-body explanation">${readingHtml}</article><nav class="chapter-pager"><a href="../lecture/${c.id}.html"><small>강의로 돌아가기</small><strong>← ${esc(c.title)}</strong></a></nav><footer class="site-footer">경제사 · 2026-2</footer></main></div>${originalDialog}`;
+  const body=`<div class="layout"><aside class="sidebar"><a class="sidebar-home" href="../lecture/${c.id}.html">← ${esc(c.title)}</a><div class="sidebar-label">같은 회차의 읽기 자료</div><nav class="chapter-nav">${readingDocs.filter(x=>x.date===r.date).map(x=>`<a class="chapter-link ${x.id===r.id?'is-current':''}" href="${x.id}.html"><span class="chapter-num">↗</span><span><strong>${esc(x.title)}</strong><small>${esc(x.author)}</small></span></a>`).join('')}</nav><div class="sidebar-label sidebar-label-slides">이 ${r.format==='video'?'영상':'읽기'}의 차례</div><nav aria-label="읽기 자료 목차" class="slide-nav">${readingNav}</nav></aside><main class="lecture-main"><section class="lecture-hero"><div class="eyebrow">${contentType} · ${r.date.slice(2)} · ${headings.length}개 주제</div><h1>${esc(r.title)}</h1><div class="lecture-intro"><p>${esc(r.author)}</p></div><div class="lecture-start"><div class="reading-source-actions"><a href="${esc(r.source)}" target="_blank" rel="noopener">${r.embed?'영상 원본 보기':'원문 정보와 자료 보기'} ↗</a>${originalButton}</div><a href="#r01">첫 주제로 내려가기 ↓</a></div></section>${video}${diagram}<article class="reading-body explanation">${readingHtml}</article><nav class="chapter-pager"><a href="../lecture/${c.id}.html"><small>강의로 돌아가기</small><strong>← ${esc(c.title)}</strong></a></nav><footer class="site-footer">경제사 · 2026-2</footer></main></div>${originalDialog}`;
   fs.writeFileSync(path.join(docs,'reading',`${r.id}.html`),shell(r.title,body,'../'));
 }
 fs.mkdirSync(path.join(docs,'lecture'),{recursive:true});fs.mkdirSync(path.join(docs,'reading'),{recursive:true});fs.mkdirSync(path.join(docs,'assets'),{recursive:true});
