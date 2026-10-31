@@ -17,6 +17,10 @@ for(const entry of index){
   const html=fs.readFileSync(path.join(lectureDir,`${entry.date}.html`),'utf8');
   const sections=[...html.matchAll(/<section class="slide" id="s(\d{3})"/g)];
   if(sections.length!==entry.count)errors.push(`${entry.date}: ${sections.length}/${entry.count} sections`);
+  const notes=fs.readFileSync(path.join(root,'content','lectures',`${entry.date}.md`),'utf8');
+  const questions=[...notes.matchAll(/^:::question /gm)].length;
+  const disclosures=[...html.matchAll(/<details class="question"><summary>/g)].length;
+  if(disclosures!==questions)errors.push(`${entry.date}: ${disclosures}/${questions} disclosure answers`);
   slideSections+=sections.length;
   for(let number=1;number<=entry.count;number++){
     const file=path.join(docs,'assets','slides',entry.date,`${String(number).padStart(3,'0')}.webp`);
