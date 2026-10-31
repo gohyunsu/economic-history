@@ -87,6 +87,8 @@ for(const dir of ['docs','content','guide']){
 }
 
 if(!fs.existsSync(path.join(docs,'study-guide.pdf')))errors.push('Missing downloadable PDF');
+const home=fs.readFileSync(path.join(docs,'index.html'),'utf8');
+if(/읽는 방법|class="home-note"|class="hero-formula"|class="path-line"/.test(home))errors.push('Redundant homepage instructions or decorations remain');
 if(lectures.length!==6)errors.push(`${lectures.length}/6 lecture pages`);
 if(readings.length!==9)errors.push(`${readings.length}/9 reading pages`);
 const ferguson=fs.readFileSync(path.join(readingDir,'ferguson.html'),'utf8');

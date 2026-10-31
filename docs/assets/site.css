@@ -151,12 +151,8 @@ details.question{border:1px solid #dce6e7;border-radius:8px;background:#f1f7f6;p
 .pdf-link{display:inline-flex;align-items:center;padding:8px 12px;border:1px solid var(--line);border-radius:7px;color:#344c63;font-size:13px;font-weight:700;white-space:nowrap}
 .pdf-link:hover{background:#edf3f5;text-decoration:none}
 .hero-actions .pdf-link{padding:12px 16px}
-.hero-formula{margin-top:54px;color:#386d80;font-size:20px;width:max-content;border-top:1px solid #b9cdd0;padding-top:16px}
 .learning-path{padding:55px 0 90px;border-top:1px solid var(--line)}
-.learning-path h2,.home-note h2{font-size:29px;letter-spacing:-.04em;margin:9px 0 22px}
-.path-line{display:flex;flex-wrap:wrap;gap:13px;align-items:center;color:#667788;font-size:13px;margin-bottom:37px}
-.path-line span{border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:#fff}
-.path-line b{color:#a9b6be;font-weight:400}
+.learning-path h2{font-size:29px;letter-spacing:-.04em;margin:9px 0 22px}
 .overview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
 .overview-card{display:flex;flex-direction:column;min-height:237px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:22px;color:var(--ink);transition:transform .15s,box-shadow .15s}
 .overview-card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:0 10px 26px rgba(24,39,59,.09)}
@@ -168,8 +164,6 @@ details.question{border:1px solid #dce6e7;border-radius:8px;background:#f1f7f6;p
 .card-arrow span{font-size:18px;line-height:1}
 .card-amber .overview-card-top,.card-amber .card-arrow{color:#a36324}
 .card-blue .overview-card-top,.card-blue .card-arrow{color:#356185}
-.home-note{border-top:1px solid var(--line);padding:35px 0 75px}
-.home-note p{max-width:760px;color:var(--muted);font-size:15px}
 .slide-dialog{width:min(96vw,1700px);max-width:none;max-height:94vh;padding:22px;border:none;border-radius:12px;background:#fff;box-shadow:0 20px 70px rgba(0,0,0,.28)}
 .slide-dialog::backdrop,.search-dialog::backdrop{background:rgba(13,29,45,.68)}
 .slide-dialog img{display:block;max-width:100%;max-height:calc(94vh - 85px);margin:auto;object-fit:contain}
@@ -190,8 +184,8 @@ details.question{border:1px solid #dce6e7;border-radius:8px;background:#f1f7f6;p
 .search-results>p{font-size:13px;color:var(--muted);text-align:center;padding:22px}
 .search-hint{border-top:1px solid var(--line);color:#99a5ae;font-size:11px;margin:0;padding:10px 9px 2px}
 @media(max-width:1100px){.layout{grid-template-columns:220px minmax(0,1fr)}.sidebar{padding-left:13px;padding-right:9px}.slide-grid{grid-template-columns:1fr}.slide-figure{position:static;max-width:720px}.lecture-main{padding:0 36px}.explanation{max-width:850px}}
-@media(max-width:760px){.site-header{padding:0 17px;gap:10px}.header-divider,.header-subtitle,.search-trigger kbd{display:none}.brand{font-size:14px}.search-trigger{font-size:0;min-width:37px;height:37px;justify-content:center}.search-trigger>span{font-size:22px}.layout{display:block}.sidebar{position:static;height:auto;overflow:visible;border-right:0;border-bottom:1px solid var(--line);padding:10px 18px;background:#fff}.sidebar-home,.sidebar-label,.chapter-nav{display:none}.sidebar-label-slides{display:block;margin:4px 0 7px}.slide-nav{display:flex;gap:4px;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}.slide-nav a{flex:none;max-width:180px;overflow:hidden;text-overflow:ellipsis;border:1px solid var(--line)}.lecture-main{padding:0 21px}.lecture-hero{padding:45px 0 38px}.lecture-intro{font-size:16px}.slide,.reading-section{padding:38px 0 48px}.slide-grid{gap:20px}.slide-heading{margin-bottom:19px}.explanation{font-size:15px}.overview-grid{grid-template-columns:repeat(2,1fr)}.home-hero{min-height:0;padding:68px 0 80px}.home-hero:after{opacity:.3}.hero-formula{margin-top:36px}.chapter-pager{grid-template-columns:1fr}.chapter-pager a:last-child{text-align:left}}
-@media(max-width:540px){.overview-grid{grid-template-columns:1fr}.overview-card{min-height:190px}.home-hero h1{font-size:43px}.hero-actions{align-items:flex-start;flex-direction:column;gap:12px}.path-line{gap:7px}.path-line span{font-size:11px;padding:4px 8px}}
+@media(max-width:760px){.site-header{padding:0 17px;gap:10px}.header-divider,.header-subtitle,.search-trigger kbd{display:none}.brand{font-size:14px}.search-trigger{font-size:0;min-width:37px;height:37px;justify-content:center}.search-trigger>span{font-size:22px}.layout{display:block}.sidebar{position:static;height:auto;overflow:visible;border-right:0;border-bottom:1px solid var(--line);padding:10px 18px;background:#fff}.sidebar-home,.sidebar-label,.chapter-nav{display:none}.sidebar-label-slides{display:block;margin:4px 0 7px}.slide-nav{display:flex;gap:4px;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}.slide-nav a{flex:none;max-width:180px;overflow:hidden;text-overflow:ellipsis;border:1px solid var(--line)}.lecture-main{padding:0 21px}.lecture-hero{padding:45px 0 38px}.lecture-intro{font-size:16px}.slide,.reading-section{padding:38px 0 48px}.slide-grid{gap:20px}.slide-heading{margin-bottom:19px}.explanation{font-size:15px}.overview-grid{grid-template-columns:repeat(2,1fr)}.home-hero{min-height:0;padding:68px 0 80px}.home-hero:after{opacity:.3}.chapter-pager{grid-template-columns:1fr}.chapter-pager a:last-child{text-align:left}}
+@media(max-width:540px){.overview-grid{grid-template-columns:1fr}.overview-card{min-height:190px}.home-hero h1{font-size:43px}.hero-actions{align-items:flex-start;flex-direction:column;gap:12px}}
 @media(max-width:760px){.lecture-start{align-items:flex-start;gap:12px;flex-wrap:wrap}.original-dialog{width:100vw;max-height:100vh;border-radius:0}.original-panel{height:100vh;max-height:100vh}.original-search-label{margin-left:0;width:100%}.original-search-label input{width:100%;flex:1}.original-page-view{padding:15px;font-size:14px}}
 @media(max-width:760px){html{scroll-padding-top:94px}.site-header{height:auto;min-height:72px;padding-top:8px;padding-bottom:8px}.site-header>.pdf-link{display:none}.brand{min-width:0;flex:1;white-space:normal;line-height:1.25}.brand-mark,.search-trigger{flex:none}.brand-title{white-space:normal}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
