@@ -13,6 +13,7 @@ const meta = [
   {id:'260930', title:'공업: 길드에서 공장 이전까지', short:'도시·선대제·매뉴팩처', color:'teal', intro:'생산이 도시 길드의 규칙에서 농촌 가내공업, 선대제, 매뉴팩처로 옮아간 과정을 노동 통제, 거래비용, 규모의 경제로 읽는다.'},
   {id:'261007', title:'상업: 지중해에서 대서양까지', short:'상업 부활·대항해·중상주의', color:'amber', intro:'고대의 해양 상업에서 중세의 도시·대시, 대항해와 은의 세계적 이동, 근세 국가의 통상 정책까지 상업망의 확대와 비용·권력의 변화를 함께 읽는다.'},
   {id:'261028', title:'산업혁명: 기술과 성장의 전환', short:'성장회계·면공업·석탄·철도', color:'blue', intro:'영국 산업혁명을 조직·기술·성장의 세 관점에서 해석하고, 면공업의 병목부터 석탄·철·철도, 세계 공업의 확산까지 연결한다.'},
+  {id:'261104', title:'후발 공업화와 세계경제의 재편', short:'프랑스·독일·미국·국제무역', color:'teal', intro:'프랑스·독일·미국의 공업화 경로를 비교하고, 대기업의 형성부터 국제무역·자본 이동의 구조까지 연결한다.'},
 ];
 const readings = [
   {id:'mccloskey', date:'260909', title:'Does the Past Have Useful Economics?', author:'D. N. McCloskey · 1976', source:'https://ideas.repec.org/a/aea/jeclit/v14y1976i2p434-61.html'},
@@ -126,7 +127,7 @@ function writeTex(){
 \begin{titlepage}\centering\vspace*{3cm}
 {\Large 경제사\par}\vspace{1.1cm}
 {\Huge\bfseries 슬라이드별 학습 가이드\par}\vspace{1.1cm}
-{\large 경제사 연구의 방법부터 산업혁명까지\par}
+{\large 경제사 연구의 방법부터 세계경제의 재편까지\par}
 \vfill {\large 2026년 2학기\par}\end{titlepage}
 \tableofcontents\clearpage
 `;
@@ -158,7 +159,7 @@ function shell(pageTitle,body,prefix=''){
 function sidebar(c){return `<aside class="sidebar"><a class="sidebar-home" href="../index.html">← 전체 목차</a><div class="sidebar-label">강의</div><nav aria-label="강의 목록" class="chapter-nav">${navCards(c.id)}</nav><div class="sidebar-label sidebar-label-slides">이 강의의 슬라이드</div><nav aria-label="슬라이드 목차" class="slide-nav">${c.slides.map(s=>`<a href="#s${String(s.number).padStart(3,'0')}" data-slide-link="${String(s.number).padStart(3,'0')}"><span>${String(s.number).padStart(2,'0')}</span>${esc(s.title)}</a>`).join('')}</nav></aside>`;}
 function writeIndex(){
   const cards=lectures.map(c=>`<a class="overview-card card-${c.color}" href="lecture/${c.id}.html"><div class="overview-card-top"><span>${c.id.slice(2)}</span><span>${c.count}개 슬라이드</span></div><h3>${esc(c.title)}</h3><p>${esc(c.short)}</p><div class="card-arrow">학습하기 <span>↗</span></div></a>`).join('');
-  const body=`<main class="home-main"><section class="home-hero"><div class="eyebrow">경제사 · 2026년 2학기</div><h1>사람과 제도를 따라<br><em>경제의 긴 시간을 읽다</em></h1><p>인구와 생산·교환의 변화에서 산업혁명까지 경제사의 흐름을 잇는다.</p><div class="hero-actions"><a class="primary-button" href="lecture/260902.html">처음부터 읽기 <span>→</span></a><a class="pdf-link" href="study-guide.pdf" download>PDF 내려받기 ↓</a><span>${lectures.length}개 강의 · ${lectures.reduce((sum,c)=>sum+c.count,0)}개 슬라이드</span></div></section><section class="learning-path"><div class="section-kicker">강의</div><h2>사람·생산·교환에서 산업혁명까지</h2><div class="overview-grid">${cards}</div></section><footer class="site-footer">경제사 · 2026-2</footer></main>`;
+  const body=`<main class="home-main"><section class="home-hero"><div class="eyebrow">경제사 · 2026년 2학기</div><h1>사람과 제도를 따라<br><em>경제의 긴 시간을 읽다</em></h1><p>인구와 생산·교환의 변화에서 산업혁명과 세계경제의 재편까지 흐름을 잇는다.</p><div class="hero-actions"><a class="primary-button" href="lecture/260902.html">처음부터 읽기 <span>→</span></a><a class="pdf-link" href="study-guide.pdf" download>PDF 내려받기 ↓</a><span>${lectures.length}개 강의 · ${lectures.reduce((sum,c)=>sum+c.count,0)}개 슬라이드</span></div></section><section class="learning-path"><div class="section-kicker">강의</div><h2>사람·생산·교환에서 세계경제의 재편까지</h2><div class="overview-grid">${cards}</div></section><footer class="site-footer">경제사 · 2026-2</footer></main>`;
   fs.writeFileSync(path.join(docs,'index.html'),shell('전체 목차',body));
 }
 function extraDiagram(c,s){

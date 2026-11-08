@@ -19,9 +19,12 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT.parent / 'slides'
 RESEARCH = ROOT.parent / '.research'
 DEST = ROOT / 'docs' / 'assets' / 'slides'
+INDEX_FILE = ROOT / 'content' / 'slide-index.json'
 POPPLER = Path(r'C:\Users\hsmai\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin\pdftoppm.exe')
 RESEARCH.mkdir(parents=True, exist_ok=True)
 DEST.mkdir(parents=True, exist_ok=True)
+existing = json.loads(INDEX_FILE.read_text(encoding='utf-8')) if INDEX_FILE.exists() else []
+existing_titles = {(course['date'], slide['number']): slide['title'] for course in existing for slide in course['slides']}
 
 def clean_title(text: str, fallback: str) -> str:
     lines = [re.sub(r'\s+', ' ', line).strip(' •\t') for line in text.splitlines()]
@@ -35,14 +38,21 @@ def clean_title(text: str, fallback: str) -> str:
 index = []
 private_text = {}
 for pdf in sorted(SOURCE.glob('*.pdf')):
-    date = pdf.stem
+    date = pdf.stem[2:] if re.fullmatch(r'20\d{6}', pdf.stem) else pdf.stem
+    if date in private_text:
+        raise ValueError(f'Duplicate lecture date after normalization: {date}')
     pages = PdfReader(str(pdf)).pages
+    guide_path = ROOT / 'content' / 'lectures' / f'{date}.md'
+    guide_titles = {}
+    if len(pdf.stem) == 8 and guide_path.exists():
+        guide_titles = {int(n): title for n, title in re.findall(r'^## 슬라이드 (\d+) · (.+)$', guide_path.read_text(encoding='utf-8'), re.M)}
     course = {'date': date, 'count': len(pages), 'slides': []}
     private_text[date] = []
     for number, page in enumerate(pages, 1):
         text = page.extract_text(extraction_mode='layout') or ''
         private_text[date].append(text)
-        course['slides'].append({'number': number, 'title': clean_title(text, f'자료 {number}')})
+        title = guide_titles.get(number) or existing_titles.get((date, number)) or clean_title(text, f'자료 {number}')
+        course['slides'].append({'number': number, 'title': title})
     index.append(course)
     target = DEST / date
     target.mkdir(parents=True, exist_ok=True)
@@ -61,6 +71,7 @@ for pdf in sorted(SOURCE.glob('*.pdf')):
     print(f'{date}: rendered {len(pages)} page images', flush=True)
 
 (ROOT / 'content').mkdir(exist_ok=True)
-(ROOT / 'content' / 'slide-index.json').write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
-(RESEARCH / 'slide-text.json').write_text(json.dumps(private_text, ensure_ascii=False), encoding='utf-8')
+index.sort(key=lambda course: course['date'])
+INDEX_FILE.write_bytes(json.dumps(index, ensure_ascii=False, indent=2).encode('utf-8'))
+(RESEARCH / 'slide-text.json').write_bytes(json.dumps(private_text, ensure_ascii=False).encode('utf-8'))
 print('Slide index and private text ready.', flush=True)
